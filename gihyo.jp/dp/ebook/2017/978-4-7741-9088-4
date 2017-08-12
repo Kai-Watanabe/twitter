@@ -1,0 +1,475 @@
+<!DOCTYPE HTML>
+<html lang="ja" class="pc">
+<head>
+  <meta charset="UTF-8">
+  <title>世界一わかりやすい WordPress 導入とサイト制作の教科書 | Gihyo Digital Publishing … 技術評論社の電子書籍</title>
+  <meta http-equiv="Content-Style-Type" content="text/css"/>
+  <meta http-equiv="Content-Script-Type" content="application/javascript"/>
+  <meta name="description" content="WordPressは世界の主要なウェブサイトの28%（CMSサイトの59%）で利用されているCMSのデファクトスタンダード（2017年4月現在W3Techs調べ）。これからのWebクリエイターにとってWordPress対応は必須といえます。本書は初心者でもサーバへの導入からはじめてオリジナルなサイトができるように，順を追ってWordPressによるサイト制作を理解するための入門テキストです。ローカルPCでテーマを制作して公開サーバへという実践的な手法を通してCMSサイト制作の現場で役立つ力を身につけられます。"/>
+  <meta name="keywords" content="岡本秀高,古賀海人,深沢幸治郎,安藤篤史電子書籍,電子出版,EPUB,PDF,技術評論社"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="format-detection" content="telephone=no"/>
+  <link rel="related" href="http://gihyo.jp/dp/catalogs.opds" type="application/atom+xml;profile=opds-catalog" title="Gihyo Digital Publishing OPDS Catalog"/>
+  <link rel="shortcut icon" href="/assets/templates/gdp/favicon.ico" type="image/vnd.microsoft.icon"/>
+  <link rel="apple-touch-icon-precomposed" href="/dp/assets/gdp-icon.png"/>
+  <!--[if lt IE 9]>
+    <script>var msie=8;</script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="/dp/assets/js/html5shiv.min.js"></script>
+    <script src="//css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <script src="/dp/assets/js/selectivizr-min.js"></script>
+    <script src="/dp/assets/js/addEventListener.min.js"></script>
+    <script src="/dp/assets/js/textContent.min.js"></script>
+  <![endif]-->
+  <!--[if lte IE 9]>
+    <script src="/dp/assets/js/classList.min.js" defer></script>
+  <![endif]-->
+  <link rel="stylesheet" href="/dp/assets/style/store0921.css" type="text/css" media="all"/>
+  <script src="/dp/assets/js/gdpFunction0512.min.js" defer></script>
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:site" content="@gihyoDP"/>
+  <meta property="og:title" content="世界一わかりやすい WordPress 導入とサイト制作の教科書 | Gihyo Digital Publishing … 技術評論社の電子書籍"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:description" content="WordPressは世界の主要なウェブサイトの28%（CMSサイトの59%）で利用されているCMSのデファクトスタンダード（2017年4月現在W3Techs調べ）。これからのWebクリエイターにとってWordPress対応は必須といえます。本書は初心者でもサーバへの導入からはじめてオリジナルなサイトができるように，順を追ってWordPressによるサイト制作を理解するための入門テキストです。ローカルPCでテーマを制作して公開サーバへという実践的な手法を通してCMSサイト制作の現場で役立つ力を身につけられます。"/>
+  <meta property="og:url" content="https://gihyo.jp/dp/ebook/2017/978-4-7741-9088-4"/>
+  <meta property="og:image" content="http://image.gihyo.co.jp/assets/images/gdp/2017/978-4-7741-9088-4.jpg"/>
+  <meta property="og:site_name" content="Gihyo Digital Publishing"/>
+  <meta property="fb:app_id" content="185201618169441"/>
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-4149703-1', 'auto');
+  ga('require', 'displayfeatures');
+  ga('send', 'pageview');
+  </script>
+</head>
+<body itemscope="itemscope" itemtype="http://schema.org/WebPage" class="page-home">
+  <header id="header" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
+    <h1 class="home-title">Gihyo Digital Publishing</h1>
+    <h2 class="home-subtitle">技術評論社の電子書籍サイト</h2>
+    <nav id="headerFunction">
+      <div id="login">
+        <a href="#login" title="ログイン・会員登録">ログイン</a>
+      </div>
+      <div id="cart">
+        <a href="/dp/cart" title="カートは空です">カート</a>
+      </div>
+    </nav>
+  </header>
+  <div id="main">
+    <noscript><div id="noscript">
+      <p>本サイトではJavaScriptを使用しております。JavaScriptが無効な状態ではご利用いただけません。</p>
+    </div></noscript>
+
+<div id="overlayWindow" class="book-infor" itemscope itemtype="http://schema.org/Book" typeof="product:Product" xmlns:product="http://search.yahoo.com/searchmonkey/product/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:media="http://search.yahoo.com/searchmonkey/media/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:currency="http://search.yahoo.com/searchmonkey-datatype/currency/" style="display:block;opacity:1">
+  <header id="overlayHeader">
+    <h1>書籍概要</h1>
+    <nav id="overlayFunction">
+      <p id="close"><a href="/dp/genre/Web%E3%82%B5%E3%82%A4%E3%83%88%E5%88%B6%E4%BD%9C" title="閉じる">閉じる</a></p>
+      <ul id="jump">
+        <li id="detailRef"><a href="#title" title="概要を見る">概要</a></li>
+        <li id="contentRef"><a href="#content" title="目次を見る">目次</a></li>
+        <li id="supportRef"><a href="#support" title="サポート情報を見る">サポート</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div id="bookInforMain">
+  <hgroup id="title">
+<h2 id="bookSeries"><a href="/dp/series/%E4%B8%96%E7%95%8C%E4%B8%80%E3%82%8F%E3%81%8B%E3%82%8A%E3%82%84%E3%81%99%E3%81%84%E6%95%99%E7%A7%91%E6%9B%B8">世界一わかりやすい教科書</a></h2>
+    <h1 id="bookTitle" property="rdfs:label" itemprop="name">世界一わかりやすい WordPress 導入とサイト制作の教科書</h1>
+  </hgroup>
+  <aside id="bookCover" rel="rdfs:seeAlso media:image"><img src="/assets/images/gdp/2017/978-4-7741-9088-4.jpg" alt="世界一わかりやすい WordPress 導入とサイト制作の教科書"/></aside>
+  <dl id="publicationData" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+    <dt>著者</dt>
+    <dd itemprop="author">安藤篤史，<wbr/>岡本秀高，<wbr/>古賀海人，<wbr/>深沢幸治郎　著</dd>
+    <dt>発売日</dt>
+    <dd><time datetime="2017-06-17">2017年6月17日</time></dd>
+    <dt>更新日</dt>
+    <dd><time datetime="2017-06-17">2017年6月17日</time></dd>
+  </dl>
+  <aside>
+    <ul class="information">
+      <li>本書は，<a href="http://gihyo.jp/book/2017/978-4-7741-9029-7" target="_blank">2017年6月17日に発売された書籍</a>の電子版です。</li>
+      <li class="need-login">ご購入には会員登録・ログインが必要です</li>
+      <li class="corporate"><a href="/dp/help/buy/bulkpurchase">学校・法人等団体でのご利用について</a></li>
+    </ul>
+    <dl id="productPrice">
+<dt><span class="name">PDF</span><span class="buy">2,380円 <a id="pid401742" href="#cartAdd" title="カートに入れる">カートに入れる<div class="option" title="購入オプション">▼<ul><li title="通常購入">自分用に購入する</li><li class="gift" title="ギフトコードを購入">ギフトとして購入する</li></ul></div></a></span></dt><dd><span class="page"><span itemprop="numberOfPages">272</span>ページ相当</span><span class="pdf">PDF</span> </dd>
+
+    </dl>
+  </aside>
+  <aside id="social">
+    <ul>
+      <li class="twitter"><a href="https://twitter.com/search?q=https://gihyo.jp/dp/ebook/2017/978-4-7741-9088-4" class="twitter--list">リスト</a><a href="http://twitter.com/share" class="twitter-share-button" data-url="https://gihyo.jp/dp/ebook/2017/978-4-7741-9088-4" data-text="世界一わかりやすい WordPress 導入とサイト制作の教科書 #gihyoDP" data-count="none" data-lang="ja">ツイート</a></li>
+      <li class="facebook"><div class="fb-like" data-href="https://gihyo.jp/dp/ebook/2017/978-4-7741-9088-4" data-send="false" data-layout="box_count" data-width="450" data-show-faces="false" data-share="true"></div></li>
+      <li class="gplus"><g:plusone size="tall" href="https://gihyo.jp/dp/ebook/2017/978-4-7741-9088-4"></g:plusone></li>
+      <li class="hatena"><a href="http://b.hatena.ne.jp/entry/https://gihyo.jp/dp/ebook/2017/978-4-7741-9088-4" class="hatena-bookmark-button" data-hatena-bookmark-layout="vertical-balloon" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="//b.hatena.ne.jp/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a></li>
+    </ul>
+  </aside>
+  <div id="productDetail">
+    <section id="detail">
+      <h2>概要</h2>
+<p>WordPressは世界の主要なウェブサイトの28%（CMSサイトの59%）で利用されているCMSのデファクトスタンダード（2017年4月現在W3Techs調べ）。これからのWebクリエイターにとってWordPress対応は必須といえます。本書は初心者でもサーバへの導入からはじめてオリジナルなサイトができるように，<wbr/>順を追ってWordPressによるサイト制作を理解するための入門テキストです。ローカルPCでテーマを制作して公開サーバへという実践的な手法を通してCMSサイト制作の現場で役立つ力を身につけられます。</p><h3>こんな方におすすめ</h3>
+<ul><li>はじめてWordPressを導入して操作・<wbr/>運用をきちんと理解したい方</li><li>WordPressを使った実用的なWebサイトを作りたい方</li><li>仕事でWordPressのWebサイトを作れるようになりたい方</li></ul>
+<h3>著者から一言</h3>
+<p>この本は将来webサイト制作のプロフェッショナルを目指す方や，<wbr/>webサイト制作の知識はもっているけれどもWordPressについては初心者であるという方をおもな対象に，<wbr/>現在のwebサイト制作に必須ともいえるWordPressサイトの制作・<wbr/>開発の基礎から応用までを幅広く取り扱った解説書です。</p>
+ 
+<p>WordPressの導入から基本的な取扱い・<wbr/>PHPの基礎知識・<wbr/>テーマの制作・<wbr/>そして運用と管理といったかなり広い範囲の情報が15のレッスンの中にぎっしりとつまっています。もちろんそれぞれのレッスンは，<wbr/>この本を手に取っているあなたが実際にWordPressサイトの制作を実践しながら進められるようになっています。</p>
+ 
+<p>中には高度なPHPの知識を要する内容があり，<wbr/>プログラミングがはじめてという方にはとても難しく感じられるところもあると思いますが，<wbr/>基礎からひとつひとつ手順を踏んでいけば理解していただける内容になっていると自負しております。ぜひ根気よく取り組んでみてください。</p>
+ 
+<p>この本の執筆にあたって特にわたしたちが注力したのは「WordPressがとりあえず使える・<wbr/>とりあえずサイトが作れる」だけでなく「長くWordPressとつきあっていける」力と知識をあなたに身につけていただけるようにすることでした。</p>
+ 
+<p>WordPressに限らずCMS（コンテンツ管理システム）に関わることは，<wbr/>その運用について考えることと切っては離せません。つくった後に困らないサイト制作のための知識もコラムなどで積極的に取り上げました。</p>
+ 
+<p>またWordPressはオープンソースの自由ソフトウェアであるという特長があり，<wbr/>長く・<wbr/>安全に運用できるサイトを制作・<wbr/>管理していくためには，<wbr/>そうしたソフトウェアをとりまく環境についての知識や心構えがあったほうが断然有利です。ぜひWordPressというソフトウェアそのものと同時に，<wbr/>それをとりまくシステムや人々の活動にも関心をもって読みすすめていただければ幸いです。<br />
+（「はじめに」より）</p><aside class="author"><h3>岡本秀高（おかもとひでたか）</h3><p>Lesson04，<wbr/>05<br />
+WordBench Camp Kyoto 2017実行委員長。2013年からWordPressの開発などに携わりはじめ，<wbr/>現在はAWS上でのWordPressサイトの運用などに取り組む。京都を拠点にイベント開催などにも関わっており，<wbr/>太鼓の練習後に勉強会へ参加することが時折あり，<wbr/>「太鼓の人」とよばれることも。</p>
+</aside><aside class="author"><h3>古賀海人（こがかいと）</h3><p>Lesson07，<wbr/>08，<wbr/>09，<wbr/>10，<wbr/>11，<wbr/>12<br />
+グラフィックデザイナー，<wbr/>クリエイティブ・<wbr/>ディレクター，<wbr/>世界三大広告賞にも名を連ねる制作会社のウェブデザイナー兼プログラマを経て，<wbr/>2014年4月に株式会社キテレツとして独立。クリエイティブからテクノロジーまで，<wbr/>トータルソリューションを提供。元WordBench大阪モデレーター。WordCamp Kansai 2015実行委員長。WordPressコアコントリビューター，<wbr/>Ruby on Railsコントリビューター，<wbr/>Reactコントリビューターなど，<wbr/>多くのオープンソースプロジェクトに貢献する一方，<wbr/>Wocker，<wbr/>Frasco など，<wbr/>自身でも数多くのオープンソースソフトウェアを開発。</p>
+</aside><aside class="author"><h3>深沢幸治郎（ふかざわこうじろう）</h3><p>Lesson01，<wbr/>03，<wbr/>06，<wbr/>15<br />
+大阪を中心に活動するウェブデザイナー。2009年からフリーランスとして多くのウェブサイト・<wbr/>ウェブメディア・<wbr/>モバイルアプリの設計・<wbr/>デザイン・<wbr/>CMS実装に携わる。2010年に日本最初期のコワーキングスペース「JUSO Coworking」を開業，<wbr/>様々なコミュニティ活動やイベントの支援を行っている。専門学校やカンファレンスイベント等でのセミナー登壇経験も多数。</p>
+</aside><aside class="author"><h3>安藤篤史（あんどうあつし）</h3><p>Lesson02，<wbr/>13，<wbr/>14<br />
+ショップ店員，<wbr/>ギタークラフトマン，<wbr/>ストレージメーカーでの製品開発などを経て，<wbr/>2015年からフリーランスとして関西を中心に活動。デザイナー・<wbr/>エンジニアとして活動するかたわら，<wbr/>CMSやAWSのコミュニティイベント運営を多数担当し，<wbr/>その中で得た多彩な人脈を生かしてクリエイティブ制作チームのマネジメントを手がける。ウェブやグラフィック・<wbr/>ITテクノロジーなどの様々なメディアを繋ぎ，<wbr/>一貫したブランド・<wbr/>コミュニケーションづくりで “プレゼンスを世に送り出す”ためのサポートを行っている。</p>
+</aside>
+    </section>
+    <section id="content">
+      <h2>目次</h2>
+<div id="bookSearch">
+<form id="bookSearchForm" action="search" method="post">
+  <input type="search" name="query" id="bookSearchText" title="本書内を検索するキーワードを入力" placeholder="本書内のキーワード" required="required" value="">
+  <input type="hidden" name="code" value="34856">
+  <input type="submit" id="bookSearchSubmit" value="検索" title="検索する">
+</form>
+</div><h3>Lesson01　WordPressをはじめよう</h3>
+<ul class="toc">
+<li>1-1　WordPressの特徴</li>
+<li>1-2　WordPressサイトを構成する要素</li>
+<li>1-3　WordPressについて自分で調べるには</li>
+<li>1-4　WordPressはなぜ無料なのか</li>
+<li>Q　練習問題</li>
+</ul>
+<h3>Lesson02　必要な環境を整えインストールする</h3>
+<ul class="toc">
+<li>2-1　レンタルサーバを使おう</li>
+<li>2-2　レンタルサーバ選びのポイント</li>
+<li>2-3　レンタルサーバと契約する</li>
+<li>2-4　WordPressのインストール</li>
+<li>Q　練習問題</li>
+</ul>
+<h3>Lesson03　初期設定をしよう</h3>
+<ul class="toc">
+<li>3-1　WordPress管理画面の使い方</li>
+<li>3-2　サイトの概要を設定しよう</li>
+<li>3-3　ユーザーやプラグインを設定しよう</li>
+<li>Q　練習問題</li>
+</ul>
+<h3>Lesson04　コンテンツの追加・編集とナビゲーションの設定</h3>
+<ul class="toc">
+<li>4-1　投稿と固定ページの作成・画像の挿入</li>
+<li>4-2　カテゴリー・タグ・アイキャッチ画像の設定</li>
+<li>4-3　投稿の編集画面の便利な機能</li>
+<li>4-4　メニューを設定してみよう</li>
+<li>4-5　ウィジェットを使ってみよう</li>
+<li>Q　練習問題</li>
+</ul>
+<h3>Lesson05　テーマとプラグインによる外観カスタマイズ</h3>
+<ul class="toc">
+<li>5-1　テーマとは？</li>
+<li>5-2　テーマカスタマイザーを使おう</li>
+<li>5-3　テーマを変更してみよう</li>
+<li>5-4　プラグインを導入しよう</li>
+<li>5-5　プラグインでテーマを拡張しよう</li>
+<li>5-6　テーマ・プラグインを選択・利用するポイント</li>
+<li>Q　練習問題</li>
+</ul>
+<h3>Lesson06　プラグインによる機能の追加</h3>
+<ul class="toc">
+<li>6-1　サイトの設定事項を拡張しよう〜WP Total Hacks</li>
+<li>6-2　レスポンシブなGoogle Mapsを埋め込もう〜Simple Map</li>
+<li>6-3　関連する記事を自動的に表示しよう〜Jetpack</li>
+<li>6-4　ギャラリーページを作ってみよう〜Jetpack</li>
+<li>6-5　お問い合わせフォームを作ってみよう〜Contact Form 7</li>
+<li>6-6　WordPressのセキュリティを高めよう〜SiteGuard WP Plugin</li>
+<li>6-7　その他の便利なプラグイン</li>
+<li>Q　練習問題</li>
+</ul>
+<h3>Lesson07　ローカル開発環境をつくろう</h3>
+<ul class="toc">
+<li>7-1　ローカル開発環境の必要性</li>
+<li>7-2　MAMPのインストールと初期設定</li>
+<li>7-3　サーバの起動とデータベースの作成</li>
+<li>7-4　WordPressのダウンロードとインストール</li>
+<li>7-5　ローカル開発環境の設定</li>
+<li>Q　練習問題</li>
+</ul>
+<h3>Lesson08　テーマ作成の第一歩〜PHPとテーマの基礎</h3>
+<ul class="toc">
+<li>8-1　テーマ制作のための事前準備</li>
+<li>8-2　PHPの基礎知識</li>
+<li>8-3　オリジナルテーマを WordPress に認識させよう</li>
+<li>8-4　オリジナルテーマにスタイルシートを適用させよう</li>
+<li>Q　練習問題</li>
+</ul>
+<h3>Lesson09　テンプレートファイルの作成</h3>
+<ul class="toc">
+<li>9-1　ヘッダーを完成させよう</li>
+<li>9-2　記事の一覧を表示させよう</li>
+<li>9-3　アイキャッチ画像を有効化しよう</li>
+<li>9-4　カスタムメニューを有効化しよう</li>
+<li>9-5　ウィジェットを有効化しよう</li>
+<li>Q　練習問題</li>
+</ul>
+<h3>Lesson10　各種テンプレートファイルの作成</h3>
+<ul class="toc">
+<li>10-1　テンプレート階層について</li>
+<li>10-2　ヘッダー・フッター・サイドバーのテンプレートをつくる</li>
+<li>10-3　個別投稿ページを表示しよう</li>
+<li>10-4　コメントテンプレートを作成しよう</li>
+<li>10-5　固定ページを表示しよう</li>
+<li>10-6　アーカイブページを表示しよう</li>
+<li>10-7　search.phpと404.phpを作成しよう</li>
+<li>10-8　固定フロントページにしよう</li>
+<li>Q　練習問題</li>
+</ul>
+<h3>Lesson11　テーマカスタマイザーの実装</h3>
+<ul class="toc">
+<li>11-1　カスタマイズAPIとは</li>
+<li>11-2　セクション・セッティング・コントロールの追加</li>
+<li>11-3　セッティングとコントロールを増やす</li>
+<li>11-4　フロントページに結果を出力しよう</li>
+<li>Q　練習問題</li>
+</ul>
+<h3>Lesson12　WordPressを本番環境へデプロイする</h3>
+<ul class="toc">
+<li>12-1　FTPクライアントを準備しよう</li>
+<li>12-2　公開サイトの初期化とファイルのアップロード</li>
+<li>12-3　ローカル環境のデータベースをエクスポートしよう</li>
+<li>12-4　リモートサーバへデータベースをインポートしよう</li>
+<li>12-5　サイトURLを置換しよう</li>
+<li>Q　練習問題</li>
+</ul>
+<h3>Lesson13　サイトの広報と集客</h3>
+<ul class="toc">
+<li>13-1　検索エンジンとSNSへの施策</li>
+<li>13-2　サイト認証をしよう</li>
+<li>13-3　検索エンジンにサイトマップを送信しよう</li>
+<li>13-4　ソーシャル連携で集客する</li>
+<li>13-5　共有ボタンを設置する</li>
+<li>Q　練習問題</li>
+</ul>
+<h3>Lesson14　サイトの運営と管理</h3>
+<ul class="toc">
+<li>14-1　スマホアプリでWordPress管理</li>
+<li>14-2　順調な運営と安全のために</li>
+<li>14-3　閲覧情報を分析しよう</li>
+<li>14-4　バックアップの必要性</li>
+<li>14-5　バックアップを設定する</li>
+<li>Q　練習問題</li>
+</ul>
+<h3>Lesson15　もっとWordPressを使いこなす・学ぶ</h3>
+<ul class="toc">
+<li>15-1　カスタム投稿タイプとカスタム分類</li>
+<li>15-2　カスタムフィールドを利用しよう</li>
+<li>15-3　子テーマを利用した既存テーマのカスタマイズ</li>
+<li>15-4　マルチサイトを利用する</li>
+</ul>
+<h3>付録　逆引きWordPress関数辞典</h3>
+    </section>
+    <section id="support">
+      <h2>サポート</h2>
+<h3 id="download">ダウンロード</h3>
+<p>本書に掲載しているレッスンファイルをこのページからダウンロードしてご利用いただけます。</p>
+
+
+<h4>レッスンファイルご利用の前に</h4>
+
+<p>レッスンファイルのダウンロード方法については，<wbr/>本書のP.6「レッスンファイルのダウンロード」をよくお読みください。そこに記載してある「ID」と「パスワード」が必要になります。<br />
+ファイルはZIP形式で圧縮されておりますので，<wbr/>ダウンロード後に展開して「デスクトップ」などの利用しやすい場所に移動してお使いください。</p>
+
+<ul>
+<li>レッスンファイルについて，<wbr/>一般的な環境においては特に問題のないことを確認しておりますが，<wbr/>万一障害が発生し，<wbr/>その結果いかなる損害が生じたとしても，<wbr/>小社および著者はなんら責任を負うものではありません。また生じた損害に対する一切の保証をいたしかねます。必ずご自身の判断と責任においてご利用ください。</li>
+
+<li>レッスンファイルは，<wbr/>著作権法上の保護を受けています。収録されているファイルの一部，<wbr/>あるいは全部について，<wbr/>いかなる方法においても無断で複写，<wbr/>複製，<wbr/>再配布することは禁じられています。</li>
+</ul>
+
+<p>以上のことをご確認，<wbr/>ご了承のうえ，<wbr/>レッスンファイルをご利用お願いいたします。</p>
+
+
+<ol>
+<li>下の枠内に「ID」と「パスワード」を入力してください。本書P.6に記載されている「ID」を「ID」欄に，<wbr/>「パスワード」を「パスワード」欄にそれぞれ入力してください。</li>
+<li>「ダウンロード」をクリックしてください。</li>
+</ol>
+
+<style>p.error{color:red;font-weight:bold;position:absolute;margin-top:1em}.download-account{display:block;padding:1em;margin-top:1em;border:1px solid #E5E5E5;margin-bottom:1em}.download-account p{margin:5px 0}.download-account .filename{font-size:14px;color:#888;text-align:right;margin-bottom:-5px}.download-account label{display:block;text-indent:0;width:5em;float:left;margin-right:1em;vertical-align:middle}.download-account input{-webkit-appearance:none;border:1px solid #BBB;font-size:16px;padding:5px;border-radius:4px;width:10em}.download-account input[type="submit"]{display:block;width:10.5em;background:#08F;color:white;font-weight:bold;border:1px #04D solid;float:right;margin-top:-70px;line-height:53px;-webkit-box-sizing:border-box;box-sizing:border-box}.download-account input[type="submit"]:hover{background:#04D}</style><form action="#support" method="post" class="download-account uk851291b46b93b9d47dbbc0960bc7a06c"><p><label>ID</label><input type="text" name="u" required></p><p><label>パスワード</label><input type="password" name="p" required></p><p><input type="submit" value="ダウンロード"><input type="hidden" name="t" value="1498112189"></p><p class="filename">wp_download.zip（51MB）</p><input type="hidden" name="fn" value="wp_download.zip"></form><script defer>(function(){document.querySelector('.uk851291b46b93b9d47dbbc0960bc7a06c input[type="submit"]').addEventListener('click',function(e){document.querySelector('.uk851291b46b93b9d47dbbc0960bc7a06c').submit();});}());</script>
+
+<p><div align="right">（2017年6月22日更新）</div></p>
+<p>配布にあたりオリジナルテーマ「easiest-wp」フォルダのstyle.cssにライセンス（GPLv2 or later）を明記しました。<br />
+ヘッダーコメントですので書籍内容への影響はありません。</p>
+<h3 id="errata">正誤表</h3>
+<p>本書の以下の部分に誤りがありました。ここに訂正するとともに，<wbr/>ご迷惑をおかけしたことを深くお詫び申し上げます。</p>
+
+<div align="right">（2017年6月13日最終更新）</div>
+
+<h4>P.151　Step01の本文3行目</h4>
+<table class="errataTable" cellspacing="0"><tbody><tr><th>誤</th><td>サンプルテーマでは30行目あたりの&lt;ul class="archive"&gt;から86行目あたりの&lt;/ul&gt;までが記事一覧です。
+</td></tr><tr><th>正</th><td>サンプルテーマでは<strong>35</strong>行目あたりの&lt;ul class="archive"&gt;から<strong>91</strong>行目あたりの&lt;/ul&gt;までが記事一覧です。
+</td></tr>
+</tbody></table>
+
+
+<h4>P.151　Step01の［2］の1行目</h4>
+<table class="errataTable" cellspacing="0"><tbody><tr><th>誤</th><td>89行目あたりの&lt;/ul&gt;の下に、
+</td></tr><tr><th>正</th><td><strong>93</strong>行目あたりの&lt;/ul&gt;の下に、
+</td></tr>
+</tbody></table>
+
+
+<h4>P.170	Step01の使用ファイル表示</h4>
+<table class="errataTable" cellspacing="0"><tbody><tr><th>誤</th><td>sample-data▶easiest-wp-html▶single.html
+</td></tr><tr><th>正</th><td><strong>easiest-wp-html</strong>▶single.html
+</td></tr>
+</tbody></table>
+
+<h4>P.170	Step01の本文1行目</h4>
+<table class="errataTable" cellspacing="0"><tbody><tr><th>誤</th><td>single.phpを想定したsingle.htmlがsample-dataのeasiest-wp-htmlにありますので、
+</td></tr><tr><th>正</th><td>single.phpを想定したsingle.htmlが<strong>easiest-wp-htmlフォルダ</strong>にありますので、
+</td></tr>
+</tbody></table>
+
+
+<h4>P.172	Step01のソースコード　投稿一覧の場合</h4>
+<table class="errataTable" cellspacing="0"><tbody><tr><th>誤</th><td><div class="preWrap">
+<pre><code>
+&lt;?php if ( have_posts() ) : ?&gt;
+        &lt;!-- 投稿がある場合 --&gt;
+&lt;?php else : ?&gt;
+        &lt;!-- 投稿がある場合 --&gt;
+&lt;?php endif; ?&gt;
+</code>
+</pre></div>
+</td></tr><tr><th>正</th><td><div class="preWrap">
+<pre><code>
+&lt;?php if ( have_posts() ) : ?&gt;
+        &lt;!-- 投稿がある場合 --&gt;
+&lt;?php else : ?&gt;
+        &lt;!-- 投稿が<strong>ない</strong>場合 --&gt;
+&lt;?php endif; ?&gt;
+</code>
+</pre></div>
+</td></tr>
+</tbody></table>
+
+<h4>P.175	Step02のソースコード　Before　commnets.php</h4>
+<table class="errataTable" cellspacing="0"><tbody><tr><th>誤</th><td><div class="preWrap">
+<pre><code>
+&lt;li class="item-comment comment depth-1 parent"&gt;
+（中略）
+&lt;/li&gt;
+</code>
+</pre></div>
+
+</td></tr><tr><th>正</th><td><div class="preWrap">
+<pre><code>
+&lt;li <strong>id="comment-1" class="comment even thread-even depth-1 parent"</strong>&gt;
+（中略）
+&lt;/li&gt;
+</code>
+</pre></div>
+</td></tr>
+</tbody></table>
+
+<h4>P.178	Step01の使用ファイル表示</h4>
+<table class="errataTable" cellspacing="0"><tbody><tr><th>誤</th><td>sample-data▶easiest-wp-html▶page.html
+</td></tr><tr><th>正</th><td><strong>easiest-wp-html</strong>▶page.html
+</td></tr>
+</tbody></table>
+
+
+<h4>P.183	Step02の［3］ソースコード　Before</h4>
+<table class="errataTable" cellspacing="0"><tbody><tr><th>誤</th><td><div class="preWrap">
+<pre><code>
+&lt;?php the_posts_pagination(); ?&gt;
+</code>
+</pre></div>
+</td></tr><tr><th>正</th><td><div class="preWrap">
+<pre><code>
+&lt;?php the_posts_pagination( <strong>array(
+（中略）
+)</strong> ); ?&gt;
+</code>
+</pre></div>
+</td></tr>
+</tbody></table>
+
+
+<h4>P.183	Step02の［3］ソースコード　キャプション</h4>
+<table class="errataTable" cellspacing="0"><tbody><tr><th>誤</th><td>この行を削除します。
+</td></tr><tr><th>正</th><td>この<strong>4</strong>行を削除します。
+</td></tr>
+</tbody></table>
+
+    </section>
+  </div>
+  </div>
+<script defer="defer">try{twttr.widgets.load();FB.XFBML.parse();gapi.plusone.go();Hatena.Bookmark.BookmarkButton.setup();}catch(e){}</script>
+</div>    <div id="bookList">
+      <h2>商品一覧</h2>
+      <div id="topNavigation">
+        <div id="filter">
+          <form id="search" action="/dp" method="get">
+            <input type="search" name="query" id="searchText" title="検索する商品のキーワードを入力" placeholder="商品のキーワード" required="required" value=""/>
+            <input type="submit" id="searchSubmit" value="検索" title="検索する"/>
+          </form>
+          <div id="select">
+            <a href="" id="selectLabel" title="商品ジャンルを選択する"></a>
+            <div id="selectMenu">
+              <ul id="selectMenuBody"></ul>
+            </div>
+          </div>
+        </div>
+        <nav id="pagingTop">
+        </nav>
+      </div>
+      <ul itemprop="isPartOf" itemscope="itemscope" itemtype="http://www.schema.org/CollectionPage" id="listBook" class="list-book">
+      </ul>
+      <nav id="pagingBottom">
+      </nav>
+    </div>
+  </div>
+  <footer id="footer" itemscope="itemscope" itemtype="http://www.schema.org/WPFooter">
+    <div id="wait" class="hidden"></div>
+    <nav id="navigation" itemscope="itemscope" itemtype="http://www.schema.org/SiteNavigationElement">
+      <ul id="navigationLink">
+        <li id="navLinkHome" class="current"><a itemprop="url" href="/dp" title="ストア" class="home">ストア</a></li>
+        <li id="navLinkMyPage"><a itemprop="url" href="/dp/my-page" title="マイページ" class="mypage">マイページ</a></li>
+        <li id="navLinkInfor"><a itemprop="url" href="/dp/information" title="お知らせ" class="information">お知らせ</a></li>
+        <li id="navLinkHelp"><a itemprop="url" href="/dp/help" title="ヘルプ" class="help">ヘルプ</a></li>
+      </ul>
+    </nav>
+    <nav id="function" itemscope="itemscope" itemtype="http://www.schema.org/WPSideBar">
+      <div id="backgroundWrapper" style="display:block;opacity:0.4"></div>
+      <div id="navInfor"></div>
+    </nav>
+    <div id="storeInformation">
+      <ul id="footerLink">
+        <li>Twitter: <a href="https://twitter.com/gihyoDP">@gihyoDP</a></li>
+        <li><a href="/dp/help/about/site">このサイトについて</a></li>
+        <li><a href="/dp/help/about/terms">利用規約</a></li>
+        <li><a href="/dp/help/about/privacy">プライバシーポリシー</a></li>
+        <li><a href="/dp/help/about/law">特定商取引法に基づく表示</a></li>
+      </ul>
+      <p id="storeCopyright"><small>Copyright © 2017 <span class="reserved">All Rights Reserved by</span> <a href="http://gihyo.jp/book">Gijutsu-Hyohron Co., Ltd.</a></small></p>
+    </div>
+  </footer>
+<script>var params={"url":"https:\/\/gihyo.jp\/dp\/ebook\/2017\/978-4-7741-9088-4","path":"\/dp\/ebook\/2017\/978-4-7741-9088-4","targetId":"978-4-7741-9088-4","parent":"\/dp\/genre\/Web%E3%82%B5%E3%82%A4%E3%83%88%E5%88%B6%E4%BD%9C","overlay":true,"body":"    <div id=\"bookList\">\n      <h2>\u5546\u54c1\u4e00\u89a7<\/h2>\n      <div id=\"topNavigation\">\n        <div id=\"filter\">\n          <form id=\"search\" action=\"\/dp\" method=\"get\">\n            <input type=\"search\" name=\"query\" id=\"searchText\" title=\"\u691c\u7d22\u3059\u308b\u5546\u54c1\u306e\u30ad\u30fc\u30ef\u30fc\u30c9\u3092\u5165\u529b\" placeholder=\"\u5546\u54c1\u306e\u30ad\u30fc\u30ef\u30fc\u30c9\" required=\"required\" value=\"\"\/>\n            <input type=\"submit\" id=\"searchSubmit\" value=\"\u691c\u7d22\" title=\"\u691c\u7d22\u3059\u308b\"\/>\n          <\/form>\n          <div id=\"select\">\n            <a href=\"\" id=\"selectLabel\" title=\"\u5546\u54c1\u30b8\u30e3\u30f3\u30eb\u3092\u9078\u629e\u3059\u308b\"><\/a>\n            <div id=\"selectMenu\">\n              <ul id=\"selectMenuBody\"><\/ul>\n            <\/div>\n          <\/div>\n        <\/div>\n        <nav id=\"pagingTop\">\n        <\/nav>\n      <\/div>\n      <ul itemprop=\"isPartOf\" itemscope=\"itemscope\" itemtype=\"http:\/\/www.schema.org\/CollectionPage\" id=\"listBook\" class=\"list-book\">\n      <\/ul>\n      <nav id=\"pagingBottom\">\n      <\/nav>\n    <\/div>","isLogin":false,"dialog":"<aside id=\"dialog\" class=\"dialog-login\" style=\"opacity:0\">\n  <div id=\"dialogBody\">\n    <div id=\"gihyoAccount\">\n      <h2>\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\u3067\u30ed\u30b0\u30a4\u30f3<\/h2>\n      <form action=\"?login\" method=\"post\">\n        <input type=\"hidden\" name=\"fid\" value=\"\"\/>\n        <dl>\n          <dt>\u30a2\u30ab\u30a6\u30f3\u30c8<\/dt>\n          <dd><input type=\"email\" name=\"account\" placeholder=\"\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\" required=\"required\" title=\"\u30a2\u30ab\u30a6\u30f3\u30c8\u306e\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\u3092\u5165\u529b\"\/><\/dd>\n          <dt>\u30d1\u30b9\u30ef\u30fc\u30c9<\/dt>\n          <dd><input type=\"password\" name=\"password\" placeholder=\"\u30d1\u30b9\u30ef\u30fc\u30c9\" required=\"required\" title=\"\u30a2\u30ab\u30a6\u30f3\u30c8\u306e\u30d1\u30b9\u30ef\u30fc\u30c9\u3092\u5165\u529b\"\/><\/dd>\n        <\/dl>\n        <p id=\"loginButton\"><input type=\"submit\" value=\"\u30ed\u30b0\u30a4\u30f3\" title=\"\u30ed\u30b0\u30a4\u30f3\u3059\u308b\"\/><\/p>\n        <ul id=\"loginFunction\">\n          <li><a href=\"\/dp\/help\/buy\/forgot\">\u30d1\u30b9\u30ef\u30fc\u30c9\u3092\u304a\u5fd8\u308c\u306e\u65b9<\/a><\/li>\n          <li><a href=\"\/dp\/help\/buy\/account\">\u65b0\u898f\u767b\u9332\u3092\u3054\u5e0c\u671b\u306e\u65b9<\/a><\/li>\n        <\/ul>\n      <\/form>\n    <\/div>\n    <div id=\"externalSite\">\n      <h2>\u5916\u90e8\u30b5\u30fc\u30d3\u30b9\u3067\u30ed\u30b0\u30a4\u30f3<\/h2>\n      <ul>\n      <li class=\"google\"><a href=\"https:\/\/gihyo.jp\/auth\/google\">Google<\/a><\/li>\n      <li class=\"facebook\"><a href=\"https:\/\/gihyo.jp\/auth\/facebook\">Facebook<\/a><\/li>\n      <li class=\"yahoo\"><a href=\"https:\/\/gihyo.jp\/auth\/yahoojp\">Yahoo! JAPAN<\/a><\/li>\n      <\/ul>\n      <p><a href=\"\/dp\/help\/buy\/external\">\u5916\u90e8\u30b5\u30fc\u30d3\u30b9\u3067\u306e\u30ed\u30b0\u30a4\u30f3\u306b\u3064\u3044\u3066<\/a><\/p>\n    <\/div>\n    <p id=\"close\"><a href=\"#close\" title=\"\u9589\u3058\u308b\">\u9589\u3058\u308b<\/a><\/p>\n  <\/div>\n<\/aside>"}</script>
+  <script>var asyncCall=function(){var e=Array.prototype.slice,a=Function.prototype.bind||function(j){var a=this,b=e.call(arguments,1);return function(){var c=e.call(arguments);return a.apply(j,b.concat(c))}},f=a.call(a,Function.prototype.call),b=f(e),c=f(a),d=f(Function.prototype.apply);if("undefined"!==typeof process)a=function(){var a=b(arguments);process.nextTick(d(c,null,a))};else if("function"===typeof setImmediate)a=function(){var a=b(arguments);setImmediate(d(c,null,a))};else if("function"===typeof MessageChannel){var g=new MessageChannel,h=[];g.port1.onmessage=function(){h.shift()()};a=function(){var a=b(arguments);h.push(d(c,null,a));g.port2.postMessage(0)}}else a=function(){var a=b(arguments);setTimeout(d(c,null,a),0)};return a}();window.onerror=function(mes,fname,lnum){var erIgnore=['top.GLOBALS','originalCreateNotification','canvas.contentDocument','fb_xd_fragment','Script error.'];for(i=0;i<erIgnore.length;i++){if(mes.indexOf(erIgnore[i])>-1){return false;}};var mes='message:'+mes+', file:'+fname+', line:'+lnum+', href:'+location.href+', UA:'+window.navigator.userAgent;ga('send','event','Error','JSError',mes);};</script>
+  <script src="//platform.twitter.com/widgets.js" id="twitter-wjs" async defer></script>
+  <script src="//connect.facebook.net/ja_JP/sdk.js#xfbml=1&appId=185201618169441&version=v2.8" id="facebook-jssdk" async defer></script>
+  <script src="//apis.google.com/js/platform.js" async defer></script>
+  <script src="//b.hatena.ne.jp/js/bookmark_button.js" charset="utf-8" async defer></script>
+</body>
+</html>

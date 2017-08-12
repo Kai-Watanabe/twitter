@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="ja">
+<meta charset="utf-8">
+<title>Seesaa ブログ - 無料のブログ作成(blog)サービス</title>
+<meta name="description" content="Seesaa ブログ / パソコンと携帯(ケータイ)から楽しめる簡単ブログ作成サービス。ポッドキャスティング、アフィリエイト、ダイエット、日記、モブログ、全部つかえて完全無料。">
+<meta name="keywords" content="ブログ,無料,作成,ポッドキャスティング,アフィリエイト,ダイエット,日記,携帯,ケータイ,アクセス解析,独自ドメイン,blog,podcasting,moblog">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<link rel="stylesheet" type="text/css" href="/css/base.css" media="all">
+<link rel="stylesheet" type="text/css" href="/css/bl.css" media="all">
+<link rel="stylesheet" type="text/css" href="/css/bl-green.css" media="all">
+<link rel="stylesheet" type="text/css" href="/css/portal.css" media="all">
+<!--[if lt IE 9]>
+<script src="/js/html5.js"></script>
+<![endif]-->
+</head>
+<body><a id="top" name="top"></a>
+
+<span id="iphone-link" style="display:none"><a href="javascript:document.cookie='force_pc=0; max-age=15768000; path=/'; document.location='./'">iPhone専用ページを表示</a></span>
+<script type="text/javaScript"><!--
+if (0 <= navigator.userAgent.indexOf('iPhone')) {
+document.getElementById('iphone-link').style.display = 'block';
+}
+//--></script>
+
+<div id="wrapAll">
+
+<header class="hd">
+<h1 class="clearfix">
+<a href="http://seesaa.jp/" class="logoseesaa">Seesaa ブログ</a>
+<a href="http://blog.seesaa.jp" class="logoblog">Seesaa ブログ</a>
+</h1>
+
+<section class="account">
+<ul>
+<li><a href="https://ssl.seesaa.jp/pages/my/home/">アカウント</a></li>
+<li><a href="http://faq.seesaa.net/" target="_blank">ヘルプ</a></li>
+<li><a href="/cms/">ログイン</a></li>
+</ul>
+</section>
+<section class="hdbanner">
+
+<script type="text/javascript">
+var adstir_vars = {
+  ver: "4.0",
+  app_id: "MEDIA-162b72a7",
+  ad_spot: 10,
+  center: false,
+};
+</script>
+<script type="text/javascript" src="https://js.ad-stir.com/js/adstir.js"></script>
+
+</section>
+</header>
+
+<article class="contents">
+<div class="contentstheme">
+<div class="contentstheme_bg" style="width:988px;"></div>
+
+<div class="wrap clearfix">
+<div class="mainwrap_wide">
+
+
+<div class="main" style="width:950px;">
+
+<nav style="width:910px;margin:0 auto;">
+<ul class="clearfix">
+<li><a href="/contents/recommend/" class="navRecommend">おすすめ</a></li>
+<li><a href="/contents/popular/" class="navPoplar">人気</a></li>
+<li><a href="/contents/recent/" class="navRecent">新着</a></li>
+<li><a href="/contents/blog_parts/" class="navBlogparts">ブログパーツ</a></li>
+
+<li><a href="http://asp-comparison.seesaa.net/" class="navAfilliate">アフィリエイト</a></li>
+<li style="width:130px;height:1px;"></li>
+<li><a href="/cms/" class="navMypage">マイブログ</a></li>
+</ul>
+</nav>
+
+
+<div style="width:550px;margin:0 auto;">
+<h1 style="font-size:18px;font-weight:bold;padding:10px 0;">メールマガジン購読</h1>
+
+<div class="recommend-genre"><span style="color:#625300;font-weight:bold;">購読開始</span></div>
+<div class="recommend" style="background:#efefef;webkit-border-radius: 10px 10px 10px 10px;-moz-border-radius: 10px 10px 10px 10px;border-radius: 10px 10px 10px 10px;">
+<table border="0" cellspacing="0" cellpadding="0" width="100%" class="genre">
+<tr>
+<td style="padding:10px;">
+ブログの更新情報をメールで一日一回お届けします。人気ブログの更新をのがさずチェック！<br />
+<br />
+<br />
+<form action="input" method="post">
+	<div align="center" style="width:600px;">
+	<table>
+	<tr>
+	<td style="text-align:left;font-weight:bold;color:#999;vertical-align:top;">ホスト名</td>
+	<td> <input name="blog_name" type="text" size="60" value="" class="mailmag_input"><br>
+購読したいブログのhttp://<span style="font-style:italic;">xxxxx</span>.seesaa.net の、<br>「<span style="font-style:italic;">xxxxx</span>」部分を入力してください。 <br>
+独自ドメインのブログの場合は、http:// 以降を入力してください</td>
+	</tr>
+	<tr>
+	<td style="text-align:left;font-weight:bold;color:#999;">メールアドレス</td>
+	<td> <input name="mailmag_check__email" type="text" size="60" value="" class="mailmag_input"></td>
+	</tr>
+	<tr>
+	<td colspan="2" class="center pt10">
+	<input value="" name="mailmag_check__blog_id" type="hidden"><input value="" name="mailmag_check__digest" type="hidden">
+	<input value="メールマガジンの購読を申し込む" type="submit" />
+	</td>
+	</tr>
+	</table>
+	</div>
+</form>
+</td>
+</tr>
+</table>
+</div>
+<br clear="all" />
+
+<div class="recommend-genre"><span style="color:#625300;font-weight:bold;">購読解除</span></div>
+<div class="recommend" style="background:#efefef;webkit-border-radius: 10px 10px 10px 10px;-moz-border-radius: 10px 10px 10px 10px;border-radius: 10px 10px 10px 10px;">
+<table border="0" cellspacing="0" cellpadding="0" width="100%" class="genre">
+<tr>
+<td style="padding:10px;">
+<br />
+<form action="../delete/input" method="post">
+	<div align="center" style="width:600px;">
+	<table>
+	<tr>
+	<td style="text-align:left;font-weight:bold;color:#999;">ホスト名</td>
+	<td> <input name="blog_name" type="text" size="60" value="" class="mailmag_input"></td>
+	</tr>
+	<tr>
+	<td style="text-align:left;font-weight:bold;color:#999;">全メルマガ解除</td>
+	<td align="left"> <input name="all_blog" type="checkbox" value="1"></td>
+	</tr>
+	<tr>
+	<td style="text-align:left;font-weight:bold;color:#999;">メールアドレス</td>
+	<td> <input name="email" type="text" size="60" value="" class="mailmag_input"></td>
+	</tr>
+	<tr>
+	<td colspan="2" class="center pt10">
+	<input value="メールマガジンの購読を解除する" type="submit" />
+	</td>
+	</tr>
+	</table>
+	</div>
+</form>
+</td>
+</tr>
+</table>
+</div>
+
+</div>
+
+
+<div class="center pt10 both">
+	<!-- /21344574/SeesaaBlog_PC_Portal_Footer -->
+	<div id="div-gpt-ad-1466590258127-0" style="height:90px; width:728px;">
+	<script type="text/javascript">
+	googletag.cmd.push(function() { googletag.display("div-gpt-ad-1466590258127-0"); });
+	</script>
+	</div>
+</div>
+
+</div>
+
+
+<!-- END mainwrap content -->
+
+</div>
+</div>
+<!-- END contentstheme -->
+
+</article>
+
+<footer class="ft">
+<section class="ftlinks clearfix">
+<section class="ftinfo">
+<h1>お知らせ</h1>
+<ul>
+
+
+<li><a href="http://info.seesaa.net/article/450858434.html" target="_blank">【Seesaaブログ】トラックバック機能提供終了のお知…</a></li>
+<li><a href="http://info.seesaa.net/article/450368255.html" target="_blank">【Seesaaブログ】共有ブログ機能で権限設定ができる…</a></li>
+<li><a href="http://info.seesaa.net/article/450152613.html" target="_blank">【Seesaaブログ】アクセス解析の当月合計値が表示で…</a></li>
+<li class="right"><a href="http://info.seesaa.net/" target="_blank" class="ftmore">過去のお知らせ</a></li>
+</ul>
+</section>
+<section class="ftlink">
+<h1>サイトリンク</h1>
+<ul>
+<li><a href="http://www.seesaa.co.jp/news/category/130816-1.html" target="_blank">プレスリリース</a></li>
+<li><a href="http://trouble.seesaa.net/" target="_blank">障害報告</a></li>
+<li><a href="http://faq.seesaa.net/article/422864615.html" target="_blank">推奨環境</a></li>
+<li><a href="http://blog.seesaa.jp/pages/mailmag/regist/input" target="_blank">メルマガ</a></li>
+<li><a href="http://copyright-seesaa.seesaa.net/" target="_blank">著作権ガイドライン</a></li>
+</ul>
+</section>
+<section class="fthelp">
+<h1>ヘルプ</h1>
+<ul>
+<li><a href="http://faq.seesaa.net/article/422864567.html" target="_blank">ブログのデザインを変更したい</a></li>
+<li><a href="http://faq.seesaa.net/article/422864458.html" target="_blank">メニューのコンテンツを追加したい</a></li>
+<li><a href="http://faq.seesaa.net/article/422864498.html" target="_blank">ブログの画像や動画を管理したい</a></li>
+<li class="right"><a href="http://faq.seesaa.net/" target="_blank" class="ftmore">ヘルプ一覧</a></li>
+</ul>
+</section>
+</section>
+
+<div class="companyabout_wrap clearfix">
+<ul class="companyabout">
+<li><a href="http://kiyaku.seesaa.net/category/547790.html" target="_blank">利用規約</a> | </li>
+<li><a href="http://kiyaku.seesaa.net/category/548011.html" target="_blank">プライバシーポリシー</a> | </li>
+<li><a href="http://www.seesaa.co.jp/service/ads.html" target="_blank">広告掲載について</a> | </li>
+<li><a href="http://www.seesaa.co.jp/" target="_blank">シーサーについて</a> | </li>
+<li><a href="http://recruit.seesaa.co.jp/" target="_blank">スタッフ募集</a> | </li>
+<li><a href="http://www.seesaa.co.jp/contact/" target="_blank">お問い合わせ</a></li>
+</ul>
+<p>Copyright &copy; 2003- SeesaaInc. All Rights Reserved.</p>
+</div>
+
+</footer>
+<script src="http://t.seesaa.net/analytics-blog-seesaa-jp.js?tid=UA-53911882-2"></script>
+</body>
+</html>
+

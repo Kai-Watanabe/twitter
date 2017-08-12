@@ -1,0 +1,498 @@
+<!DOCTYPE HTML>
+<html lang="ja" class="pc">
+<head>
+  <meta charset="UTF-8">
+  <title>いつもの作業を自動化したい人の Excel VBA 1冊目の本 | Gihyo Digital Publishing … 技術評論社の電子書籍</title>
+  <meta http-equiv="Content-Style-Type" content="text/css"/>
+  <meta http-equiv="Content-Script-Type" content="application/javascript"/>
+  <meta name="description" content="Excel VBAは，一人ひとりの作業のあり方，いえ，部署の仕事のあり方，いえいえ，会社のあり方すら変えてしまうパワーがある！Excel VBAを使いこなしたい方が，どこでつまずいてしまうのかを知り尽くした著者による，「1冊目」の決定版です。Excel VBAの基本ルールから，VBA関数，活用例まで，ゼロからスタートしてVBAを自分のものにするための土台をしっかり作ります。ほかの入門書には載っていない耳寄り情報や，Excel VBAで仕事を一変させた人のエピソードなど，すべての入門者，再入門者のみなさんにオススメします。"/>
+  <meta name="keywords" content="大村あつし電子書籍,電子出版,EPUB,PDF,技術評論社"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="format-detection" content="telephone=no"/>
+  <link rel="related" href="http://gihyo.jp/dp/catalogs.opds" type="application/atom+xml;profile=opds-catalog" title="Gihyo Digital Publishing OPDS Catalog"/>
+  <link rel="shortcut icon" href="/assets/templates/gdp/favicon.ico" type="image/vnd.microsoft.icon"/>
+  <link rel="apple-touch-icon-precomposed" href="/dp/assets/gdp-icon.png"/>
+  <!--[if lt IE 9]>
+    <script>var msie=8;</script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="/dp/assets/js/html5shiv.min.js"></script>
+    <script src="//css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <script src="/dp/assets/js/selectivizr-min.js"></script>
+    <script src="/dp/assets/js/addEventListener.min.js"></script>
+    <script src="/dp/assets/js/textContent.min.js"></script>
+  <![endif]-->
+  <!--[if lte IE 9]>
+    <script src="/dp/assets/js/classList.min.js" defer></script>
+  <![endif]-->
+  <link rel="stylesheet" href="/dp/assets/style/store0921.css" type="text/css" media="all"/>
+  <script src="/dp/assets/js/gdpFunction0512.min.js" defer></script>
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:site" content="@gihyoDP"/>
+  <meta property="og:title" content="いつもの作業を自動化したい人の Excel VBA 1冊目の本 | Gihyo Digital Publishing … 技術評論社の電子書籍"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:description" content="Excel VBAは，一人ひとりの作業のあり方，いえ，部署の仕事のあり方，いえいえ，会社のあり方すら変えてしまうパワーがある！Excel VBAを使いこなしたい方が，どこでつまずいてしまうのかを知り尽くした著者による，「1冊目」の決定版です。Excel VBAの基本ルールから，VBA関数，活用例まで，ゼロからスタートしてVBAを自分のものにするための土台をしっかり作ります。ほかの入門書には載っていない耳寄り情報や，Excel VBAで仕事を一変させた人のエピソードなど，すべての入門者，再入門者のみなさんにオススメします。"/>
+  <meta property="og:url" content="https://gihyo.jp/dp/ebook/2017/978-4-7741-9092-1"/>
+  <meta property="og:image" content="http://image.gihyo.co.jp/assets/images/gdp/2017/978-4-7741-9092-1.jpg"/>
+  <meta property="og:site_name" content="Gihyo Digital Publishing"/>
+  <meta property="fb:app_id" content="185201618169441"/>
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-4149703-1', 'auto');
+  ga('require', 'displayfeatures');
+  ga('send', 'pageview');
+  </script>
+</head>
+<body itemscope="itemscope" itemtype="http://schema.org/WebPage" class="page-home">
+  <header id="header" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
+    <h1 class="home-title">Gihyo Digital Publishing</h1>
+    <h2 class="home-subtitle">技術評論社の電子書籍サイト</h2>
+    <nav id="headerFunction">
+      <div id="login">
+        <a href="#login" title="ログイン・会員登録">ログイン</a>
+      </div>
+      <div id="cart">
+        <a href="/dp/cart" title="カートは空です">カート</a>
+      </div>
+    </nav>
+  </header>
+  <div id="main">
+    <noscript><div id="noscript">
+      <p>本サイトではJavaScriptを使用しております。JavaScriptが無効な状態ではご利用いただけません。</p>
+    </div></noscript>
+
+<div id="overlayWindow" class="book-infor" itemscope itemtype="http://schema.org/Book" typeof="product:Product" xmlns:product="http://search.yahoo.com/searchmonkey/product/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:media="http://search.yahoo.com/searchmonkey/media/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:currency="http://search.yahoo.com/searchmonkey-datatype/currency/" style="display:block;opacity:1">
+  <header id="overlayHeader">
+    <h1>書籍概要</h1>
+    <nav id="overlayFunction">
+      <p id="close"><a href="/dp/genre/%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3" title="閉じる">閉じる</a></p>
+      <ul id="jump">
+        <li id="detailRef"><a href="#title" title="概要を見る">概要</a></li>
+        <li id="contentRef"><a href="#content" title="目次を見る">目次</a></li>
+        <li id="supportRef"><a href="#support" title="サポート情報を見る">サポート</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div id="bookInforMain">
+  <hgroup id="title">
+
+    <h1 id="bookTitle" property="rdfs:label" itemprop="name">いつもの作業を自動化したい人の Excel VBA 1<wbr/>冊目の本</h1>
+  </hgroup>
+  <aside id="bookCover" rel="rdfs:seeAlso media:image"><img src="/assets/images/gdp/2017/978-4-7741-9092-1.jpg" alt="いつもの作業を自動化したい人の Excel VBA 1冊目の本"/></aside>
+  <dl id="publicationData" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+    <dt>著者</dt>
+    <dd itemprop="author">大村あつし　著</dd>
+    <dt>発売日</dt>
+    <dd><time datetime="2017-06-20">2017年6月20日</time></dd>
+    <dt>更新日</dt>
+    <dd><time datetime="2017-06-20">2017年6月20日</time></dd>
+  </dl>
+  <aside>
+    <ul class="information">
+      <li>本書は，<a href="http://gihyo.jp/book/2017/978-4-7741-9016-7" target="_blank">2017年6月20日に発売された書籍</a>の電子版です。</li>
+      <li class="need-login">ご購入には会員登録・ログインが必要です</li>
+      <li class="corporate"><a href="/dp/help/buy/bulkpurchase">学校・法人等団体でのご利用について</a></li>
+    </ul>
+    <dl id="productPrice">
+<dt><span class="name">EPUB/PDFセット</span><span class="buy">2,040円 <a id="pid401747" href="#cartAdd" title="カートに入れる">カートに入れる<div class="option" title="購入オプション">▼<ul><li title="通常購入">自分用に購入する</li><li class="gift" title="ギフトコードを購入">ギフトとして購入する</li></ul></div></a></span></dt><dd><span class="page"><span itemprop="numberOfPages">320</span>ページ相当</span><span class="pdf">PDF</span> <span class="epub">EPUB：リフロー</span> </dd>
+
+    </dl>
+  </aside>
+  <aside id="social">
+    <ul>
+      <li class="twitter"><a href="https://twitter.com/search?q=https://gihyo.jp/dp/ebook/2017/978-4-7741-9092-1" class="twitter--list">リスト</a><a href="http://twitter.com/share" class="twitter-share-button" data-url="https://gihyo.jp/dp/ebook/2017/978-4-7741-9092-1" data-text="いつもの作業を自動化したい人の Excel VBA 1冊目の本 #gihyoDP" data-count="none" data-lang="ja">ツイート</a></li>
+      <li class="facebook"><div class="fb-like" data-href="https://gihyo.jp/dp/ebook/2017/978-4-7741-9092-1" data-send="false" data-layout="box_count" data-width="450" data-show-faces="false" data-share="true"></div></li>
+      <li class="gplus"><g:plusone size="tall" href="https://gihyo.jp/dp/ebook/2017/978-4-7741-9092-1"></g:plusone></li>
+      <li class="hatena"><a href="http://b.hatena.ne.jp/entry/https://gihyo.jp/dp/ebook/2017/978-4-7741-9092-1" class="hatena-bookmark-button" data-hatena-bookmark-layout="vertical-balloon" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="//b.hatena.ne.jp/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a></li>
+    </ul>
+  </aside>
+  <div id="productDetail">
+    <section id="detail">
+      <h2>概要</h2>
+<p>Excel VBAは，<wbr/>一人ひとりの作業のあり方，<wbr/>いえ，<wbr/>部署の仕事のあり方，<wbr/>いえいえ，<wbr/>会社のあり方すら変えてしまうパワーがある！Excel VBAを使いこなしたい方が，<wbr/>どこでつまずいてしまうのかを知り尽くした著者による，<wbr/>「1冊目」の決定版です。Excel VBAの基本ルールから，<wbr/>VBA関数，<wbr/>活用例まで，<wbr/>ゼロからスタートしてVBAを自分のものにするための土台をしっかり作ります。ほかの入門書には載っていない耳寄り情報や，<wbr/>Excel VBAで仕事を一変させた人のエピソードなど，<wbr/>すべての入門者，<wbr/>再入門者のみなさんにオススメします。</p><h3>こんな方におすすめ</h3>
+<ul><li>VBAで仕事をラクにしたい方</li><li>VBAとマクロで何ができるのか知りたい方</li><li>スタートに最適な1冊目を探している方</li></ul>
+<aside class="author"><h3>大村あつし（おおむらあつし）</h3><p>VBAを得意とするテクニカルライター。Excel VBAの解説書はおよそ30冊出版しており，<wbr/>その解説のわかりやすさと正確さには定評がある。過去にはAmazonのVBA部門で1～3位を独占し，<wbr/>同時に上位14冊中9冊を占めたこともあり，<wbr/>「今後，<wbr/>永遠に破られない記録」と称された。<br />
+1997年11月に，<wbr/>その後国内最大級に成長することになるMicrosoft Officeのコミュニティサイト「moug.net」をたった一人で立ち上げた経験から，<wbr/>徹底的に読者目線，<wbr/>初心者目線で解説することを心がけている。また，<wbr/>VBAユーザーの地位の向上のために，<wbr/>2003年には新資格の「VBAエキスパート」を創設。静岡県富士市在住。</p></aside>
+    </section>
+    <section id="content">
+      <h2>目次</h2>
+<div id="bookSearch">
+<form id="bookSearchForm" action="search" method="post">
+  <input type="search" name="query" id="bookSearchText" title="本書内を検索するキーワードを入力" placeholder="本書内のキーワード" required="required" value="">
+  <input type="hidden" name="code" value="34903">
+  <input type="submit" id="bookSearchSubmit" value="検索" title="検索する">
+</form>
+</div><h3>第1章　マクロで仕事を，そして人生を変えた人たち<br />
+～マクロとは？　VBAとは？～</h3>
+
+<h4>1-1　Excelの「マクロ」を覚えるとなにができる？</h4>
+<ul class="toc">
+<li>マクロとVBAの違い</li>
+<li>Excel VBAでできることの説明が難しい理由</li>
+
+</ul>
+<h4>1-2　マクロを覚えると，あなたの仕事が，いえ，人生だって劇的に変わる！</h4>
+<ul class="toc">
+<li>「マクロ記録」だけで残業がなくなった！</li>
+<li>間接部門のスリム化に成功！</li>
+<li>契約社員から，「契約社員を評価する正社員」に昇格！</li>
+
+
+
+<h3>第2章　VBAを知らなくても「録音」機能でマクロが作れる<br />
+～マクロ記録と，マクロの保存と実行～</h3>
+
+</ul>
+<h4>2-1　操作を「録音」してくれるのが「マクロの記録」</h4>
+<ul class="toc">
+<li>［開発］タブを表示する</li>
+<li>マクロを記録する</li>
+
+</ul>
+<h4>2-2　マクロを保存したり，マクロを含むブックを開く方法を覚えよう</h4>
+<ul class="toc">
+<li>マクロを含むブックを保存する</li>
+<li>ブックを開いてマクロを有効にする</li>
+
+</ul>
+<h4>2-3　Excelの編集作業よりもはるかにカンタンなマクロの編集作業と，マクロの実行方法，登録方法を覚えてしまおう</h4>
+<ul class="toc">
+<li>マクロをVisual Basic Editorに表示して内容を変更する</li>
+<li>マクロをVisual Basic Editor上で実行する</li>
+<li>マクロを［フォームコントロール］のボタンに登録する</li>
+<li>マクロをショートカットキーに登録する</li>
+
+</ul>
+<h4>2-4　マクロの骨組みと必須ワード</h4>
+<ul class="toc">
+<li>マクロの構成</li>
+<li>マクロの基本用語</li>
+
+
+
+<h3>第3章　スマホが使える人ならVBEは大丈夫<br />
+～VBEの基本機能とエラーへの対処～</h3>
+
+</ul>
+<h4>3-1　Visual Basic Editorのメニューは使う必要がない！</h4>
+<ul class="toc">
+<li>プロジェクトエクスプローラーと標準モジュール</li>
+<li>標準モジュールを挿入する</li>
+<li>標準モジュールを削除する</li>
+<li>モジュールとは？　プロジェクトとは？</li>
+
+</ul>
+<h4>3-2　キーワードはVBEに表示された候補の中から選ぶだけ！</h4>
+<ul class="toc">
+<li>「自動メンバー表示」機能を体験する</li>
+<li>「入力候補」でメッセージボックスを表示する</li>
+
+</ul>
+<h4>3-3　書いている最中のエラーと，実行したときのエラーに対処しよう</h4>
+<ul class="toc">
+<li>マクロを書いている最中に出るエラー</li>
+<li>マクロを実行したときに出るエラー</li>
+<li>マクロが思うように動かないエラー</li>
+
+
+
+<h3>第4章　日本語がわかる人はVBAの基本文法を無意識にマスターしている<br />
+～VBAの3つの基本文法～</h3>
+
+</ul>
+<h4>4-1　「私は走る」――この日本語を英語で書ければ，VBAはなにも怖くない！</h4>
+<ul class="toc">
+<li>VBAの文法は3つしかない</li>
+<li>Excelの部品のことを「オブジェクト」と呼ぶ</li>
+<li>オブジェクトの動作のことを「メソッド」と呼ぶ</li>
+<li>メソッドの動作を細かく指示する</li>
+<li>Sheetオブジェクトではなく，Worksheetオブジェクトを使う</li>
+
+</ul>
+<h4>4-2　マクロ記録があるのにVBAを学習する訳は？</h4>
+<ul class="toc">
+<li>マクロ記録の限界を理解する</li>
+<li>親オブジェクトを指定する</li>
+
+</ul>
+<h4>4-3　「黒い」瞳はカラコンで「青」に「変える」ことができる。VBAも同じ仕組み</h4>
+<ul class="toc">
+<li>オブジェクトの特徴のことを「プロパティ」と呼ぶ</li>
+<li>プロパティの値を変更する</li>
+
+</ul>
+<h4>4-4　VBAにも「コレクション」がある</h4>
+<ul class="toc">
+<li>オブジェクトの集合体＝コレクション</li>
+<li>コレクションとオブジェクトをすっきり理解する</li>
+
+
+
+<h3>第5章　VBAでデータベースを扱うためのカンタン・必須テクニック<br />
+～VBAでセルを自由自在に操作する～</h3>
+
+</ul>
+<h4>5-1　四則演算マクロを体験して，日々の計算業務に役立てよう！</h4>
+<ul class="toc">
+<li>セルにはRangesコレクションはない</li>
+<li>四則演算マクロを体験する</li>
+<li>セルにさまざまな種類の値を代入する</li>
+<li>セルの値を消去する</li>
+
+</ul>
+<h4>5-2　セルを自在に操るための「セルを選択する」テクニック</h4>
+<ul class="toc">
+<li>セル番地でセルを選択する</li>
+<li>行や列全体を選択する</li>
+<li>すべてのセルを選択する</li>
+<li>アクティブシートのセルしか選択できない</li>
+
+</ul>
+<h4>5-3　今度は「選択されたセル」の位置を変えてみよう</h4>
+<ul class="toc">
+<li>選択されたセル範囲の行と列の位置を変更する</li>
+
+</ul>
+<h4>5-4　続いて，「選択されたセル」のサイズを変えてみよう</h4>
+<ul class="toc">
+<li>選択されているセル範囲の行数と列数を取得する</li>
+<li>行数や列数を変更してセル範囲のサイズを変更する</li>
+<li>OffsetプロパティとResizeプロパティを併用する</li>
+
+</ul>
+<h4>5-5　VBAでデータベースを操作！　半日かかる手作業が数秒に！</h4>
+<ul class="toc">
+<li>データベース全体を選択する</li>
+<li>CurrentRegionプロパティでデータベース範囲を印刷する</li>
+<li>CurrentRegionプロパティでデータの登録件数を取得する</li>
+<li>CurrentRegionプロパティでデータベース範囲に罫線を引く</li>
+<li>データベースの操作に必須のEndプロパティとは？</li>
+<li>Endプロパティでデータベースの一番下の行に移動する</li>
+<li>Endプロパティで新規データを入力するセルに移動する</li>
+
+
+
+<h3>第6章　作業自動化の真骨頂！処理を繰り返すテクニック<br />
+～変数と繰り返し処理（ループ）～</h3>
+
+</ul>
+<h4>6-1　「変数」の規則は冷蔵庫の仕組みとまったく同じ！</h4>
+<ul class="toc">
+<li>Dimステートメントで変数を宣言する</li>
+<li>変数のデータ型</li>
+<li>バリアント型という変数のデータ型</li>
+<li>変数を宣言しないとマクロが動かないようにする</li>
+
+</ul>
+<h4>6-2　大量のデータを瞬時に処理する繰り返し処理をマスターしよう</h4>
+<ul class="toc">
+<li>For...Nextステートメント（繰り返し処理）を理解する</li>
+<li>仕事に応用しやすい「足し算マクロ」を理解する</li>
+
+</ul>
+<h4>6-3　繰り返し処理の応用で，見やすい表を一瞬で作るマクロを準備しておこう</h4>
+<ul class="toc">
+<li>表に5行おきに罫線を引く</li>
+
+
+
+<h3>第7章　人生もマクロも「条件分岐」が最大の醍醐味！<br />
+～If...Then...Elseステートメント～</h3>
+
+</ul>
+<h4>7-1　給料日前には牛丼。ボーナスのあとには焼き肉。こんな「分岐」がVBAにもある</h4>
+<ul class="toc">
+<li>If...Then...Elseステートメントで条件分岐をする</li>
+<li>Ifステートメントでセルが空白かどうかを判断する</li>
+<li>Ifステートメントの比較演算子を理解する</li>
+<li>複数の条件を判断する（ElseIfとElseを使う）</li>
+
+</ul>
+<h4>7-2　「やせたいけど1日2食は食べたいし，ジム通いはイヤだけど運動はしないと」――複雑な条件を満たすためのIfステートメント</h4>
+<ul class="toc">
+<li>複数の条件を満たしたときに処理を実行する（And演算子）</li>
+<li>複数の中から一つの条件を満たしたときに処理を実行する（Or演算子）</li>
+<li>Ifステートメントを入れ子にする</li>
+<li>1行のIfステートメントと「True」「False」の省略</li>
+
+</ul>
+<h4>7-3　繰り返し出てくるキーワードを1回書くだけにして，マクロを読みやすくするテクニック</h4>
+<ul class="toc">
+<li>Withステートメントの基本構文</li>
+<li>WithとNotでTrueとFalseを切り替える</li>
+
+</ul>
+<h4>7-4　作業時間短縮をコツコツ積み重ねて業務効率アップ！</h4>
+<ul class="toc">
+<li>そのほかの「オンとオフのスイッチ・マクロ」</li>
+
+</ul>
+<h4>7-5　全VBAユーザー必見の「重複データを削除する」マクロ</h4>
+<ul class="toc">
+<li>For...Nextステートメントで，カウンタ変数を減算しながらループする</li>
+
+
+
+<h3>第8章　「対話型のマクロ」で不正なデータ入力を防ぎ，あとからデータベースの整形作業に追われないようにする<br />
+～MsgBoxとInputBoxによる「対話型のマクロ」～</h3>
+
+</ul>
+<h4>8-1　MsgBoxを使い倒して，ユーザーに処理を選択させよう</h4>
+<ul class="toc">
+<li>メッセージボックスで押されたボタンを判断する</li>
+<li>MsgBoxでメッセージボックスにボタンを表示する（引数「Buttons」）</li>
+<li>MsgBoxでメッセージボックスにアイコンを表示する（引数「Buttons」）</li>
+<li>MsgBoxでメッセージボックスにタイトルを表示する（引数「Title」）</li>
+<li>MsgBoxで文字列と変数を連結する</li>
+<li>MsgBoxの対話型マクロを体験する</li>
+
+</ul>
+<h4>8-2　ダイアログボックスに決められた種類のデータしか入力させないようにして，作業ミスを減らそう</h4>
+<ul class="toc">
+<li>InputBoxメソッドの対話型マクロを体験する</li>
+<li>文字列の入力を促すダイアログボックスを表示する</li>
+
+
+
+<h3>第9章　VBA関数を使えれば，文字列操作や日付処理も自由自在！<br />
+～ワークシート関数よりカンタンなVBA関数～</h3>
+
+</ul>
+<h4>9-1　まずはVBA関数の基礎を理解しておこう</h4>
+<ul class="toc">
+<li>ワークシート関数とVBA関数</li>
+<li>メソッドとVBA関数の違い</li>
+<li>VBA関数の構文の見方</li>
+
+</ul>
+<h4>9-2　文字列を自在に操作して，VBA関数でデータベースを思いのままに操ろう</h4>
+<ul class="toc">
+<li>文字列を取得する（Left関数・Right関数・Mid関数・Len関数）</li>
+<li>文字列を検索する（InStr関数）</li>
+<li>アルファベットの大文字と小文字を変換する（LCase関数・UCase関数）</li>
+<li>文字列からスペースを削除する（LTrim関数・RTrim関数・Trim関数）</li>
+<li>指定した文字列を検索し別の文字列に置換する（Replace関数）</li>
+
+</ul>
+<h4>9-3　関数の醍醐味は文字列操作と日付処理。次は日付処理をマスターしよう</h4>
+<ul class="toc">
+<li>今日の日付を取得する（Date関数）</li>
+<li>現在の時間を取得する（Time関数）</li>
+<li>今日の日付と現在の時間を取得する（Now関数）</li>
+<li>日付から年・月・日を取り出す（Year関数・Month関数・Day関数）</li>
+<li>時刻から時・分・秒を取り出す（Hour関数・Minute関数・Second関数）</li>
+<li>日付を元に曜日を取得する（WeekdayName関数）</li>
+
+</ul>
+<h4>9-4　そのほかの重要テクニックをマスターして，VBA関数の基礎を網羅しよう</h4>
+<ul class="toc">
+<li>VBAでExcelのMAXワークシート関数を使う</li>
+<li>日付・時刻型であるかどうかをチェックする（IsDate関数）</li>
+<li>数値であるかどうかをチェックする（IsNumeric関数）</li>
+<li>乱数を生成する（Rnd関数）</li>
+</ul>
+
+
+<h3>第10章　今日から早速実務に使ってほしい20のマクロ<br />
+～即効性バツグンのサンプルたち～</h3>
+<ul class="toc">
+<li>本章の目的</li>
+<li>確認メッセージを表示せずにブックを閉じる方法</li>
+<li>確認メッセージを表示せずにシートを削除する方法</li>
+<li>ユーザーが再表示できないようにシートを非表示にする方法</li>
+<li>数式が入力されているセルをすべて保護する方法</li>
+<li>エラーを含む数式をクリアする方法</li>
+<li>数式を値に変換する方法</li>
+<li>アクティブセルを画面の左上に表示する方法</li>
+<li>セルの値のデータ型を確認する方法</li>
+<li>日付に変換されてしまう値を文字列として入力する方法</li>
+<li>分割された年月日を一つの年月日に結合する方法</li>
+<li>月の最終日を取得する方法</li>
+<li>1行おきに行を挿入する方法</li>
+<li>1行おきにセルに背景色を塗る方法</li>
+<li>空白セルを含む行をすべて削除する方法</li>
+<li>「ある文字」が入力されているセルを検索する方法</li>
+<li>すべてのコメント内の文字列を検索する方法</li>
+<li>セルのふりがなを取得する方法</li>
+<li>2枚のシートの両方に存在する行だけを抽出する方法</li>
+<li>2枚のシートの片方にしか存在しない行だけを抽出する方法</li>
+<li>4つ以上の列でソートする方法</li>
+</ul>
+    </section>
+    <section id="support">
+      <h2>サポート</h2>
+<h3 id="download">ダウンロード</h3>
+<p>本書に掲載されているサンプルマクロ（VBAプログラム）は，<wbr/>Excelブック（拡張子.xlsm）の形式でダウンロードできます。<br />
+ZIP形式で圧縮されていますので，<wbr/>解凍してからお使いください。また，<wbr/>解凍後の「excelvba」フォルダは，<wbr/>コンピュータの「Cドライブ」に入れたうえでお使いください。</p>
+
+
+<dl>
+<dt>ダウンロード</dt>
+<dd><a href="http://image.gihyo.co.jp/assets/files/book/2017/978-4-7741-9016-7/download/excelvba.zip">excelvba.zip</a></dd>
+</dl>
+
+
+    </section>
+  </div>
+  </div>
+<script defer="defer">try{twttr.widgets.load();FB.XFBML.parse();gapi.plusone.go();Hatena.Bookmark.BookmarkButton.setup();}catch(e){}</script>
+</div>    <div id="bookList">
+      <h2>商品一覧</h2>
+      <div id="topNavigation">
+        <div id="filter">
+          <form id="search" action="/dp" method="get">
+            <input type="search" name="query" id="searchText" title="検索する商品のキーワードを入力" placeholder="商品のキーワード" required="required" value=""/>
+            <input type="submit" id="searchSubmit" value="検索" title="検索する"/>
+          </form>
+          <div id="select">
+            <a href="" id="selectLabel" title="商品ジャンルを選択する"></a>
+            <div id="selectMenu">
+              <ul id="selectMenuBody"></ul>
+            </div>
+          </div>
+        </div>
+        <nav id="pagingTop">
+        </nav>
+      </div>
+      <ul itemprop="isPartOf" itemscope="itemscope" itemtype="http://www.schema.org/CollectionPage" id="listBook" class="list-book">
+      </ul>
+      <nav id="pagingBottom">
+      </nav>
+    </div>
+  </div>
+  <footer id="footer" itemscope="itemscope" itemtype="http://www.schema.org/WPFooter">
+    <div id="wait" class="hidden"></div>
+    <nav id="navigation" itemscope="itemscope" itemtype="http://www.schema.org/SiteNavigationElement">
+      <ul id="navigationLink">
+        <li id="navLinkHome" class="current"><a itemprop="url" href="/dp" title="ストア" class="home">ストア</a></li>
+        <li id="navLinkMyPage"><a itemprop="url" href="/dp/my-page" title="マイページ" class="mypage">マイページ</a></li>
+        <li id="navLinkInfor"><a itemprop="url" href="/dp/information" title="お知らせ" class="information">お知らせ</a></li>
+        <li id="navLinkHelp"><a itemprop="url" href="/dp/help" title="ヘルプ" class="help">ヘルプ</a></li>
+      </ul>
+    </nav>
+    <nav id="function" itemscope="itemscope" itemtype="http://www.schema.org/WPSideBar">
+      <div id="backgroundWrapper" style="display:block;opacity:0.4"></div>
+      <div id="navInfor"></div>
+    </nav>
+    <div id="storeInformation">
+      <ul id="footerLink">
+        <li>Twitter: <a href="https://twitter.com/gihyoDP">@gihyoDP</a></li>
+        <li><a href="/dp/help/about/site">このサイトについて</a></li>
+        <li><a href="/dp/help/about/terms">利用規約</a></li>
+        <li><a href="/dp/help/about/privacy">プライバシーポリシー</a></li>
+        <li><a href="/dp/help/about/law">特定商取引法に基づく表示</a></li>
+      </ul>
+      <p id="storeCopyright"><small>Copyright © 2017 <span class="reserved">All Rights Reserved by</span> <a href="http://gihyo.jp/book">Gijutsu-Hyohron Co., Ltd.</a></small></p>
+    </div>
+  </footer>
+<script>var params={"url":"https:\/\/gihyo.jp\/dp\/ebook\/2017\/978-4-7741-9092-1","path":"\/dp\/ebook\/2017\/978-4-7741-9092-1","targetId":"978-4-7741-9092-1","parent":"\/dp\/genre\/%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3","overlay":true,"body":"    <div id=\"bookList\">\n      <h2>\u5546\u54c1\u4e00\u89a7<\/h2>\n      <div id=\"topNavigation\">\n        <div id=\"filter\">\n          <form id=\"search\" action=\"\/dp\" method=\"get\">\n            <input type=\"search\" name=\"query\" id=\"searchText\" title=\"\u691c\u7d22\u3059\u308b\u5546\u54c1\u306e\u30ad\u30fc\u30ef\u30fc\u30c9\u3092\u5165\u529b\" placeholder=\"\u5546\u54c1\u306e\u30ad\u30fc\u30ef\u30fc\u30c9\" required=\"required\" value=\"\"\/>\n            <input type=\"submit\" id=\"searchSubmit\" value=\"\u691c\u7d22\" title=\"\u691c\u7d22\u3059\u308b\"\/>\n          <\/form>\n          <div id=\"select\">\n            <a href=\"\" id=\"selectLabel\" title=\"\u5546\u54c1\u30b8\u30e3\u30f3\u30eb\u3092\u9078\u629e\u3059\u308b\"><\/a>\n            <div id=\"selectMenu\">\n              <ul id=\"selectMenuBody\"><\/ul>\n            <\/div>\n          <\/div>\n        <\/div>\n        <nav id=\"pagingTop\">\n        <\/nav>\n      <\/div>\n      <ul itemprop=\"isPartOf\" itemscope=\"itemscope\" itemtype=\"http:\/\/www.schema.org\/CollectionPage\" id=\"listBook\" class=\"list-book\">\n      <\/ul>\n      <nav id=\"pagingBottom\">\n      <\/nav>\n    <\/div>","isLogin":false,"dialog":"<aside id=\"dialog\" class=\"dialog-login\" style=\"opacity:0\">\n  <div id=\"dialogBody\">\n    <div id=\"gihyoAccount\">\n      <h2>\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\u3067\u30ed\u30b0\u30a4\u30f3<\/h2>\n      <form action=\"?login\" method=\"post\">\n        <input type=\"hidden\" name=\"fid\" value=\"\"\/>\n        <dl>\n          <dt>\u30a2\u30ab\u30a6\u30f3\u30c8<\/dt>\n          <dd><input type=\"email\" name=\"account\" placeholder=\"\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\" required=\"required\" title=\"\u30a2\u30ab\u30a6\u30f3\u30c8\u306e\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\u3092\u5165\u529b\"\/><\/dd>\n          <dt>\u30d1\u30b9\u30ef\u30fc\u30c9<\/dt>\n          <dd><input type=\"password\" name=\"password\" placeholder=\"\u30d1\u30b9\u30ef\u30fc\u30c9\" required=\"required\" title=\"\u30a2\u30ab\u30a6\u30f3\u30c8\u306e\u30d1\u30b9\u30ef\u30fc\u30c9\u3092\u5165\u529b\"\/><\/dd>\n        <\/dl>\n        <p id=\"loginButton\"><input type=\"submit\" value=\"\u30ed\u30b0\u30a4\u30f3\" title=\"\u30ed\u30b0\u30a4\u30f3\u3059\u308b\"\/><\/p>\n        <ul id=\"loginFunction\">\n          <li><a href=\"\/dp\/help\/buy\/forgot\">\u30d1\u30b9\u30ef\u30fc\u30c9\u3092\u304a\u5fd8\u308c\u306e\u65b9<\/a><\/li>\n          <li><a href=\"\/dp\/help\/buy\/account\">\u65b0\u898f\u767b\u9332\u3092\u3054\u5e0c\u671b\u306e\u65b9<\/a><\/li>\n        <\/ul>\n      <\/form>\n    <\/div>\n    <div id=\"externalSite\">\n      <h2>\u5916\u90e8\u30b5\u30fc\u30d3\u30b9\u3067\u30ed\u30b0\u30a4\u30f3<\/h2>\n      <ul>\n      <li class=\"google\"><a href=\"https:\/\/gihyo.jp\/auth\/google\">Google<\/a><\/li>\n      <li class=\"facebook\"><a href=\"https:\/\/gihyo.jp\/auth\/facebook\">Facebook<\/a><\/li>\n      <li class=\"yahoo\"><a href=\"https:\/\/gihyo.jp\/auth\/yahoojp\">Yahoo! JAPAN<\/a><\/li>\n      <\/ul>\n      <p><a href=\"\/dp\/help\/buy\/external\">\u5916\u90e8\u30b5\u30fc\u30d3\u30b9\u3067\u306e\u30ed\u30b0\u30a4\u30f3\u306b\u3064\u3044\u3066<\/a><\/p>\n    <\/div>\n    <p id=\"close\"><a href=\"#close\" title=\"\u9589\u3058\u308b\">\u9589\u3058\u308b<\/a><\/p>\n  <\/div>\n<\/aside>"}</script>
+  <script>var asyncCall=function(){var e=Array.prototype.slice,a=Function.prototype.bind||function(j){var a=this,b=e.call(arguments,1);return function(){var c=e.call(arguments);return a.apply(j,b.concat(c))}},f=a.call(a,Function.prototype.call),b=f(e),c=f(a),d=f(Function.prototype.apply);if("undefined"!==typeof process)a=function(){var a=b(arguments);process.nextTick(d(c,null,a))};else if("function"===typeof setImmediate)a=function(){var a=b(arguments);setImmediate(d(c,null,a))};else if("function"===typeof MessageChannel){var g=new MessageChannel,h=[];g.port1.onmessage=function(){h.shift()()};a=function(){var a=b(arguments);h.push(d(c,null,a));g.port2.postMessage(0)}}else a=function(){var a=b(arguments);setTimeout(d(c,null,a),0)};return a}();window.onerror=function(mes,fname,lnum){var erIgnore=['top.GLOBALS','originalCreateNotification','canvas.contentDocument','fb_xd_fragment','Script error.'];for(i=0;i<erIgnore.length;i++){if(mes.indexOf(erIgnore[i])>-1){return false;}};var mes='message:'+mes+', file:'+fname+', line:'+lnum+', href:'+location.href+', UA:'+window.navigator.userAgent;ga('send','event','Error','JSError',mes);};</script>
+  <script src="//platform.twitter.com/widgets.js" id="twitter-wjs" async defer></script>
+  <script src="//connect.facebook.net/ja_JP/sdk.js#xfbml=1&appId=185201618169441&version=v2.8" id="facebook-jssdk" async defer></script>
+  <script src="//apis.google.com/js/platform.js" async defer></script>
+  <script src="//b.hatena.ne.jp/js/bookmark_button.js" charset="utf-8" async defer></script>
+</body>
+</html>

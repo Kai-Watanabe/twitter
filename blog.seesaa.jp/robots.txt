@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /tag/pages/
+Disallow: /cms/
+Disallow: /tb/

@@ -1,0 +1,379 @@
+<!DOCTYPE HTML>
+<html lang="ja" class="pc">
+<head>
+  <meta charset="UTF-8">
+  <title>コンテンツ・デザインパターン | Gihyo Digital Publishing … 技術評論社の電子書籍</title>
+  <meta http-equiv="Content-Style-Type" content="text/css"/>
+  <meta http-equiv="Content-Script-Type" content="application/javascript"/>
+  <meta name="description" content="SEOにはじまり，SNSやコミュニティにおけるコミュニケーションにおいて必須なものとしてコンテンツの価値に注目が集まっています。しかし，「どうすればコンテンツをつくれるのか？」「どのようなコンテンツをつくればいいのか？」とお悩みの方も多いのではないでしょうか。本書では，自社商品やサービスを売れるようにするために「誰に・何を・どのように」伝えていくべきかという流れとパターンを体系化し，具体的なコンテンツのつくり方をまとめています。国内外の135社159例という豊富な事例を収録し，わかりやすく解説。Webマーケティング担当者必携の1冊です。"/>
+  <meta name="keywords" content="吉澤浩一郎電子書籍,電子出版,EPUB,PDF,技術評論社"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="format-detection" content="telephone=no"/>
+  <link rel="related" href="http://gihyo.jp/dp/catalogs.opds" type="application/atom+xml;profile=opds-catalog" title="Gihyo Digital Publishing OPDS Catalog"/>
+  <link rel="shortcut icon" href="/assets/templates/gdp/favicon.ico" type="image/vnd.microsoft.icon"/>
+  <link rel="apple-touch-icon-precomposed" href="/dp/assets/gdp-icon.png"/>
+  <!--[if lt IE 9]>
+    <script>var msie=8;</script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="/dp/assets/js/html5shiv.min.js"></script>
+    <script src="//css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <script src="/dp/assets/js/selectivizr-min.js"></script>
+    <script src="/dp/assets/js/addEventListener.min.js"></script>
+    <script src="/dp/assets/js/textContent.min.js"></script>
+  <![endif]-->
+  <!--[if lte IE 9]>
+    <script src="/dp/assets/js/classList.min.js" defer></script>
+  <![endif]-->
+  <link rel="stylesheet" href="/dp/assets/style/store0921.css" type="text/css" media="all"/>
+  <script src="/dp/assets/js/gdpFunction0512.min.js" defer></script>
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:site" content="@gihyoDP"/>
+  <meta property="og:title" content="コンテンツ・デザインパターン | Gihyo Digital Publishing … 技術評論社の電子書籍"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:description" content="SEOにはじまり，SNSやコミュニティにおけるコミュニケーションにおいて必須なものとしてコンテンツの価値に注目が集まっています。しかし，「どうすればコンテンツをつくれるのか？」「どのようなコンテンツをつくればいいのか？」とお悩みの方も多いのではないでしょうか。本書では，自社商品やサービスを売れるようにするために「誰に・何を・どのように」伝えていくべきかという流れとパターンを体系化し，具体的なコンテンツのつくり方をまとめています。国内外の135社159例という豊富な事例を収録し，わかりやすく解説。Webマーケティング担当者必携の1冊です。"/>
+  <meta property="og:url" content="https://gihyo.jp/dp/ebook/2017/978-4-7741-9100-3"/>
+  <meta property="og:image" content="http://image.gihyo.co.jp/assets/images/gdp/2017/978-4-7741-9100-3.jpg"/>
+  <meta property="og:site_name" content="Gihyo Digital Publishing"/>
+  <meta property="fb:app_id" content="185201618169441"/>
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-4149703-1', 'auto');
+  ga('require', 'displayfeatures');
+  ga('send', 'pageview');
+  </script>
+</head>
+<body itemscope="itemscope" itemtype="http://schema.org/WebPage" class="page-home">
+  <header id="header" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
+    <h1 class="home-title">Gihyo Digital Publishing</h1>
+    <h2 class="home-subtitle">技術評論社の電子書籍サイト</h2>
+    <nav id="headerFunction">
+      <div id="login">
+        <a href="#login" title="ログイン・会員登録">ログイン</a>
+      </div>
+      <div id="cart">
+        <a href="/dp/cart" title="カートは空です">カート</a>
+      </div>
+    </nav>
+  </header>
+  <div id="main">
+    <noscript><div id="noscript">
+      <p>本サイトではJavaScriptを使用しております。JavaScriptが無効な状態ではご利用いただけません。</p>
+    </div></noscript>
+
+<div id="overlayWindow" class="book-infor" itemscope itemtype="http://schema.org/Book" typeof="product:Product" xmlns:product="http://search.yahoo.com/searchmonkey/product/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:media="http://search.yahoo.com/searchmonkey/media/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:currency="http://search.yahoo.com/searchmonkey-datatype/currency/" style="display:block;opacity:1">
+  <header id="overlayHeader">
+    <h1>書籍概要</h1>
+    <nav id="overlayFunction">
+      <p id="close"><a href="/dp/genre/Web%E3%82%B5%E3%82%A4%E3%83%88%E5%88%B6%E4%BD%9C" title="閉じる">閉じる</a></p>
+      <ul id="jump">
+        <li id="detailRef"><a href="#title" title="概要を見る">概要</a></li>
+        <li id="contentRef"><a href="#content" title="目次を見る">目次</a></li>
+        <li id="supportRef"><a href="#support" title="サポート情報を見る">サポート</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div id="bookInforMain">
+  <hgroup id="title">
+
+    <h1 id="bookTitle" property="rdfs:label" itemprop="name">コンテンツ・<wbr/>デザインパターン</h1>
+  </hgroup>
+  <aside id="bookCover" rel="rdfs:seeAlso media:image"><img src="/assets/images/gdp/2017/978-4-7741-9100-3.jpg" alt="コンテンツ・デザインパターン"/></aside>
+  <dl id="publicationData" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+    <dt>著者</dt>
+    <dd itemprop="author">吉澤浩一郎　著</dd>
+    <dt>発売日</dt>
+    <dd><time datetime="2017-06-24">2017年6月24日</time></dd>
+    <dt>更新日</dt>
+    <dd><time datetime="2017-06-24">2017年6月24日</time></dd>
+  </dl>
+  <aside>
+    <ul class="information">
+      <li>本書は，<a href="http://gihyo.jp/book/2017/978-4-7741-9063-1" target="_blank">2017年6月24日に発売される書籍</a>の電子版です。</li>
+      <li class="need-login">ご購入には会員登録・ログインが必要です</li>
+      <li class="corporate"><a href="/dp/help/buy/bulkpurchase">学校・法人等団体でのご利用について</a></li>
+    </ul>
+    <dl id="productPrice">
+<dt class="disable"><span class="name">PDF</span><span class="buy">2,020円 </span></dt><dd class="disable"><span class="page"><span itemprop="numberOfPages">208</span>ページ相当</span><span class="pdf">PDF</span> <span class="plan">6月24日発売予定<a href="#" id="releaseNotify" class="" data-pid="401757" title="発売日にメールで通知する（要ログイン）">発売日に通知する</a></span></dd>
+
+    </dl>
+  </aside>
+  <aside id="social">
+    <ul>
+      <li class="twitter"><a href="https://twitter.com/search?q=https://gihyo.jp/dp/ebook/2017/978-4-7741-9100-3" class="twitter--list">リスト</a><a href="http://twitter.com/share" class="twitter-share-button" data-url="https://gihyo.jp/dp/ebook/2017/978-4-7741-9100-3" data-text="コンテンツ・デザインパターン #gihyoDP" data-count="none" data-lang="ja">ツイート</a></li>
+      <li class="facebook"><div class="fb-like" data-href="https://gihyo.jp/dp/ebook/2017/978-4-7741-9100-3" data-send="false" data-layout="box_count" data-width="450" data-show-faces="false" data-share="true"></div></li>
+      <li class="gplus"><g:plusone size="tall" href="https://gihyo.jp/dp/ebook/2017/978-4-7741-9100-3"></g:plusone></li>
+      <li class="hatena"><a href="http://b.hatena.ne.jp/entry/https://gihyo.jp/dp/ebook/2017/978-4-7741-9100-3" class="hatena-bookmark-button" data-hatena-bookmark-layout="vertical-balloon" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="//b.hatena.ne.jp/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a></li>
+    </ul>
+  </aside>
+  <div id="productDetail">
+    <section id="detail">
+      <h2>概要</h2>
+<p>SEOにはじまり，<wbr/>SNSやコミュニティにおけるコミュニケーションにおいて必須なものとしてコンテンツの価値に注目が集まっています。しかし，<wbr/>「どうすればコンテンツをつくれるのか？」「どのようなコンテンツをつくればいいのか？」とお悩みの方も多いのではないでしょうか。<br />
+本書では，<wbr/>自社商品やサービスを売れるようにするために「誰に・<wbr/>何を・<wbr/>どのように」伝えていくべきかという流れとパターンを体系化し，<wbr/>具体的なコンテンツのつくり方をまとめています。国内外の135社159例という豊富な事例を収録し，<wbr/>わかりやすく解説。Webマーケティング担当者必携の1冊です。</p><h3>こんな方におすすめ</h3>
+<ul><li>Web担当者／<wbr/>マーケティング担当者（ブログなどのコンテンツ作成担当者）</li><li>Web制作会社などでコンテンツ作成を請け負うライター</li></ul>
+<h3>著者から一言</h3>
+<p>新商品のコンテンツを用意した自社サイトに誘致して，<wbr/>アクションを起こさせようと企画しても，<wbr/>周りから</p>
+
+<p>「カタログ情報をキレイにまとめ直しただけに見えるのだけど……」<br />
+「毎回同じような切り口で，<wbr/>バリエーションがないの？」<br />
+「独自性やニュース性がなく，<wbr/>ありきたりな印象だね」<br />
+「『いいね！』の数はもらえそうだけど，<wbr/>商品との結びつきが弱いと思う」</p>
+
+<p>などと指摘され，<wbr/>悩んでいませんか？<br />
+でも，<wbr/>ご心配なく。コンテンツづくりにはノウハウがあり，<wbr/>そのポイントを真似れば顧客を動かすことができます。<br />
+どんな顧客に，<wbr/>どんなことを，<wbr/>どのように伝えたら顧客に刺さるのか？<br />
+そんなコンテンツのつくりかたをまとめたのがこの本です。昨今のコンテンツづくりというと，<wbr/>“拡散を目的とした面白コンテンツ”や“SEO効果を狙ったコンテンツ”に目が行きがちですが，<wbr/>結局，<wbr/>顧客にとって価値ある企業情報を提供できなければ売上や顧客維持につながりません。<br />
+この本では，<wbr/>「商品を知る前～購入後まで」を通じ，<wbr/>顧客に価値あるコンテンツづくりに配慮してフレームワークをご用意しました。頭でっかちにならず，<wbr/>あなたの仕事の中で実践的なイメージができるように最近の事例も提示しながら，<wbr/>Web系メディアを使うことを前提に効果測定方法にも触れています。<br />
+おもに事業側でコンテンツの制作ディレクションをされるマーケターの方や，<wbr/>請負側でコンテンツづくりの経験の浅い若手のマーケティング・<wbr/>プランナーの方向けに書きました。それでは，<wbr/>ご一緒に顧客にとって価値あるコンテンツを生み出し，<wbr/>売上貢献に寄与していきましょう！</p><aside class="author"><h3>吉澤浩一郎（よしざわこういちろう）</h3><p>THINKJAM.INC.<br />
+広告制作会社の「アナログ」マーケティング・<wbr/>プランナーとしてキャリアを積んだ後，<wbr/>180度勝手の違う大手Webインテグレーション企業にて「デジタル」マーケティング・<wbr/>プランナーに。その後，<wbr/>データドリブン型のコンテンツ設計を強みにしたシンクジャムを設立。Real×Internetのわかるプランナーとして，<wbr/>高額商材（住宅，<wbr/>自動車，<wbr/>生損保，<wbr/>医療）や各種B2B商材，<wbr/>EC専業など大手企業のプロジェクトに参画し，<wbr/>世界を変えることよりも目の前の課題解決に日々汗をかいています。<br />
+この本は，<wbr/>商品をもっと魅力的に伝えられないか…／<wbr/>コンテンツの重要性はわかったけど…／<wbr/>ペルソナやジャニーマップをつくってはみたものの…／<wbr/>MAの導入が決まったけど，<wbr/>さて中身はどうするか…といった，<wbr/>より具体的な打ち手を求める若手マーケターに向けて書きました。</p>
+
+<p>ホームページ：<a href="http://www.thinkjam.co.jp/">株式会社シンクジャム</a></p>
+</aside>
+    </section>
+    <section id="content">
+      <h2>目次</h2>
+<div id="bookSearch">
+<form id="bookSearchForm" action="search" method="post">
+  <input type="search" name="query" id="bookSearchText" title="本書内を検索するキーワードを入力" placeholder="本書内のキーワード" required="required" value="">
+  <input type="hidden" name="code" value="34930">
+  <input type="submit" id="bookSearchSubmit" value="検索" title="検索する">
+</form>
+</div><h3>コンテンツ・デザインパターンとは？</h3>
+<h3>Chapter1　買わせるコンテンツをつくる</h3>
+<ul class="toc">
+<li>01　「買われるコンテンツ」と「買わせるコンテンツ」の違いとは<ul class="toc">
+<li>そもそもコンテンツとは？</li>
+<li>「いかに買っていただけるか」を突き詰める</li>
+<li>「買わせる」とは顧客の意識や行動を変えること</li></ul></li>
+<li>02　「買わせるコンテンツ」をつくるには<ul class="toc">
+<li>もう「おもしろい」だけでは顧客の心に刺さらない？</li>
+<li>「興味深い！」と思わせるための3つの工夫</li></ul></li>
+
+<li>03　コンテンツ・ブリーフをつくるには<ul class="toc">
+<li>買わせるコンテンツの設計図を練る</li>
+<li>しっかりしたコンテンツ・ブリーフが成功への第一歩</li>
+<li>Column　効くコンテンツを企画するための勘どころの鍛え方</li>
+<li>まとめ</li></ul></li>
+
+</ul>
+<h3>Chapter2　顧客状態から目的とコンテンツの方向性を決める</h3>
+<ul class="toc">
+<li>01　7つの顧客カテゴリーで顧客を理解する<ul class="toc">
+<li>「あいまい」が起こす悲劇</li>
+<li>顧客は購買行動ステージごとに7つに分類できる</li>
+<li>「顧客はどの状態にいるのか」を見極める</li></ul></li>
+
+<li>02　顧客に合わせた目的の決め方<ul class="toc">
+<li>目的を決めるための2つの問いかけ</li>
+<li>7つの顧客カテゴリーごとに目的を決める</li>
+<li>Column　「お試しをさせてから買わせる」商材のフロー</li></ul></li>
+
+<li>03　顧客に合わせたコンテンツの方向性の決め方<ul class="toc">
+<li>SEEKER（検索者）前期の顧客に効く「発見コンテンツ」</li>
+<li>SEEKER（検索者）後期の顧客に効く「共感コンテンツ」</li>
+<li>BUYER（購入者）期の顧客に効く「自分事化コンテンツ」</li>
+<li>PAYER（支払者）期の顧客に効く「納得コンテンツ」</li>
+<li>USER（利用者）期の顧客に効く「リピートコンテンツ」</li>
+<li>POSITIVE USER（好意的利用者）期に効く「ファン化コンテンツ」</li>
+<li>NEGATIVE USER（否定的利用者）期に効く「リカバリーコンテンツ」</li>
+<li>まとめ</li></ul></li>
+
+</ul>
+<h3>Chapter3　顧客状態からコンテンツの切り口を決める</h3>
+<ul class="toc">
+<li>01　「表現」ではなく，まず「切り口」を考える<ul class="toc">
+<li>なぜ，切り口から考えるのか？</li>
+<li>切り口から，いろいろな表現バリエーションが生まれる</li>
+<li>7つの顧客カテゴリーごとにコンテンツを作つくり分ける</li></ul></li>
+
+<li>02　顧客理解を深める，切り口・パターン<ul class="toc">
+
+<li>SEEKER（検索者）前期の顧客に効く　発見コンテンツの切り口</li>
+<li>SEEKER（検索者）後期の顧客に効く　共感コンテンツの切り口</li>
+<li>BUYER（購入者）期の顧客に効く―自分事化コンテンツの切り口</li>
+<li>PAYER（支払者）期の顧客に効く　納得コンテンツの切り口</li>
+<li>USER（利用者）期の顧客に効く　リピートコンテンツの切り口</li>
+<li>POSITIVE USER（好意的利用者）期に効く　ファン化コンテンツの切り口</li>
+<li>NEGATIVE USER（否定的利用者）期に効く　リカバリーコンテンツの切り口</li>
+<li>まとめ</li></ul></li>
+
+</ul>
+<h3>Chapter4　顧客の気持ちと行動を把握する</h3>
+<ul class="toc">
+<li>01　「伝えたいこと」と「伝えるべきこと」の違いとは<ul class="toc">
+<li>コンテンツの魅力となる3つの顧客便益を決める</li>
+<li>同じ商品でも顧客便益がひとつだけとは限らない</li>
+<li>ターゲット顧客や利用シーンによって便益は変わる</li>
+<li>回避すべき「顧客便益」4つの落とし穴</li></ul></li>
+
+<li>02　コンテンツの切り口と顧客便益をすり合わせる<ul class="toc">
+<li>目的・切り口と顧客便益の関係性はない？！</li>
+<li>「こんな感じになるかな」を繰り返す</li>
+<li>Column　便益を決めるためのスキルの鍛え方</li></ul></li>
+
+<li>03　ターゲット顧客の属性やニーズを確かめる<ul class="toc">
+<li>顧客属性を深めるために行う6つの問いかけ</li>
+<li>顧客ニーズを確かめるためにすぐにできる6つの行動</li>
+<li>Column　利用機会を考えるSCAMPER（スキャンパー）法</li>
+<li>まとめ</li></ul></li>
+
+</ul>
+<h3>Chapter5　コンテンツの特徴をキャッチコピーで伝える</h3>
+<ul class="toc">
+<li>01　効くキャッチコピーを書くには<ul class="toc">
+<li>いろいろな型にはめてみる</li>
+<li>コピーを書くことに自信がない人へ</li></ul></li>
+
+<li>02　コンテンツ別キャッチコピー＆パターン<ul class="toc">
+<li>発見コンテンツなどに有効　新規客に発見してもらいたい！とき</li>
+<li>発見コンテンツなどに有効　提案したい！とき</li>
+<li>共感コンテンツなどに有効　ターゲット顧客に振り向いてもらいたい！とき</li>
+<li>共感コンテンツなどに有効　言いたいことがたくさんある！とき</li>
+<li>共感コンテンツなどに有効　問題を提起して引き込みたい！とき</li>
+<li>自分事化コンテンツなどに有効　とても強調したいことがある！とき</li>
+<li>自分事化コンテンツなどに有効　端的にインパクトを与えたい！とき</li>
+<li>納得コンテンツなどに有効　信頼を得たい！利用を想起させたい！とき</li>
+<li>Column　効くワード</li>
+<li>リピート／ファン化コンテンツなどに有効　自社ファンを増やしたい！とき</li>
+<li>汎用性の高いものにひと捻り加えるには</li>
+<li>覚えておきたいコピーの種類</li>
+<li>まとめ</li></ul></li>
+
+</ul>
+<h3>Chapter6　コンテンツの特徴をビジュアルで伝える</h3>
+<ul class="toc">
+<li>01　印象に残るビジュアルをつくるには<ul class="toc">
+<li>メインビジュアルに求められる3つの条件</li>
+<li>オリジナルのビジュアルを用意する</li>
+<li>コンテンツ・ブリーフの意図が伝わるアンダーレイを用意する</li></ul></li>
+
+<li>02　アイデアの幅を広げる，ビジュアル・パターン<ul class="toc">
+<li>注意を促して引き込みたいとき</li>
+<li>特に強調したいものがあるとき</li>
+<li>わかりやすく伝えたいとき</li>
+<li>共感してもらいたいとき</li>
+<li>信頼や安心を伝えたいとき</li>
+<li>Column　企業がつくったビジュアルは意味がない？</li>
+<li>特長を際立たせたいとき</li>
+<li>ストレートに伝えたい</li>
+<li>Column　アンダーレイの集め方</li>
+<li>まとめ</li></ul></li>
+
+</ul>
+<h3>Chapter7　メディアの活用方法を決める</h3>
+<ul class="toc">
+<li>01　コンテンツに人を集めるには<ul class="toc">
+<li>集客における3メディアの関係性を把握する</li>
+<li>Facebookは何メディア？</li>
+<li>潜在客を集める―テーマ特化型ページにコンテンツマッチ広告で集客</li>
+<li>顕在客を集めたい―ランディングページにリスティング広告で集客</li>
+<li>閲覧者を増やしたい―テーマ特化型サイトに自然検索やSNSで集客</li>
+<li>固定客を獲得したい―テーマ特化型ECサイトのような強力メディアに学ぶ</li>
+<li>継続して顧客を確保したい―とにかく顧客本位のコンテンツ投入と継続的改善を</li></ul></li>
+
+<li>02　コンテンツ制作を継続させるために<ul class="toc">
+<li>自社の情報発信の仕方をルール立てておく</li>
+<li>スキルをもった多能工型スタッフを使う</li>
+<li>Column　Web広告は3つに分けて考える</li>
+<li>コンテンツの寿命を意識する</li>
+<li>まとめ</li></ul></li>
+
+</ul>
+<h3>Chapter8　目的と目標を確認し，コンテンツの効果測定と改善を行う</h3>
+<ul class="toc">
+<li>01　効果を見るために決定者が知りたい3つの情報<ul class="toc">
+<li>優れた効果測定レポートとは</li>
+<li>時間軸ごとにデータで示す「解析情報」</li>
+<li>仮説を示し改善の指針につながる，分析情報</li>
+<li>アイデアと方法，予算を示す，改善情報</li>
+<li>打ち手ナシなら，データ解析・分析の意味もナシ</li></ul></li>
+
+<li>02　ゴールを具体化すれば結果が見える<ul class="toc">
+<li>結局，コンテンツの良し悪しは「結果」で決まる</li>
+<li>目的と目標を書き出すことが結果につながる</li></ul></li>
+
+<li>03　顧客に3段階で「わかった」と思ってもらう<ul class="toc">
+<li>3つのわかるKPI</li>
+<li>判るKPI―見つけてもらえたか？</li>
+<li>解るKPI―情報を届けられたか？</li>
+<li>分かるKPI―次のアクションにつながったか？</li>
+<li>顧客の「わかった」すべて目標に紐付く</li>
+<li>Column　計測指標のまとめ</li></ul></li>
+
+<li>04「買わせるコンテンツ」づくりに欠かせない手直しのコツ<ul class="toc">
+<li>解析がぶれないための9つの評価項目</li>
+<li>4つの解析方法の特長と留意点をつかむ</li>
+<li>定期的に続けられるものを選ぶ</li>
+<li>Column　顧客がつくったコンテンツを活かす方法</li>
+<li>まとめ</li></ul></li>
+</ul>
+    </section>
+    <section id="support">
+      <h2>サポート</h2>
+<p>現在サポート情報はありません。</p>
+    </section>
+  </div>
+  </div>
+<script defer="defer">try{twttr.widgets.load();FB.XFBML.parse();gapi.plusone.go();Hatena.Bookmark.BookmarkButton.setup();}catch(e){}</script>
+</div>    <div id="bookList">
+      <h2>商品一覧</h2>
+      <div id="topNavigation">
+        <div id="filter">
+          <form id="search" action="/dp" method="get">
+            <input type="search" name="query" id="searchText" title="検索する商品のキーワードを入力" placeholder="商品のキーワード" required="required" value=""/>
+            <input type="submit" id="searchSubmit" value="検索" title="検索する"/>
+          </form>
+          <div id="select">
+            <a href="" id="selectLabel" title="商品ジャンルを選択する"></a>
+            <div id="selectMenu">
+              <ul id="selectMenuBody"></ul>
+            </div>
+          </div>
+        </div>
+        <nav id="pagingTop">
+        </nav>
+      </div>
+      <ul itemprop="isPartOf" itemscope="itemscope" itemtype="http://www.schema.org/CollectionPage" id="listBook" class="list-book">
+      </ul>
+      <nav id="pagingBottom">
+      </nav>
+    </div>
+  </div>
+  <footer id="footer" itemscope="itemscope" itemtype="http://www.schema.org/WPFooter">
+    <div id="wait" class="hidden"></div>
+    <nav id="navigation" itemscope="itemscope" itemtype="http://www.schema.org/SiteNavigationElement">
+      <ul id="navigationLink">
+        <li id="navLinkHome" class="current"><a itemprop="url" href="/dp" title="ストア" class="home">ストア</a></li>
+        <li id="navLinkMyPage"><a itemprop="url" href="/dp/my-page" title="マイページ" class="mypage">マイページ</a></li>
+        <li id="navLinkInfor"><a itemprop="url" href="/dp/information" title="お知らせ" class="information">お知らせ</a></li>
+        <li id="navLinkHelp"><a itemprop="url" href="/dp/help" title="ヘルプ" class="help">ヘルプ</a></li>
+      </ul>
+    </nav>
+    <nav id="function" itemscope="itemscope" itemtype="http://www.schema.org/WPSideBar">
+      <div id="backgroundWrapper" style="display:block;opacity:0.4"></div>
+      <div id="navInfor"></div>
+    </nav>
+    <div id="storeInformation">
+      <ul id="footerLink">
+        <li>Twitter: <a href="https://twitter.com/gihyoDP">@gihyoDP</a></li>
+        <li><a href="/dp/help/about/site">このサイトについて</a></li>
+        <li><a href="/dp/help/about/terms">利用規約</a></li>
+        <li><a href="/dp/help/about/privacy">プライバシーポリシー</a></li>
+        <li><a href="/dp/help/about/law">特定商取引法に基づく表示</a></li>
+      </ul>
+      <p id="storeCopyright"><small>Copyright © 2017 <span class="reserved">All Rights Reserved by</span> <a href="http://gihyo.jp/book">Gijutsu-Hyohron Co., Ltd.</a></small></p>
+    </div>
+  </footer>
+<script>var params={"url":"https:\/\/gihyo.jp\/dp\/ebook\/2017\/978-4-7741-9100-3","path":"\/dp\/ebook\/2017\/978-4-7741-9100-3","targetId":"978-4-7741-9100-3","parent":"\/dp\/genre\/Web%E3%82%B5%E3%82%A4%E3%83%88%E5%88%B6%E4%BD%9C","overlay":true,"body":"    <div id=\"bookList\">\n      <h2>\u5546\u54c1\u4e00\u89a7<\/h2>\n      <div id=\"topNavigation\">\n        <div id=\"filter\">\n          <form id=\"search\" action=\"\/dp\" method=\"get\">\n            <input type=\"search\" name=\"query\" id=\"searchText\" title=\"\u691c\u7d22\u3059\u308b\u5546\u54c1\u306e\u30ad\u30fc\u30ef\u30fc\u30c9\u3092\u5165\u529b\" placeholder=\"\u5546\u54c1\u306e\u30ad\u30fc\u30ef\u30fc\u30c9\" required=\"required\" value=\"\"\/>\n            <input type=\"submit\" id=\"searchSubmit\" value=\"\u691c\u7d22\" title=\"\u691c\u7d22\u3059\u308b\"\/>\n          <\/form>\n          <div id=\"select\">\n            <a href=\"\" id=\"selectLabel\" title=\"\u5546\u54c1\u30b8\u30e3\u30f3\u30eb\u3092\u9078\u629e\u3059\u308b\"><\/a>\n            <div id=\"selectMenu\">\n              <ul id=\"selectMenuBody\"><\/ul>\n            <\/div>\n          <\/div>\n        <\/div>\n        <nav id=\"pagingTop\">\n        <\/nav>\n      <\/div>\n      <ul itemprop=\"isPartOf\" itemscope=\"itemscope\" itemtype=\"http:\/\/www.schema.org\/CollectionPage\" id=\"listBook\" class=\"list-book\">\n      <\/ul>\n      <nav id=\"pagingBottom\">\n      <\/nav>\n    <\/div>","isLogin":false,"dialog":"<aside id=\"dialog\" class=\"dialog-login\" style=\"opacity:0\">\n  <div id=\"dialogBody\">\n    <div id=\"gihyoAccount\">\n      <h2>\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\u3067\u30ed\u30b0\u30a4\u30f3<\/h2>\n      <form action=\"?login\" method=\"post\">\n        <input type=\"hidden\" name=\"fid\" value=\"\"\/>\n        <dl>\n          <dt>\u30a2\u30ab\u30a6\u30f3\u30c8<\/dt>\n          <dd><input type=\"email\" name=\"account\" placeholder=\"\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\" required=\"required\" title=\"\u30a2\u30ab\u30a6\u30f3\u30c8\u306e\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\u3092\u5165\u529b\"\/><\/dd>\n          <dt>\u30d1\u30b9\u30ef\u30fc\u30c9<\/dt>\n          <dd><input type=\"password\" name=\"password\" placeholder=\"\u30d1\u30b9\u30ef\u30fc\u30c9\" required=\"required\" title=\"\u30a2\u30ab\u30a6\u30f3\u30c8\u306e\u30d1\u30b9\u30ef\u30fc\u30c9\u3092\u5165\u529b\"\/><\/dd>\n        <\/dl>\n        <p id=\"loginButton\"><input type=\"submit\" value=\"\u30ed\u30b0\u30a4\u30f3\" title=\"\u30ed\u30b0\u30a4\u30f3\u3059\u308b\"\/><\/p>\n        <ul id=\"loginFunction\">\n          <li><a href=\"\/dp\/help\/buy\/forgot\">\u30d1\u30b9\u30ef\u30fc\u30c9\u3092\u304a\u5fd8\u308c\u306e\u65b9<\/a><\/li>\n          <li><a href=\"\/dp\/help\/buy\/account\">\u65b0\u898f\u767b\u9332\u3092\u3054\u5e0c\u671b\u306e\u65b9<\/a><\/li>\n        <\/ul>\n      <\/form>\n    <\/div>\n    <div id=\"externalSite\">\n      <h2>\u5916\u90e8\u30b5\u30fc\u30d3\u30b9\u3067\u30ed\u30b0\u30a4\u30f3<\/h2>\n      <ul>\n      <li class=\"google\"><a href=\"https:\/\/gihyo.jp\/auth\/google\">Google<\/a><\/li>\n      <li class=\"facebook\"><a href=\"https:\/\/gihyo.jp\/auth\/facebook\">Facebook<\/a><\/li>\n      <li class=\"yahoo\"><a href=\"https:\/\/gihyo.jp\/auth\/yahoojp\">Yahoo! JAPAN<\/a><\/li>\n      <\/ul>\n      <p><a href=\"\/dp\/help\/buy\/external\">\u5916\u90e8\u30b5\u30fc\u30d3\u30b9\u3067\u306e\u30ed\u30b0\u30a4\u30f3\u306b\u3064\u3044\u3066<\/a><\/p>\n    <\/div>\n    <p id=\"close\"><a href=\"#close\" title=\"\u9589\u3058\u308b\">\u9589\u3058\u308b<\/a><\/p>\n  <\/div>\n<\/aside>"}</script>
+  <script>var asyncCall=function(){var e=Array.prototype.slice,a=Function.prototype.bind||function(j){var a=this,b=e.call(arguments,1);return function(){var c=e.call(arguments);return a.apply(j,b.concat(c))}},f=a.call(a,Function.prototype.call),b=f(e),c=f(a),d=f(Function.prototype.apply);if("undefined"!==typeof process)a=function(){var a=b(arguments);process.nextTick(d(c,null,a))};else if("function"===typeof setImmediate)a=function(){var a=b(arguments);setImmediate(d(c,null,a))};else if("function"===typeof MessageChannel){var g=new MessageChannel,h=[];g.port1.onmessage=function(){h.shift()()};a=function(){var a=b(arguments);h.push(d(c,null,a));g.port2.postMessage(0)}}else a=function(){var a=b(arguments);setTimeout(d(c,null,a),0)};return a}();window.onerror=function(mes,fname,lnum){var erIgnore=['top.GLOBALS','originalCreateNotification','canvas.contentDocument','fb_xd_fragment','Script error.'];for(i=0;i<erIgnore.length;i++){if(mes.indexOf(erIgnore[i])>-1){return false;}};var mes='message:'+mes+', file:'+fname+', line:'+lnum+', href:'+location.href+', UA:'+window.navigator.userAgent;ga('send','event','Error','JSError',mes);};</script>
+  <script src="//platform.twitter.com/widgets.js" id="twitter-wjs" async defer></script>
+  <script src="//connect.facebook.net/ja_JP/sdk.js#xfbml=1&appId=185201618169441&version=v2.8" id="facebook-jssdk" async defer></script>
+  <script src="//apis.google.com/js/platform.js" async defer></script>
+  <script src="//b.hatena.ne.jp/js/bookmark_button.js" charset="utf-8" async defer></script>
+</body>
+</html>

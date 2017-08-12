@@ -1,0 +1,657 @@
+<!DOCTYPE HTML>
+<html lang="ja" class="pc">
+<head>
+  <meta charset="UTF-8">
+  <title>［改訂新版］C#ポケットリファレンス | Gihyo Digital Publishing … 技術評論社の電子書籍</title>
+  <meta http-equiv="Content-Style-Type" content="text/css"/>
+  <meta http-equiv="Content-Script-Type" content="application/javascript"/>
+  <meta name="description" content="2011年刊行のロングセラーを，最新のVisual Studio 2017，C# 7に合わせて増補改訂。「逆引きだから目的別にすぐ探せる」「サンプルコードで具体的にイメージがすぐできる」「困ったときに，かゆいところに手が届くような使い心地」という特長はそのままに，これまでのC#4.0はもちろん，C# 5.0～C#7の新機能もフォローしてアップデートしました。今どきのユーザビリティに必須の「非同期処理」については，全面新規書き下ろしにて丁寧に解説。C#プログラマなら持っておきたい，現場で使える1冊です。"/>
+  <meta name="keywords" content="電子書籍,電子出版,EPUB,PDF,技術評論社"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="format-detection" content="telephone=no"/>
+  <link rel="related" href="http://gihyo.jp/dp/catalogs.opds" type="application/atom+xml;profile=opds-catalog" title="Gihyo Digital Publishing OPDS Catalog"/>
+  <link rel="shortcut icon" href="/assets/templates/gdp/favicon.ico" type="image/vnd.microsoft.icon"/>
+  <link rel="apple-touch-icon-precomposed" href="/dp/assets/gdp-icon.png"/>
+  <!--[if lt IE 9]>
+    <script>var msie=8;</script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="/dp/assets/js/html5shiv.min.js"></script>
+    <script src="//css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <script src="/dp/assets/js/selectivizr-min.js"></script>
+    <script src="/dp/assets/js/addEventListener.min.js"></script>
+    <script src="/dp/assets/js/textContent.min.js"></script>
+  <![endif]-->
+  <!--[if lte IE 9]>
+    <script src="/dp/assets/js/classList.min.js" defer></script>
+  <![endif]-->
+  <link rel="stylesheet" href="/dp/assets/style/store0921.css" type="text/css" media="all"/>
+  <script src="/dp/assets/js/gdpFunction0512.min.js" defer></script>
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:site" content="@gihyoDP"/>
+  <meta property="og:title" content="［改訂新版］C#ポケットリファレンス | Gihyo Digital Publishing … 技術評論社の電子書籍"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:description" content="2011年刊行のロングセラーを，最新のVisual Studio 2017，C# 7に合わせて増補改訂。「逆引きだから目的別にすぐ探せる」「サンプルコードで具体的にイメージがすぐできる」「困ったときに，かゆいところに手が届くような使い心地」という特長はそのままに，これまでのC#4.0はもちろん，C# 5.0～C#7の新機能もフォローしてアップデートしました。今どきのユーザビリティに必須の「非同期処理」については，全面新規書き下ろしにて丁寧に解説。C#プログラマなら持っておきたい，現場で使える1冊です。"/>
+  <meta property="og:url" content="https://gihyo.jp/dp/ebook/2017/978-4-7741-9091-4"/>
+  <meta property="og:image" content="http://image.gihyo.co.jp/assets/images/gdp/2017/978-4-7741-9091-4.jpg"/>
+  <meta property="og:site_name" content="Gihyo Digital Publishing"/>
+  <meta property="fb:app_id" content="185201618169441"/>
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-4149703-1', 'auto');
+  ga('require', 'displayfeatures');
+  ga('send', 'pageview');
+  </script>
+</head>
+<body itemscope="itemscope" itemtype="http://schema.org/WebPage" class="page-home">
+  <header id="header" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
+    <h1 class="home-title">Gihyo Digital Publishing</h1>
+    <h2 class="home-subtitle">技術評論社の電子書籍サイト</h2>
+    <nav id="headerFunction">
+      <div id="login">
+        <a href="#login" title="ログイン・会員登録">ログイン</a>
+      </div>
+      <div id="cart">
+        <a href="/dp/cart" title="カートは空です">カート</a>
+      </div>
+    </nav>
+  </header>
+  <div id="main">
+    <noscript><div id="noscript">
+      <p>本サイトではJavaScriptを使用しております。JavaScriptが無効な状態ではご利用いただけません。</p>
+    </div></noscript>
+
+<div id="overlayWindow" class="book-infor" itemscope itemtype="http://schema.org/Book" typeof="product:Product" xmlns:product="http://search.yahoo.com/searchmonkey/product/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:media="http://search.yahoo.com/searchmonkey/media/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:currency="http://search.yahoo.com/searchmonkey-datatype/currency/" style="display:block;opacity:1">
+  <header id="overlayHeader">
+    <h1>書籍概要</h1>
+    <nav id="overlayFunction">
+      <p id="close"><a href="/dp/genre/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E3%83%BB%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E9%96%8B%E7%99%BA" title="閉じる">閉じる</a></p>
+      <ul id="jump">
+        <li id="detailRef"><a href="#title" title="概要を見る">概要</a></li>
+        <li id="contentRef"><a href="#content" title="目次を見る">目次</a></li>
+        <li id="supportRef"><a href="#support" title="サポート情報を見る">サポート</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div id="bookInforMain">
+  <hgroup id="title">
+<h2 id="bookSeries"><a href="/dp/series/%E3%83%9D%E3%82%B1%E3%83%83%E3%83%88%E3%83%AA%E3%83%95%E3%82%A1%E3%83%AC%E3%83%B3%E3%82%B9">ポケットリファレンス</a></h2>
+    <h1 id="bookTitle" property="rdfs:label" itemprop="name">［改訂新版］<wbr/>C#<wbr/>ポケットリファレンス</h1>
+  </hgroup>
+  <aside id="bookCover" rel="rdfs:seeAlso media:image"><img src="/assets/images/gdp/2017/978-4-7741-9091-4.jpg" alt="［改訂新版］C#ポケットリファレンス"/></aside>
+  <dl id="publicationData" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+    <dt>著者</dt>
+    <dd itemprop="author">WINGSプロジェクト　 土井毅，<wbr/>髙江賢，<wbr/>飯島聡　著，<wbr/>山田祥寛　監修</dd>
+    <dt>発売日</dt>
+    <dd><time datetime="2017-06-20">2017年6月20日</time></dd>
+    <dt>更新日</dt>
+    <dd><time datetime="2017-06-20">2017年6月20日</time></dd>
+  </dl>
+  <aside>
+    <ul class="information">
+      <li>本書は，<a href="http://gihyo.jp/book/2017/978-4-7741-9030-3" target="_blank">2017年6月20日に発売された書籍</a>の電子版です。</li>
+      <li class="need-login">ご購入には会員登録・ログインが必要です</li>
+      <li class="corporate"><a href="/dp/help/buy/bulkpurchase">学校・法人等団体でのご利用について</a></li>
+    </ul>
+    <dl id="productPrice">
+<dt><span class="name">EPUB/PDFセット</span><span class="buy">2,640円 <a id="pid401748" href="#cartAdd" title="カートに入れる">カートに入れる<div class="option" title="購入オプション">▼<ul><li title="通常購入">自分用に購入する</li><li class="gift" title="ギフトコードを購入">ギフトとして購入する</li></ul></div></a></span></dt><dd><span class="page"><span itemprop="numberOfPages">512</span>ページ相当</span><span class="pdf">PDF</span> <span class="epub">EPUB：リフロー</span> </dd>
+
+    </dl>
+  </aside>
+  <aside id="social">
+    <ul>
+      <li class="twitter"><a href="https://twitter.com/search?q=https://gihyo.jp/dp/ebook/2017/978-4-7741-9091-4" class="twitter--list">リスト</a><a href="http://twitter.com/share" class="twitter-share-button" data-url="https://gihyo.jp/dp/ebook/2017/978-4-7741-9091-4" data-text="［改訂新版］C#ポケットリファレンス #gihyoDP" data-count="none" data-lang="ja">ツイート</a></li>
+      <li class="facebook"><div class="fb-like" data-href="https://gihyo.jp/dp/ebook/2017/978-4-7741-9091-4" data-send="false" data-layout="box_count" data-width="450" data-show-faces="false" data-share="true"></div></li>
+      <li class="gplus"><g:plusone size="tall" href="https://gihyo.jp/dp/ebook/2017/978-4-7741-9091-4"></g:plusone></li>
+      <li class="hatena"><a href="http://b.hatena.ne.jp/entry/https://gihyo.jp/dp/ebook/2017/978-4-7741-9091-4" class="hatena-bookmark-button" data-hatena-bookmark-layout="vertical-balloon" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="//b.hatena.ne.jp/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a></li>
+    </ul>
+  </aside>
+  <div id="productDetail">
+    <section id="detail">
+      <h2>概要</h2>
+<p>2011年刊行のロングセラーを，<wbr/>最新のVisual Studio 2017，<wbr/>C# 7に合わせて増補改訂。「逆引きだから目的別にすぐ探せる」「サンプルコードで具体的にイメージがすぐできる」「困ったときに，<wbr/>かゆいところに手が届くような使い心地」という特長はそのままに，<wbr/>これまでのC#4.0はもちろん，<wbr/>C# 5.0～C#7の新機能もフォローしてアップデートしました。今どきのユーザビリティに必須の「非同期処理」については，<wbr/>全面新規書き下ろしにて丁寧に解説。C#プログラマなら持っておきたい，<wbr/>現場で使える1冊です。</p><h3>こんな方におすすめ</h3>
+<ul><li>C#プログラマー</li></ul>
+<h3>著者から一言</h3>
+<p>C#は，<wbr/>2000年に初期バージョン1.0がリリースされてから，<wbr/>すでに15年以上を経た実績ある言語です。デスクトップアプリをはじめとして，<wbr/>Webアプリ，<wbr/>Webサービス，<wbr/>はたまたAndroid／<wbr/>iOSに対応したモバイルアプリまで，<wbr/>幅広い分野で活用されている言語です。</p>
+
+<p>開発者も多く，<wbr/>インターネットの情報や書籍なども豊富なので，<wbr/>開発時のトラブルに対応しやすい言語でもあります。ただし，<wbr/>情報が多いことは，<wbr/>時に検索性を阻害することがあることも事実です。本書の構成を作成するにあたっては，<wbr/>情報を引きやすくするよう心がけました。</p>
+
+<p>C#というと，<wbr/>主にWindows環境でのビジネスアプリ開発のシーンが多く，<wbr/>マルチプラットフォームで稼働するJavaと比較されることもあります。開発には，<wbr/>サーバーサイド開発，<wbr/>クライアント開発，<wbr/>製品開発，<wbr/>コンポーネント開発など，<wbr/>それぞれ異なる特性を必要とする開発があるので，<wbr/>案件に合致した言語を選択すればよいと思います。</p>
+
+<p>しかし，<wbr/>JavaもC#もできる人が「JavaのCopyOnWriteArraySetみたいなものはC#にあるのかな」とか，<wbr/>C#の初心者が「XMLファイルを画面に表示するだけのかんたんなプログラムを書きたいんだけど，<wbr/>何から書き始めればいいのかさっぱり」といったことはよくあることです。本書は，<wbr/>目的から情報にたどり着きやすいリファレンスとするよう心がけました。初心者から習熟者に広く参考にしていただける1冊になれば幸いです。</p>
+
+<p>（本書「はじめに」より）</p><dl class="profile sectionBlock02">
+
+
+
+
+
+
+</dl><aside class="author"><h3>WINGSプロジェクト</h3><p>有限会社WINGSプロジェクトが運営する，<wbr/>テクニカル執筆コミュニティ（代表：山田祥寛）。主にWeb開発分野の書籍／<wbr/>記事執筆，<wbr/>翻訳，<wbr/>講演等を幅広く手がける。2017年5 月時点での登録メンバーは約50名で，<wbr/>現在も執筆メンバーを募集中。興味のある方は，<wbr/>どしどし応募頂きたい。著書，<wbr/>記事多数。<br />
+ホームページ：<a href="http://www.wings.msn.to/">http://www.wings.msn.to/</a><br />
+RSS：<a href="http://www.wings.msn.to/contents/rss.php ">http://www.wings.msn.to/contents/rss.php </a><br />
+Twitter（公式）：<a href="https://twitter.com/yyamada">@yyamada</a><br />
+Twitter（メンバーリスト）：<a href="https://twitter.com/yyamada/wings">@yyamada/wings</a><br />
+Facebook：<a href="http://www.facebook.com/WINGSProject">WINGSProject</a>
+</p>
+</aside><aside class="author"><h3>土井毅（どいつよし）</h3><p>第 3，<wbr/>4，<wbr/>5 章担当。<br />
+WINGSプロジェクト所属のテクニカルライター。@IT（アイティメディア社），<wbr/>CodeZine（翔泳社）などの Web メディアを中心として，<wbr/>.NETなどのWeb系技術についての執筆を行っている。また，<wbr/>携帯アプリやソーシャルアプリなど，<wbr/>様々な分野での開発案件にも携わる。<br />
+主な著書：『基本から学ぶHTML5＋JavaScript　iPhone/Android対応スマートフォンアプリの作り方』（共著，<wbr/>SBクリエイティブ）『TECHNICAL MASTERはじめてのASP.NET Webフォームアプリ開発C# ／<wbr/>Visual Basic対応版』（秀和システム）など。</p>
+</aside><aside class="author"><h3>髙江賢（たかえけん）</h3><p>第 1，<wbr/>2 章担当。<br />
+生粋の大阪人。プログラミング歴は四半世紀を超え，<wbr/>制御系から業務系，<wbr/>Web系と幾多の開発分野を経験。現在は，<wbr/>株式会社気象工学研究所に勤務し，<wbr/>気象や防災に関わるシステムの構築，<wbr/>保守に携わる。その傍ら，<wbr/>執筆コミュニティ「WINGSプロジェクト」のメンバーとして活動中。<br />
+主な著書：『［改訂新版］Javaポケットリファレンス』『Apacheポケットリファレンス』『PHPライブラリ&サンプル実践活用 [ 厳選 100]』（以上，<wbr/>技術評論社）『アプリを作ろう！ Android入門 Android Studio版』（日経 BP 社）など。</p>
+</aside><aside class="author"><h3>飯島聡（いいじまさとし）</h3><p>第 6，<wbr/>7 章担当。<br />
+WINGSプロジェクト所属のテクニカルライター。東京都立大学院理学研究科数学専攻修士課程修了。2003 年よりソフト開発会社でJavaやC#，<wbr/>VB.NETでパッケージソフト開発に従事。その後SI子会社でいくつかのシステム開発プロジェクトに従事などを経て，<wbr/>現在，<wbr/>ソフト開発会社でC#でWPFアプリケーションの開発に従事。<br />
+主な著書：『Windows 8開発ポケットリファレンス』（共著，<wbr/>技術評論社）『はじめてのVisual Studio 2012』（共著，<wbr/>秀和システム）など。</p>
+</aside><aside class="author"><h3>山田祥寛（やまだよしひろ） </h3><p>監修。<br />
+千葉県鎌ヶ谷市在住のフリーライター。Microsoft MVP  for Visual Studio and Development Technologies。執筆コミュニティ「WINGSプロジェクト」の代表でもある。<br />
+主な著書：『改訂新版JavaScript本格入門』『Ruby on Rails 5アプリケーションプログラミング』（以上，<wbr/>技術評論社）『独習（サーバサイドJava・<wbr/>PHP・<wbr/>ASP.NET）シリーズ』（翔泳社）『ASP.NET MVC 5 実践プログラミング』（秀和システム）『書き込み式SQLのドリル』（日経 BP 社）など。</p></aside>
+    </section>
+    <section id="content">
+      <h2>目次</h2>
+<div id="bookSearch">
+<form id="bookSearchForm" action="search" method="post">
+  <input type="search" name="query" id="bookSearchText" title="本書内を検索するキーワードを入力" placeholder="本書内のキーワード" required="required" value="">
+  <input type="hidden" name="code" value="34816">
+  <input type="submit" id="bookSearchSubmit" value="検索" title="検索する">
+</form>
+</div><ul class="toc">
+<li>はじめに</li>
+<li>本書の使い方</li>
+</ul>
+<h3>Chapter 1　C#を始めるために</h3>
+<ul class="toc">
+<li>C#とは </li>
+</ul>
+<h4>最初のC#プログラミング</h4>
+<ul class="toc">
+<li>「Visual Studio Community 2017」のインストールと起動 </li>
+<li>コンソールアプリケーションの作成と実行</li>
+
+</ul>
+<h3>Chapter 2　基本文法</h3>
+<ul class="toc">
+
+<h4>データ型</h4>
+<ul class="toc">
+<li>データ型の種類</li>
+</ul>
+<h4>演算子</h4>
+<ul class="toc">
+<li>演算子</li>
+</ul>
+<h4>基本構文</h4>
+<ul class="toc">
+<li>コメントを記述する</li>
+<li>名前空間を定義する</li>
+<li>名前空間を参照する</li>
+<li>クラス名を省略して参照する［C# 6］</li>
+<li>エイリアス（別名）を定義する</li>
+<li>エイリアスとクラスを区別する</li>
+<li>変数を宣言する</li>
+<li>暗黙的型指定の変数を宣言する［C# 3.0］</li>
+<li>定数を宣言する</li>
+<li>読み取り専用のフィールドを宣言する</li>
+<li>動的型付け変数を定義する</li>
+<li>型を変換する</li>
+<li>配列（1次元）を宣言する</li>
+<li>多次元配列を宣言する</li>
+<li>列挙型（enum）を定義する</li>
+<li>処理を分岐する</li>
+<li>処理を複数に分岐する</li>
+<li>複数の条件で処理を分岐する</li>
+<li>型や条件式で処理を分岐する［C# 7］</li>
+<li>処理をくり返す</li>
+<li>処理をくり返す（ループ後に条件判定）</li>
+<li>決まった回数の処理をくり返す</li>
+<li>すべての要素を順番に参照する</li>
+<li>無条件に制御を分岐する</li>
+<li>複数のデータ型をまとめて定義する［C# 7］</li>
+</ul>
+<h4>クラス</h4>
+<ul class="toc">
+<li>クラスを定義する</li>
+<li>メソッドを定義する</li>
+<li>ローカル関数を定義する［C# 7］</li>
+<li>インスタンスを生成する</li>
+<li>クラスのメンバにアクセスする</li>
+<li>コンストラクタを定義する</li>
+<li>オブジェクト初期化子を利用する</li>
+<li>インデックス初期化子を利用する［C# 7］</li>
+<li>デストラクタを定義する</li>
+<li>引数を参照渡しする</li>
+<li>メソッドの結果を引数で受け取る</li>
+<li>可変長引数を利用する</li>
+<li>オプション引数／名前付き引数を定義する［C# 4.0］</li>
+<li>参照による戻り値を定義する［C# 7］</li>
+<li>静的メンバを定義／利用する</li>
+<li>演算子をオーバーロードする</li>
+<li>インデクサを定義する</li>
+<li>クラスを継承する</li>
+<li>基本クラスのコンストラクタを実行する</li>
+<li>クラスの継承を禁止する</li>
+<li>オーバーライドを定義する</li>
+<li>メンバを隠蔽する</li>
+<li>アクセス制御する</li>
+<li>プロパティを定義する</li>
+<li>自動プロパティを定義する［C# 6］</li>
+<li>抽象メソッド／クラスを定義する</li>
+<li>オブジェクトが指定の型に変換可能かチェックする</li>
+<li>is演算子で指定の型の変数を作成する［C# 7］</li>
+<li>as演算子でオブジェクトを変換する</li>
+<li>インタフェースを定義する</li>
+<li>ジェネリックでクラス／メソッドを定義する</li>
+<li>ジェネリックを制約つきで宣言する</li>
+<li>ジェネリックの型を初期化する</li>
+<li>クラス／メソッドを分割して定義する</li>
+<li>構造体を定義する</li>
+<li>拡張メソッドを定義する［C# 3.0］</li>
+<li>匿名型の変数を定義する［C# 3.0］</li>
+<li>null許容型を宣言する［C# 2.0］</li>
+</ul>
+<h4>デリゲートとイベント</h4>
+<ul class="toc">
+<li>デリゲートを定義する</li>
+<li>匿名メソッドを定義する［C# 2.0］</li>
+<li>ラムダ式を利用する［C# 3.0］</li>
+<li>クラスの定義でラムダ式を利用する［C# 6］</li>
+<li>共変性／反変性の型パラメータを利用する［C# 4.0］</li>
+<li>イベントを宣言する</li>
+<li>async／awaitで非同期処理を定義する［C# 5.0］</li>
+</ul>
+<h4>例外処理</h4>
+<ul class="toc">
+<li>例外処理を定義する</li>
+<li>例外を任意に発生させる</li>
+<li>条件で例外を捕捉する［C# 6］</li>
+<li>usingを用いてリソースを破棄する</li>
+<li>オーバーフローをチェックする</li>
+
+</ul>
+<h3>Chapter 3　基本データ型の操作</h3>
+<ul class="toc">
+<li>概要</li>
+</ul>
+<h4>Object型</h4>
+<ul class="toc">
+<li>オブジェクトが等しいかどうかを判断する</li>
+<li>オブジェクトの文字列表現を取得する</li>
+</ul>
+<h4>数値型</h4>
+<ul class="toc">
+<li>文字列から数値に変換する</li>
+<li>数値型の最大値／最小値を取得する</li>
+</ul>
+<h4>日時型</h4>
+<ul class="toc">
+<li>現在の日時情報を取得する</li>
+<li>書式付きで文字列に変換する</li>
+<li>文字列から日時型を作成する</li>
+<li>日時情報を比較する</li>
+<li>日時情報の加算／減算を行う</li>
+<li>カレンダーを取得する</li>
+<li>元号を表示する</li>
+</ul>
+<h4>文字型</h4>
+<ul class="toc">
+<li>文字の種類を判定する</li>
+<li>文字を大文字／小文字にする</li>
+</ul>
+<h4>文字列型</h4>
+<ul class="toc">
+<li>文字列を連結する</li>
+<li>文字列の長さを取得する</li>
+<li>文字列から文字や部分文字列を取得する</li>
+<li>指定文字列を挟んで連結する</li>
+<li>文字列を分割する</li>
+<li>文字列を含むかどうかを判定する</li>
+<li>文字列を検索する</li>
+<li>先頭／末尾の文字列を検索する</li>
+<li>文字列を整形する</li>
+<li>文字列を比較する</li>
+<li>文字列を置換する</li>
+<li>文字列を挿入する</li>
+<li>文字列を削除する</li>
+<li>文字列が空かどうかを判定する</li>
+<li>左寄せ／右寄せする</li>
+<li>大文字化／小文字化する</li>
+<li>前後の空白を削除する</li>
+</ul>
+<h4>文字列バッファ</h4>
+<ul class="toc">
+<li>可変の文字列バッファを作成する</li>
+<li>文字列バッファの末尾に追加する</li>
+<li>文字列バッファに文字列を挿入する</li>
+<li>文字列バッファの文字列を置換する</li>
+<li>文字列バッファの文字列を削除する</li>
+<li>文字列バッファの文字列の長さを取得／設定する</li>
+<li>文字列バッファの指定位置の文字を取得／設定する</li>
+<li>文字列バッファの容量を操作する</li>
+</ul>
+<h4>エンコーディング</h4>
+<ul class="toc">
+<li>エンコーディングを変換する</li>
+<li>バイト列から文字列に変換する</li>
+</ul>
+<h4>正規表現</h4>
+<ul class="toc">
+<li>正規表現を作成する</li>
+<li>正規表現で検索する</li>
+<li>正規表現の検索オプションを指定する</li>
+<li>正規表現のパターンをグループで指定する</li>
+<li>正規表現で文字列を置換する</li>
+</ul>
+<h4>算術関数</h4>
+<ul class="toc">
+<li>絶対値を求める</li>
+<li>三角関数を利用する</li>
+<li>大小を比較する</li>
+<li>切り捨て／切り上げ／四捨五入する</li>
+<li>平方根／累乗を求める</li>
+<li>指数／対数を利用する</li>
+<li>符号を取得する</li>
+</ul>
+<h4>国際化</h4>
+<ul class="toc">
+<li>カルチャ情報を取得／生成する</li>
+<li>カルチャ情報をカスタマイズする</li>
+</ul>
+<h4>システムツール</h4>
+<li>システム一意のインデックスを取得する</li>
+<li>乱数を利用する</li>
+<li>MD5ハッシュを計算する</li>
+<li>SHA-1，SHA-2ハッシュを計算する</li>
+</ul>
+<h4>環境情報</h4>
+<ul class="toc">
+<li>実行環境の環境変数を取得する</li>
+<li>実行環境の環境属性を取得する</li>
+<li>レジストリの値を取得する</li>
+<li>レジストリの値を設定／削除する</li>
+<li>ActiveDirectoryの情報を利用する</li>
+
+</ul>
+<h3>Chapter 4　コレクション</h3>
+<ul class="toc">
+<li>概要</li>
+</ul>
+<h4>共通機能</h4>
+<ul class="toc">
+<li>コレクションに要素を追加する</li>
+<li>コレクションの要素を削除する</li>
+<li>コレクションに要素が含まれているかどうかを判定する</li>
+<li>コレクションの要素の数を取得する</li>
+<li>コレクションを反復処理する</li>
+<li>コレクションを配列にコピーする</li>
+<li>コレクションの要素が条件を満たすかどうかを判定する</li>
+<li>コレクションを連結する</li>
+<li>コレクションの重複を除去する</li>
+<li>2つのコレクションの和集合／差集合／積集合を生成する</li>
+<li>コレクションの平均値／合計を計算する</li>
+<li>コレクションの最大値／最小値を取得する</li>
+<li>コレクションを条件でフィルタする</li>
+</ul>
+<h4>リスト</h4>
+<ul class="toc">
+<li>リストを生成する</li>
+<li>リストの指定位置の要素を取得／設定する</li>
+<li>リストの末尾に要素を追加する</li>
+<li>リストの指定位置に要素を挿入する</li>
+<li>リストの要素を削除する</li>
+<li>要素の位置を取得する</li>
+<li>リストを検索する</li>
+<li>別の型のリストに変換する</li>
+<li>リストの要素ごとに処理する</li>
+<li>リストを並べ替える</li>
+</ul>
+<h4>二重リンクリスト</h4>
+<ul class="toc">
+<li>二重リンクリストを生成する</li>
+<li>二重リンクリストの要素を取得する</li>
+<li>二重リンクリストに要素を追加する</li>
+</ul>
+<h4>セット</h4>
+<ul class="toc">
+<li>セットを生成する</li>
+<li>セットとコレクションとの関係を調べる</li>
+</ul>
+<h4>ディクショナリ</h4>
+<ul class="toc">
+<li>ディクショナリを生成する</li>
+<li>ディクショナリにキーと値を追加する</li>
+<li>ディクショナリから値を取得する</li>
+<li>ディクショナリに指定したキー／値が含まれるかどうかを判定する</li>
+<li>キー／値のコレクションを取得する</li>
+</ul>
+<h4>キュー</h4>
+<ul class="toc">
+<li>キューを生成する</li>
+<li>キューの要素を追加／取得する</li>
+</ul>
+<h4>スタック</h4>
+<ul class="toc">
+<li>スタックを生成する</li>
+<li>スタックの要素を追加／取得する</li>
+
+</ul>
+<h3>Chapter 5　入出力</h3>
+<ul class="toc">
+<li>概要</li>
+</ul>
+<h4>ファイルシステム</h4>
+<ul class="toc">
+<li>ファイル情報／ディレクトリ情報オブジェクトを作成する</li>
+<li>ファイルを新規作成する</li>
+<li>ファイルをコピーする</li>
+<li>ファイルを削除する</li>
+<li>ファイルを移動する</li>
+<li>ディレクトリを作成する</li>
+<li>ディレクトリを削除する</li>
+<li>ディレクトリを移動する</li>
+<li>ファイル／ディレクトリの存在を確認する</li>
+<li>ファイル一覧を取得する</li>
+<li>ディレクトリ一覧を取得する</li>
+<li>ファイル／ディレクトリ一覧を高速に列挙する</li>
+<li>ファイル／ディレクトリの情報を取得／設定する</li>
+<li>ドライブの情報を取得する</li>
+<li>ファイルストリームを作成する</li>
+</ul>
+<h4>バイナリ入出力</h4>
+<ul class="toc">
+<li>メモリストリームを作成する</li>
+<li>ストリームから読み込む</li>
+<li>ストリームに書き込む</li>
+<li>ストリームをシークする</li>
+<li>ストリームの情報を取得する</li>
+<li>ストリームをコピーする</li>
+<li>バイナリファイルの内容を一括で読み書きする</li>
+</ul>
+<h4>テキスト入出力</h4>
+<ul class="toc">
+<li>ストリームのリーダー／ライターを作成する</li>
+<li>文字列のリーダー／ライターを作成する</li>
+<li>リーダーから読み込む</li>
+<li>ライターに書き込む</li>
+<li>テキストファイルの内容を一括で読み書きする</li>
+<li>テキストファイルの内容を行単位に読み込む</li>
+</ul>
+<h4>TCP/IPネットワーク</h4>
+<ul class="toc">
+<li>ホスト名を取得する</li>
+<li>IPアドレスを取得する</li>
+<li>TCPソケットで接続待ちする</li>
+<li>TCPソケットで接続する</li>
+</ul>
+<h4>HTTP通信</h4>
+<ul class="toc">
+<li>URIを処理する</li>
+<li>Webサーバーからデータをダウンロードする</li>
+<li>Webサーバーからテキストをダウンロードする</li>
+<li>クエリ文字列を設定する</li>
+<li>Webサーバーからファイルをダウンロードする</li>
+<li>WebサーバーにPOSTデータを送信する</li>
+
+</ul>
+<h3>Chapter 6　非同期処理</h3>
+<ul class="toc">
+<li>概要</li>
+</ul>
+<h4>スレッドによる非同期処理</h4>
+<ul class="toc">
+<li>引数のない処理をスレッドとして定義する</li>
+<li>引数を受け取る処理をスレッドとして定義する</li>
+<li>スレッドタイマーで一定時間ごとに処理をする</li>
+<li>システムタイマーで一定時間ごとに処理をする</li>
+<li>スレッドを待機／再開させる</li>
+<li>スレッドを中止する</li>
+</ul>
+<h4>Taskによる非同期処理の作成／実行</h4>
+<ul class="toc">
+<li>非同期処理を作成して開始する</li>
+<li>非同期処理から値を返す</li>
+<li>非同期処理の依存関係を指定する</li>
+<li>非同期処理が実行されるスレッドを限定する</li>
+</ul>
+<h4>非同期処理の制御</h4>
+<ul class="toc">
+<li>非同期処理を行う</li>
+<li>非同期処理の状態を取得する</li>
+<li>入れ子の非同期操作を解除する</li>
+<li>非同期処理完了後の継続処理を設定する</li>
+<li>指定時間後に完了するだけの処理を作成する</li>
+<li>非同期処理の完了を待つ</li>
+<li>複数の非同期処理すべての完了を待つ</li>
+<li>複数の非同期処理いずれかの完了を待つ</li>
+<li>制御を返し非同期に残りの処理を行う</li>
+<li>非同期処理をキャンセルする</li>
+<li>非同期処理の進行状況を報告する</li>
+<li>非同期処理の例外を処理をする</li>
+
+</ul>
+<h3>Chapter 7　データベースアクセス</h3>
+<ul class="toc">
+<li>概要</li>
+</ul>
+<h4>接続型データアクセス</h4>
+<ul class="toc">
+<li>データベースに接続／切断する</li>
+<li>データベースに接続する（非同期版）</li>
+<li>設定ファイルの接続文字列を取得する</li>
+<li>SQL文を実行するオブジェクトを生成する</li>
+<li>結果データを返すSQL文を発行する</li>
+<li>結果データを返すSQL文を発行する（非同期版）</li>
+<li>単一の値を取得する SQL文を発行する</li>
+<li>結果データから値を取得する</li>
+<li>結果データから値を取得する（非同期版）</li>
+<li>複数の結果データを取得する</li>
+<li>更新系のSQL文を発行する</li>
+<li>パラメータ付きSQL文を発行する</li>
+<li>ストアドプロシージャを実行する</li>
+<li>ストアドプロシージャで出力パラメータを使用する</li>
+</ul>
+<h4>トランザクション制御</h4>
+<ul class="toc">
+<li>トランザクションオブジェクトを作成する</li>
+<li>トランザクションをコミット／ロールバックする</li>
+<li>トランザクションスコープを作成する</li>
+</ul>
+<h4>非接続型データアクセス</h4>
+<ul class="toc">
+<li>データアダプターを生成する</li>
+<li>データセットにデータを流し込む</li>
+<li>データセットのデータを使用する</li>
+<li>更新用コマンドを自動生成する</li>
+<li>データセットを使用して更新する</li>
+</ul>
+<h4>ADO.NET Entity Framework（Code First）</h4>
+<ul class="toc">
+<li>Code Firstを使用するためのエンティティクラスを定義する</li>
+<li>Code Firstを使用するためのコンテキストクラスを定義する</li>
+<li>Code Firstを使用してデータベースを作成する</li>
+</ul>
+<h4>LINQ to Entities</h4>
+<ul class="toc">
+<li>LINQのクエリ式構文／メソッド構文を記述する</li>
+<li>クエリを即時実行する</li>
+<li>結果セットから射影する</li>
+<li>結果セットをフィルターする</li>
+<li>キープロパティでエンティティを結合する</li>
+<li>結果セットの要素のすべて／どれかが条件を満たしているか確認する</li>
+<li>結果セットに指定した要素が含まれていることを確認する</li>
+<li>結果セットから重複を取り除く</li>
+<li>結果セットの並べ替えをする</li>
+<li>結果セットをグループ化する</li>
+<li>結果セットの集計をする</li>
+<li>結果セットの特定の要素を抽出する</li>
+</ul>
+<ul class="toc">
+<li>索引</li>
+</ul>
+    </section>
+    <section id="support">
+      <h2>サポート</h2>
+<p>現在サポート情報はありません。</p>
+    </section>
+  </div>
+  </div>
+<script defer="defer">try{twttr.widgets.load();FB.XFBML.parse();gapi.plusone.go();Hatena.Bookmark.BookmarkButton.setup();}catch(e){}</script>
+</div>    <div id="bookList">
+      <h2>商品一覧</h2>
+      <div id="topNavigation">
+        <div id="filter">
+          <form id="search" action="/dp" method="get">
+            <input type="search" name="query" id="searchText" title="検索する商品のキーワードを入力" placeholder="商品のキーワード" required="required" value=""/>
+            <input type="submit" id="searchSubmit" value="検索" title="検索する"/>
+          </form>
+          <div id="select">
+            <a href="" id="selectLabel" title="商品ジャンルを選択する"></a>
+            <div id="selectMenu">
+              <ul id="selectMenuBody"></ul>
+            </div>
+          </div>
+        </div>
+        <nav id="pagingTop">
+        </nav>
+      </div>
+      <ul itemprop="isPartOf" itemscope="itemscope" itemtype="http://www.schema.org/CollectionPage" id="listBook" class="list-book">
+      </ul>
+      <nav id="pagingBottom">
+      </nav>
+    </div>
+  </div>
+  <footer id="footer" itemscope="itemscope" itemtype="http://www.schema.org/WPFooter">
+    <div id="wait" class="hidden"></div>
+    <nav id="navigation" itemscope="itemscope" itemtype="http://www.schema.org/SiteNavigationElement">
+      <ul id="navigationLink">
+        <li id="navLinkHome" class="current"><a itemprop="url" href="/dp" title="ストア" class="home">ストア</a></li>
+        <li id="navLinkMyPage"><a itemprop="url" href="/dp/my-page" title="マイページ" class="mypage">マイページ</a></li>
+        <li id="navLinkInfor"><a itemprop="url" href="/dp/information" title="お知らせ" class="information">お知らせ</a></li>
+        <li id="navLinkHelp"><a itemprop="url" href="/dp/help" title="ヘルプ" class="help">ヘルプ</a></li>
+      </ul>
+    </nav>
+    <nav id="function" itemscope="itemscope" itemtype="http://www.schema.org/WPSideBar">
+      <div id="backgroundWrapper" style="display:block;opacity:0.4"></div>
+      <div id="navInfor"></div>
+    </nav>
+    <div id="storeInformation">
+      <ul id="footerLink">
+        <li>Twitter: <a href="https://twitter.com/gihyoDP">@gihyoDP</a></li>
+        <li><a href="/dp/help/about/site">このサイトについて</a></li>
+        <li><a href="/dp/help/about/terms">利用規約</a></li>
+        <li><a href="/dp/help/about/privacy">プライバシーポリシー</a></li>
+        <li><a href="/dp/help/about/law">特定商取引法に基づく表示</a></li>
+      </ul>
+      <p id="storeCopyright"><small>Copyright © 2017 <span class="reserved">All Rights Reserved by</span> <a href="http://gihyo.jp/book">Gijutsu-Hyohron Co., Ltd.</a></small></p>
+    </div>
+  </footer>
+<script>var params={"url":"https:\/\/gihyo.jp\/dp\/ebook\/2017\/978-4-7741-9091-4","path":"\/dp\/ebook\/2017\/978-4-7741-9091-4","targetId":"978-4-7741-9091-4","parent":"\/dp\/genre\/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E3%83%BB%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E9%96%8B%E7%99%BA","overlay":true,"body":"    <div id=\"bookList\">\n      <h2>\u5546\u54c1\u4e00\u89a7<\/h2>\n      <div id=\"topNavigation\">\n        <div id=\"filter\">\n          <form id=\"search\" action=\"\/dp\" method=\"get\">\n            <input type=\"search\" name=\"query\" id=\"searchText\" title=\"\u691c\u7d22\u3059\u308b\u5546\u54c1\u306e\u30ad\u30fc\u30ef\u30fc\u30c9\u3092\u5165\u529b\" placeholder=\"\u5546\u54c1\u306e\u30ad\u30fc\u30ef\u30fc\u30c9\" required=\"required\" value=\"\"\/>\n            <input type=\"submit\" id=\"searchSubmit\" value=\"\u691c\u7d22\" title=\"\u691c\u7d22\u3059\u308b\"\/>\n          <\/form>\n          <div id=\"select\">\n            <a href=\"\" id=\"selectLabel\" title=\"\u5546\u54c1\u30b8\u30e3\u30f3\u30eb\u3092\u9078\u629e\u3059\u308b\"><\/a>\n            <div id=\"selectMenu\">\n              <ul id=\"selectMenuBody\"><\/ul>\n            <\/div>\n          <\/div>\n        <\/div>\n        <nav id=\"pagingTop\">\n        <\/nav>\n      <\/div>\n      <ul itemprop=\"isPartOf\" itemscope=\"itemscope\" itemtype=\"http:\/\/www.schema.org\/CollectionPage\" id=\"listBook\" class=\"list-book\">\n      <\/ul>\n      <nav id=\"pagingBottom\">\n      <\/nav>\n    <\/div>","isLogin":false,"dialog":"<aside id=\"dialog\" class=\"dialog-login\" style=\"opacity:0\">\n  <div id=\"dialogBody\">\n    <div id=\"gihyoAccount\">\n      <h2>\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\u3067\u30ed\u30b0\u30a4\u30f3<\/h2>\n      <form action=\"?login\" method=\"post\">\n        <input type=\"hidden\" name=\"fid\" value=\"\"\/>\n        <dl>\n          <dt>\u30a2\u30ab\u30a6\u30f3\u30c8<\/dt>\n          <dd><input type=\"email\" name=\"account\" placeholder=\"\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\" required=\"required\" title=\"\u30a2\u30ab\u30a6\u30f3\u30c8\u306e\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\u3092\u5165\u529b\"\/><\/dd>\n          <dt>\u30d1\u30b9\u30ef\u30fc\u30c9<\/dt>\n          <dd><input type=\"password\" name=\"password\" placeholder=\"\u30d1\u30b9\u30ef\u30fc\u30c9\" required=\"required\" title=\"\u30a2\u30ab\u30a6\u30f3\u30c8\u306e\u30d1\u30b9\u30ef\u30fc\u30c9\u3092\u5165\u529b\"\/><\/dd>\n        <\/dl>\n        <p id=\"loginButton\"><input type=\"submit\" value=\"\u30ed\u30b0\u30a4\u30f3\" title=\"\u30ed\u30b0\u30a4\u30f3\u3059\u308b\"\/><\/p>\n        <ul id=\"loginFunction\">\n          <li><a href=\"\/dp\/help\/buy\/forgot\">\u30d1\u30b9\u30ef\u30fc\u30c9\u3092\u304a\u5fd8\u308c\u306e\u65b9<\/a><\/li>\n          <li><a href=\"\/dp\/help\/buy\/account\">\u65b0\u898f\u767b\u9332\u3092\u3054\u5e0c\u671b\u306e\u65b9<\/a><\/li>\n        <\/ul>\n      <\/form>\n    <\/div>\n    <div id=\"externalSite\">\n      <h2>\u5916\u90e8\u30b5\u30fc\u30d3\u30b9\u3067\u30ed\u30b0\u30a4\u30f3<\/h2>\n      <ul>\n      <li class=\"google\"><a href=\"https:\/\/gihyo.jp\/auth\/google\">Google<\/a><\/li>\n      <li class=\"facebook\"><a href=\"https:\/\/gihyo.jp\/auth\/facebook\">Facebook<\/a><\/li>\n      <li class=\"yahoo\"><a href=\"https:\/\/gihyo.jp\/auth\/yahoojp\">Yahoo! JAPAN<\/a><\/li>\n      <\/ul>\n      <p><a href=\"\/dp\/help\/buy\/external\">\u5916\u90e8\u30b5\u30fc\u30d3\u30b9\u3067\u306e\u30ed\u30b0\u30a4\u30f3\u306b\u3064\u3044\u3066<\/a><\/p>\n    <\/div>\n    <p id=\"close\"><a href=\"#close\" title=\"\u9589\u3058\u308b\">\u9589\u3058\u308b<\/a><\/p>\n  <\/div>\n<\/aside>"}</script>
+  <script>var asyncCall=function(){var e=Array.prototype.slice,a=Function.prototype.bind||function(j){var a=this,b=e.call(arguments,1);return function(){var c=e.call(arguments);return a.apply(j,b.concat(c))}},f=a.call(a,Function.prototype.call),b=f(e),c=f(a),d=f(Function.prototype.apply);if("undefined"!==typeof process)a=function(){var a=b(arguments);process.nextTick(d(c,null,a))};else if("function"===typeof setImmediate)a=function(){var a=b(arguments);setImmediate(d(c,null,a))};else if("function"===typeof MessageChannel){var g=new MessageChannel,h=[];g.port1.onmessage=function(){h.shift()()};a=function(){var a=b(arguments);h.push(d(c,null,a));g.port2.postMessage(0)}}else a=function(){var a=b(arguments);setTimeout(d(c,null,a),0)};return a}();window.onerror=function(mes,fname,lnum){var erIgnore=['top.GLOBALS','originalCreateNotification','canvas.contentDocument','fb_xd_fragment','Script error.'];for(i=0;i<erIgnore.length;i++){if(mes.indexOf(erIgnore[i])>-1){return false;}};var mes='message:'+mes+', file:'+fname+', line:'+lnum+', href:'+location.href+', UA:'+window.navigator.userAgent;ga('send','event','Error','JSError',mes);};</script>
+  <script src="//platform.twitter.com/widgets.js" id="twitter-wjs" async defer></script>
+  <script src="//connect.facebook.net/ja_JP/sdk.js#xfbml=1&appId=185201618169441&version=v2.8" id="facebook-jssdk" async defer></script>
+  <script src="//apis.google.com/js/platform.js" async defer></script>
+  <script src="//b.hatena.ne.jp/js/bookmark_button.js" charset="utf-8" async defer></script>
+</body>
+</html>

@@ -1,0 +1,310 @@
+<!DOCTYPE HTML>
+<html lang="ja" class="pc">
+<head>
+  <meta charset="UTF-8">
+  <title>Software Design 2017年7月号 | Gihyo Digital Publishing … 技術評論社の電子書籍</title>
+  <meta http-equiv="Content-Style-Type" content="text/css"/>
+  <meta http-equiv="Content-Script-Type" content="application/javascript"/>
+  <meta name="description" content="第1特集理論＆応用でシェル力の幅を広げる開発でもインフラ管理でも運用でも，シェル上で行う作業はたくさんあります。だからこそ，シェルの操作が少し上達しただけで，いろいろな作業が速く，楽にできるようになります。本特集は，初心者もベテランも，ご自身のレベルに合わせて実力アップを図れるように，2つのパートで構成しています。理論編（第1～3章）では，設計思想やしくみをふまえながらシェルの使い方や機能を解説します。今までシェルをなんとなく使ってきたという人は，まずはここでおさらいを。応用編（第4～5章）では，熟練者がさらにシェルの活用範囲を広げられる知見を紹介します。第2特集データの抽出・加工に強くなる！MySQL［SELECT文］集中講座システムやアプリを開発する以上はデータベース，とくにリレーショナルデータベースの扱いを避けては通れず，その中身のデータを操作するためのSQLは，エンジニアの必修科目と言えます。今回はそんなSQLの中で，最も高い頻度で使われるであろう「SELECT文」にスポットを当て，基本構文からORDER BY，GROUP BYを使ったデータの抽出，各種JOINとサブクエリを使ったデータの加工までと，基本から応用までを一気に解説します。本特集では，RDBMSとしてはオープンソースのMySQLを，操作するデータとしては都道府県・市町村の人口・面積データを使います。実務を意識しながら，お手もとの環境でぜひ実践してください。一般記事ハッシュ関数を使いこなしていますか？【後編】ソフトウェア開発での実装ポイントハッシュ関数は近年のソフトウェア開発において，とても重要な役割を担っています。この特集では前編に引き続き，ハッシュ関数を実際に利用する際に注意すべき点や，OSSではどのように実装されているかなど，もう少し掘り下げてハッシュ関数について解説します。一般記事Windows Server 2016で構築する最新ファイルサーバ【後編】進化した機能で効率化を推進本誌2017年6月号では，ファイルサーバとしての機能の解説と構築する際に使えるWindows Server 2016の最新機能にも触れました。さて，実際に試してみたいと思った方が次に考えるのは，その環境をどうやって用意するかではないでしょうか。今回は手軽にWindows Server 2016のファイルサーバ環境を作るべく，クラウド（Microsoft Azure）上に検証用のファイルサーバを構築する方法を解説します。また，クラウドならではのコツなど，知っておくべき，もしくは気をつけるべきポイントにも触れていきます。一般記事Jamesのセキュリティレッスン【10】Jamesの挑戦状！　Wireshark実践問題Wiresharkを使ったパケットキャプチャへの理解を深める本連載。連載第10回を迎えた今回は，Jamesの挑戦状としてWiresharkについての問題を出題。過去の連載も参考にしながら，全問正解に挑戦してみてください！"/>
+  <meta name="keywords" content="電子書籍,電子出版,EPUB,PDF,技術評論社"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="format-detection" content="telephone=no"/>
+  <link rel="related" href="http://gihyo.jp/dp/catalogs.opds" type="application/atom+xml;profile=opds-catalog" title="Gihyo Digital Publishing OPDS Catalog"/>
+  <link rel="shortcut icon" href="/assets/templates/gdp/favicon.ico" type="image/vnd.microsoft.icon"/>
+  <link rel="apple-touch-icon-precomposed" href="/dp/assets/gdp-icon.png"/>
+  <!--[if lt IE 9]>
+    <script>var msie=8;</script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="/dp/assets/js/html5shiv.min.js"></script>
+    <script src="//css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <script src="/dp/assets/js/selectivizr-min.js"></script>
+    <script src="/dp/assets/js/addEventListener.min.js"></script>
+    <script src="/dp/assets/js/textContent.min.js"></script>
+  <![endif]-->
+  <!--[if lte IE 9]>
+    <script src="/dp/assets/js/classList.min.js" defer></script>
+  <![endif]-->
+  <link rel="stylesheet" href="/dp/assets/style/store0921.css" type="text/css" media="all"/>
+  <script src="/dp/assets/js/gdpFunction0512.min.js" defer></script>
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:site" content="@gihyoDP"/>
+  <meta property="og:title" content="Software Design 2017年7月号 | Gihyo Digital Publishing … 技術評論社の電子書籍"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:description" content="第1特集理論＆応用でシェル力の幅を広げる開発でもインフラ管理でも運用でも，シェル上で行う作業はたくさんあります。だからこそ，シェルの操作が少し上達しただけで，いろいろな作業が速く，楽にできるようになります。本特集は，初心者もベテランも，ご自身のレベルに合わせて実力アップを図れるように，2つのパートで構成しています。理論編（第1～3章）では，設計思想やしくみをふまえながらシェルの使い方や機能を解説します。今までシェルをなんとなく使ってきたという人は，まずはここでおさらいを。応用編（第4～5章）では，熟練者がさらにシェルの活用範囲を広げられる知見を紹介します。第2特集データの抽出・加工に強くなる！MySQL［SELECT文］集中講座システムやアプリを開発する以上はデータベース，とくにリレーショナルデータベースの扱いを避けては通れず，その中身のデータを操作するためのSQLは，エンジニアの必修科目と言えます。今回はそんなSQLの中で，最も高い頻度で使われるであろう「SELECT文」にスポットを当て，基本構文からORDER BY，GROUP BYを使ったデータの抽出，各種JOINとサブクエリを使ったデータの加工までと，基本から応用までを一気に解説します。本特集では，RDBMSとしてはオープンソースのMySQLを，操作するデータとしては都道府県・市町村の人口・面積データを使います。実務を意識しながら，お手もとの環境でぜひ実践してください。一般記事ハッシュ関数を使いこなしていますか？【後編】ソフトウェア開発での実装ポイントハッシュ関数は近年のソフトウェア開発において，とても重要な役割を担っています。この特集では前編に引き続き，ハッシュ関数を実際に利用する際に注意すべき点や，OSSではどのように実装されているかなど，もう少し掘り下げてハッシュ関数について解説します。一般記事Windows Server 2016で構築する最新ファイルサーバ【後編】進化した機能で効率化を推進本誌2017年6月号では，ファイルサーバとしての機能の解説と構築する際に使えるWindows Server 2016の最新機能にも触れました。さて，実際に試してみたいと思った方が次に考えるのは，その環境をどうやって用意するかではないでしょうか。今回は手軽にWindows Server 2016のファイルサーバ環境を作るべく，クラウド（Microsoft Azure）上に検証用のファイルサーバを構築する方法を解説します。また，クラウドならではのコツなど，知っておくべき，もしくは気をつけるべきポイントにも触れていきます。一般記事Jamesのセキュリティレッスン【10】Jamesの挑戦状！　Wireshark実践問題Wiresharkを使ったパケットキャプチャへの理解を深める本連載。連載第10回を迎えた今回は，Jamesの挑戦状としてWiresharkについての問題を出題。過去の連載も参考にしながら，全問正解に挑戦してみてください！"/>
+  <meta property="og:url" content="https://gihyo.jp/dp/ebook/2017/978-4-7741-8843-0"/>
+  <meta property="og:image" content="http://image.gihyo.co.jp/assets/images/gdp/2017/978-4-7741-8843-0.jpg"/>
+  <meta property="og:site_name" content="Gihyo Digital Publishing"/>
+  <meta property="fb:app_id" content="185201618169441"/>
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-4149703-1', 'auto');
+  ga('require', 'displayfeatures');
+  ga('send', 'pageview');
+  </script>
+</head>
+<body itemscope="itemscope" itemtype="http://schema.org/WebPage" class="page-home">
+  <header id="header" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
+    <h1 class="home-title">Gihyo Digital Publishing</h1>
+    <h2 class="home-subtitle">技術評論社の電子書籍サイト</h2>
+    <nav id="headerFunction">
+      <div id="login">
+        <a href="#login" title="ログイン・会員登録">ログイン</a>
+      </div>
+      <div id="cart">
+        <a href="/dp/cart" title="カートは空です">カート</a>
+      </div>
+    </nav>
+  </header>
+  <div id="main">
+    <noscript><div id="noscript">
+      <p>本サイトではJavaScriptを使用しております。JavaScriptが無効な状態ではご利用いただけません。</p>
+    </div></noscript>
+
+<div id="overlayWindow" class="book-infor" itemscope itemtype="http://schema.org/Book" typeof="product:Product" xmlns:product="http://search.yahoo.com/searchmonkey/product/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:media="http://search.yahoo.com/searchmonkey/media/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:currency="http://search.yahoo.com/searchmonkey-datatype/currency/" style="display:block;opacity:1">
+  <header id="overlayHeader">
+    <h1>書籍概要</h1>
+    <nav id="overlayFunction">
+      <p id="close"><a href="/dp" title="閉じる">閉じる</a></p>
+      <ul id="jump">
+        <li id="detailRef"><a href="#title" title="概要を見る">概要</a></li>
+        <li id="contentRef"><a href="#content" title="目次を見る">目次</a></li>
+        <li id="supportRef"><a href="#support" title="サポート情報を見る">サポート</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div id="bookInforMain">
+  <hgroup id="title">
+
+    <h1 id="bookTitle" property="rdfs:label" itemprop="name">Software Design 2017<wbr/>年<wbr/>7<wbr/>月号</h1><p id="bookSeries">→<a href="/dp/series/Software%20Design">バックナンバー一覧</a></p>
+  </hgroup>
+  <aside id="bookCover" rel="rdfs:seeAlso media:image"><img src="/assets/images/gdp/2017/978-4-7741-8843-0.jpg" alt="Software Design 2017年7月号"/></aside>
+  <dl id="publicationData" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+    
+    
+    <dt>発売日</dt>
+    <dd><time datetime="2017-06-17">2017年6月17日</time></dd>
+    <dt>更新日</dt>
+    <dd><time datetime="2017-06-17">2017年6月17日</time></dd>
+  </dl>
+  <aside>
+    <ul class="information">
+      <li>本書は，<a href="http://gihyo.jp/magazine/SD/archive/2017/201707" target="_blank">2017年6月17日に発売された雑誌</a>の電子版です。</li>
+      <li class="need-login">ご購入には会員登録・ログインが必要です</li>
+      <li class="corporate"><a href="/dp/help/buy/bulkpurchase">学校・法人等団体でのご利用について</a></li>
+    </ul>
+    <dl id="productPrice">
+<dt><span class="name">PDF</span><span class="buy">1,318円 <a id="pid401745" href="#cartAdd" title="カートに入れる">カートに入れる<div class="option" title="購入オプション">▼<ul><li title="通常購入">自分用に購入する</li><li class="gift" title="ギフトコードを購入">ギフトとして購入する</li></ul></div></a></span></dt><dd><span class="page"><span itemprop="numberOfPages">184</span>ページ相当</span><span class="pdf">PDF</span> </dd>
+<dt><span class="name">定期購読（PDF）</span><span class="buy">年間一括14,880円／毎号1,318円 <a id="pidSubscribe" href="/dp/subscription/SD" class="subscription" title="定期購読を申し込む">定期購読を申し込む</a></span></dt><dd>お申し込み画面で選択してください</dd>
+
+    </dl>
+  </aside>
+  <aside id="social">
+    <ul>
+      <li class="twitter"><a href="https://twitter.com/search?q=https://gihyo.jp/dp/ebook/2017/978-4-7741-8843-0" class="twitter--list">リスト</a><a href="http://twitter.com/share" class="twitter-share-button" data-url="https://gihyo.jp/dp/ebook/2017/978-4-7741-8843-0" data-text="Software Design 2017年7月号 #gihyoDP" data-count="none" data-lang="ja">ツイート</a></li>
+      <li class="facebook"><div class="fb-like" data-href="https://gihyo.jp/dp/ebook/2017/978-4-7741-8843-0" data-send="false" data-layout="box_count" data-width="450" data-show-faces="false" data-share="true"></div></li>
+      <li class="gplus"><g:plusone size="tall" href="https://gihyo.jp/dp/ebook/2017/978-4-7741-8843-0"></g:plusone></li>
+      <li class="hatena"><a href="http://b.hatena.ne.jp/entry/https://gihyo.jp/dp/ebook/2017/978-4-7741-8843-0" class="hatena-bookmark-button" data-hatena-bookmark-layout="vertical-balloon" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="//b.hatena.ne.jp/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a></li>
+    </ul>
+  </aside>
+  <div id="productDetail">
+    <section id="detail">
+      <h2>概要</h2>
+<h3><span class="category">第1特集</span><br />
+<span class="catch">理論＆応用で</span><br />
+<span class="title">シェル力の幅を広げる</span></h3>
+
+<p>開発でもインフラ管理でも運用でも，<wbr/>シェル上で行う作業はたくさんあります。だからこそ，<wbr/>シェルの操作が少し上達しただけで，<wbr/>いろいろな作業が速く，<wbr/>楽にできるようになります。本特集は，<wbr/>初心者もベテランも，<wbr/>ご自身のレベルに合わせて実力アップを図れるように，<wbr/>2つのパートで構成しています。</p>
+
+<p>理論編（第1～3章）では，<wbr/>設計思想やしくみをふまえながらシェルの使い方や機能を解説します。今までシェルをなんとなく使ってきたという人は，<wbr/>まずはここでおさらいを。</p>
+
+<p>応用編（第4～5章）では，<wbr/>熟練者がさらにシェルの活用範囲を広げられる知見を紹介します。</p>
+
+<h3><span class="category">第2特集</span><br />
+<span class="catch">データの抽出・<wbr/>加工に強くなる！</span><br />
+<span class="title">MySQL［SELECT文］集中講座</span></h3>
+
+<p>システムやアプリを開発する以上はデータベース，<wbr/>とくにリレーショナルデータベースの扱いを避けては通れず，<wbr/>その中身のデータを操作するためのSQLは，<wbr/>エンジニアの必修科目と言えます。今回はそんなSQLの中で，<wbr/>最も高い頻度で使われるであろう「SELECT文」にスポットを当て，<wbr/>基本構文からORDER BY，<wbr/>GROUP BYを使ったデータの抽出，<wbr/>各種JOINとサブクエリを使ったデータの加工までと，<wbr/>基本から応用までを一気に解説します。本特集では，<wbr/>RDBMSとしてはオープンソースのMySQLを，<wbr/>操作するデータとしては都道府県・<wbr/>市町村の人口・<wbr/>面積データを使います。実務を意識しながら，<wbr/>お手もとの環境でぜひ実践してください。</p>
+
+<h3><span class="category">一般記事</span><br />
+<span class="title">ハッシュ関数を使いこなしていますか？【後編】</span><br />
+<span class="catch">ソフトウェア開発での実装ポイント</span></h3>
+
+<p>ハッシュ関数は近年のソフトウェア開発において，<wbr/>とても重要な役割を担っています。この特集では前編に引き続き，<wbr/>ハッシュ関数を実際に利用する際に注意すべき点や，<wbr/>OSSではどのように実装されているかなど，<wbr/>もう少し掘り下げてハッシュ関数について解説します。</p>
+
+<h3><span class="category">一般記事</span><br />
+<span class="title">Windows Server 2016で構築する最新ファイルサーバ【後編】</span><br />
+<span class="catch">進化した機能で効率化を推進</span></h3>
+
+<p>本誌2017年6月号では，<wbr/>ファイルサーバとしての機能の解説と構築する際に使えるWindows Server 2016の最新機能にも触れました。さて，<wbr/>実際に試してみたいと思った方が次に考えるのは，<wbr/>その環境をどうやって用意するかではないでしょうか。今回は手軽にWindows Server 2016のファイルサーバ環境を作るべく，<wbr/>クラウド（Microsoft Azure）上に検証用のファイルサーバを構築する方法を解説します。また，<wbr/>クラウドならではのコツなど，<wbr/>知っておくべき，<wbr/>もしくは気をつけるべきポイントにも触れていきます。</p>
+
+<h3><span class="category">一般記事</span><br />
+<span class="title">Jamesのセキュリティレッスン【10】</span><br />
+<span class="catch">Jamesの挑戦状！　Wireshark実践問題</span></h3>
+
+<p>Wiresharkを使ったパケットキャプチャへの理解を深める本連載。連載第10回を迎えた今回は，<wbr/>Jamesの挑戦状としてWiresharkについての問題を出題。過去の連載も参考にしながら，<wbr/>全問正解に挑戦してみてください！</p>
+    </section>
+    <section id="content">
+      <h2>目次</h2>
+<div id="bookSearch">
+<form id="bookSearchForm" action="search" method="post">
+  <input type="search" name="query" id="bookSearchText" title="本書内を検索するキーワードを入力" placeholder="本書内のキーワード" required="required" value="">
+  <input type="hidden" name="code" value="34931">
+  <input type="submit" id="bookSearchSubmit" value="検索" title="検索する">
+</form>
+</div><h3>
+<span class="category">第1特集</span><br />
+<span class="catch">理論＆応用で</span><br /><span class="title">シェル力の幅を広げる</span>
+</h3>
+<ul class="toc">
+<li>
+<span class="chapter">第1章</span>：<span class="catch">理論編1</span><br />シェル初心者から中級者への次の一歩
+<span class="author">&hellip;&hellip; 	山森 丈範</span>
+</li>
+<li>
+<span class="chapter">第2章</span>：<span class="catch">理論編2</span><br />シェルスクリプト初心者から中級者への次の一歩<span class="author">&hellip;&hellip; 石山 将来</span>
+</li>
+<li>
+<span class="chapter">第3章</span>：<span class="catch">理論編3</span><br />しくみを知れば，bashは怖くない<span class="author">&hellip;&hellip; 田島 優也</span>
+</li>
+<li>
+<span class="chapter">第4章</span>：<span class="catch">応用編1</span><br />じつはこんな機能があった！　bashの新機能，便利機能<span class="author">&hellip;&hellip; 上田 隆一</span>
+</li>
+<li>
+<span class="chapter">第5章</span>：<span class="catch">応用編2</span><br />意外と使える!?　Bash on Ubuntu on Windows<span class="author">&hellip;&hellip; くんすと</span>
+</li>
+</ul>
+<h3>
+<span class="category">第2特集</span><br />
+<span class="catch">データの抽出・加工に強くなる！</span><br /><span class="title">MySQL［SELECT文］集中講座</span>
+</h3>
+<ul class="toc">
+<li>
+<span class="chapter">Part1</span>：<span class="catch">好きな環境ではじめよう</span><br />MySQLのインストールとデータの用意<span class="author">&hellip;&hellip; とみたまさひろ</span>
+</li>
+<li>
+<span class="chapter">Part2</span>：<span class="catch">SELECTの基本構文から押さえる</span><br />データの絞り込み・並び替えをマスターしよう<span class="author">&hellip;&hellip; とみたまさひろ</span>
+</li>
+<li>
+<span class="chapter">Part3</span>：<span class="catch">SELECT文を使いこなせますか？</span><br />JOINによる結合と，サブクエリを覚えよう<span class="author">&hellip;&hellip; とみたまさひろ</span>
+</li>
+</ul>
+
+<h3>一般記事</h3>
+<ul class="toc">
+<li>
+ハッシュ関数を使いこなしていますか？<br />【後編】<br /><span class="catch">ソフトウェア開発での実装ポイント</span><span class="author">&hellip;&hellip; 長谷川 智希</span></li>
+<li>Windows Server 2016で構築する最新ファイルサーバ<br />【後編】<br /><span class="catch">進化した機能で効率化を推進</span><span class="author">&hellip;&hellip; 高添 修</span></li>
+<li>Jamesのセキュリティレッスン<br />【10】<br /><span class="catch">Jamesの挑戦状！　Wireshark実践問題</span><span class="author">&hellip;&hellip; 吉田 英二</span></li>
+</ul>
+
+
+<h3>連載</h3>
+<ul class="toc">
+
+<li>ITエンジニア必須の最新用語解説<br />【103】Moby Project<span class="author">&hellip;&hellip;	杉山 貴章</span></li>
+<li>digital gadget<br />【223】幼児のためのデジタルガジェット<span class="author">&hellip;&hellip;安藤 幸央</span></li>
+<li>結城浩の再発見の発想法<br />【50】Branch ―― ブランチ<span class="author">&hellip;&hellip;	結城 浩</span></li>
+<li>及川卓也のプロダクト開発の道しるべ<br />【9】リーンキャンバス<span class="author">&hellip;&hellip;及川 卓也</span></li>
+<li>宮原徹のオープンソース放浪記<br />【17】ラズパイオーディオの会でコミュニティ活動<span class="author">&hellip;&hellip;宮原 徹</span></li>
+<li>ツボイのなんでもネットにつなげちまえ道場<br />【25】EnOceanを使ってみる<span class="author">&hellip;&hellip;	坪井 義浩</span></li>
+<li>ひみつのLinux通信<br />【41】2段階認証<span class="author">&hellip;&hellip;くつなりょうすけ</span></li>
+<li>RDBアンチパターン<br />【3】やりすぎたJOIN<span class="author">&hellip;&hellip;	曽根 壮大</span></li>
+<li>RDB性能トラブルバスターズ奮闘記<br />【17】JOINのロックが怖くて飯が食えるか!!<span class="author">&hellip;&hellip;	生島 勘富，開米 瑞浩</span></li>
+<li>使って考える仮想化技術<br />【14】仮想環境リモート運用管理の実装例<span class="author">&hellip;&hellip;	笠野 英松</span></li>
+<li>書いて覚えるSwift入門<br />【27】静かなること型の如し<span class="author">&hellip;&hellip;	小飼 弾</span></li>
+<li>Androidで広がるエンジニアの愉しみ<br />【16】VR/ARアプリ開発を後押しする空間認識技術Tangoとは<span class="author">&hellip;&hellip;三宅 理</span></li>
+<li>Vimの細道<br />【19】Vimからデータベースを操作する<span class="author">&hellip;&hellip;mattn</span></li>
+<li>セキュリティ実践の基本定石<br />【45】WannaCryの問題の本質<span class="author">&hellip;&hellip;すずきひろのぶ</span></li>
+<li>SOURCES～レッドハット系ソフトウェア最新解説<br />【10】コンテナを使ってみよう<span class="author">&hellip;&hellip;小島 啓史</span></li>
+<li>Ubuntu Monthly Report<br />【87】Unityの生涯<span class="author">&hellip;&hellip;あわしろいくや</span></li>
+<li>Debian Hot Topics<br />【48】Debian 9“Stretch”の新しい点<span class="author">&hellip;&hellip;	やまねひでき</span></li>
+<li>Unixコマンドライン探検隊<br />【15】ssh（その1）<span class="author">&hellip;&hellip;中島 雅弘</span></li>
+<li>Linuxカーネル観光ガイド<br />【63】RAIDのwrite hole問題を解決するジャーナル機能とLinux 4.12で登場するPPL<span class="author">&hellip;&hellip;青田 直大</span></li>
+<li>Monthly News from jus<br />【69】IPv6はもう普通に使える!?　各社の対応状況を概観<span class="author">&hellip;&hellip;松山 直道</span></li>
+<li>Hack For Japan～あなたのスキルは社会に役立つ<br />【67】地震対策Hackathonで感じた，進歩する技術と蓄積された経験の融合<span class="author">&hellip;&hellip;鎌田 篤慎</span></li>
+<li>温故知新 ITむかしばなし<br />【67】パソコン上の日本語ワープロ<span class="author">&hellip;&hellip;速水 祐</span></li>
+</ul>
+    </section>
+    <section id="support">
+      <h2>サポート</h2>
+<h3 id="errata">正誤表</h3>
+<p>本書の以下の部分に誤りがありました。ここに訂正するとともに，<wbr/>ご迷惑をおかけしたことを深くお詫び申し上げます。</p>
+
+<div align="right">（2017年6月19日最終更新）</div>
+
+<h4>P.16　アラカルト「読者プレゼントのお知らせ」プレゼント01の写真</h4>
+<table class="errataTable" cellspacing="0">
+<tbody>
+<tr><th>誤</th>
+<td><p class="image"><a href="http://image.gihyo.co.jp/assets/files/magazine/SD/2017/201707/1707_pre01-go .jpg" title="誤" target="_blank"><img src="/assets/files/magazine/SD/2017/201707/1707_pre01-go .jpg" width="200"  alt="誤"/></a></p></td></tr>
+<tr><th>正</th>
+<td><p class="image"><a href="http://image.gihyo.co.jp/assets//files/magazine/SD/2017/201707/1707_pre01_sei.jpg" title="正" target="_blank"><img src="/assets//files/magazine/SD/2017/201707/1707_pre01_sei.jpg" width="200"  alt="正"/></a></p></td></tr>
+</tbody></table>
+
+<p>「Aterm WG1200HP2」の製品写真が，<wbr/>「Aterm WG2600HP2」のものになっていました。</p>
+
+    </section>
+  </div>
+  </div>
+<script defer="defer">try{twttr.widgets.load();FB.XFBML.parse();gapi.plusone.go();Hatena.Bookmark.BookmarkButton.setup();}catch(e){}</script>
+</div>    <div id="bookList">
+      <h2>商品一覧</h2>
+      <div id="topNavigation">
+        <div id="filter">
+          <form id="search" action="/dp" method="get">
+            <input type="search" name="query" id="searchText" title="検索する商品のキーワードを入力" placeholder="商品のキーワード" required="required" value=""/>
+            <input type="submit" id="searchSubmit" value="検索" title="検索する"/>
+          </form>
+          <div id="select">
+            <a href="" id="selectLabel" title="商品ジャンルを選択する"></a>
+            <div id="selectMenu">
+              <ul id="selectMenuBody"></ul>
+            </div>
+          </div>
+        </div>
+        <nav id="pagingTop">
+        </nav>
+      </div>
+      <ul itemprop="isPartOf" itemscope="itemscope" itemtype="http://www.schema.org/CollectionPage" id="listBook" class="list-book">
+      </ul>
+      <nav id="pagingBottom">
+      </nav>
+    </div>
+  </div>
+  <footer id="footer" itemscope="itemscope" itemtype="http://www.schema.org/WPFooter">
+    <div id="wait" class="hidden"></div>
+    <nav id="navigation" itemscope="itemscope" itemtype="http://www.schema.org/SiteNavigationElement">
+      <ul id="navigationLink">
+        <li id="navLinkHome" class="current"><a itemprop="url" href="/dp" title="ストア" class="home">ストア</a></li>
+        <li id="navLinkMyPage"><a itemprop="url" href="/dp/my-page" title="マイページ" class="mypage">マイページ</a></li>
+        <li id="navLinkInfor"><a itemprop="url" href="/dp/information" title="お知らせ" class="information">お知らせ</a></li>
+        <li id="navLinkHelp"><a itemprop="url" href="/dp/help" title="ヘルプ" class="help">ヘルプ</a></li>
+      </ul>
+    </nav>
+    <nav id="function" itemscope="itemscope" itemtype="http://www.schema.org/WPSideBar">
+      <div id="backgroundWrapper" style="display:block;opacity:0.4"></div>
+      <div id="navInfor"></div>
+    </nav>
+    <div id="storeInformation">
+      <ul id="footerLink">
+        <li>Twitter: <a href="https://twitter.com/gihyoDP">@gihyoDP</a></li>
+        <li><a href="/dp/help/about/site">このサイトについて</a></li>
+        <li><a href="/dp/help/about/terms">利用規約</a></li>
+        <li><a href="/dp/help/about/privacy">プライバシーポリシー</a></li>
+        <li><a href="/dp/help/about/law">特定商取引法に基づく表示</a></li>
+      </ul>
+      <p id="storeCopyright"><small>Copyright © 2017 <span class="reserved">All Rights Reserved by</span> <a href="http://gihyo.jp/book">Gijutsu-Hyohron Co., Ltd.</a></small></p>
+    </div>
+  </footer>
+<script>var params={"url":"https:\/\/gihyo.jp\/dp\/ebook\/2017\/978-4-7741-8843-0","path":"\/dp\/ebook\/2017\/978-4-7741-8843-0","targetId":"978-4-7741-8843-0","parent":"\/dp","overlay":true,"body":"    <div id=\"bookList\">\n      <h2>\u5546\u54c1\u4e00\u89a7<\/h2>\n      <div id=\"topNavigation\">\n        <div id=\"filter\">\n          <form id=\"search\" action=\"\/dp\" method=\"get\">\n            <input type=\"search\" name=\"query\" id=\"searchText\" title=\"\u691c\u7d22\u3059\u308b\u5546\u54c1\u306e\u30ad\u30fc\u30ef\u30fc\u30c9\u3092\u5165\u529b\" placeholder=\"\u5546\u54c1\u306e\u30ad\u30fc\u30ef\u30fc\u30c9\" required=\"required\" value=\"\"\/>\n            <input type=\"submit\" id=\"searchSubmit\" value=\"\u691c\u7d22\" title=\"\u691c\u7d22\u3059\u308b\"\/>\n          <\/form>\n          <div id=\"select\">\n            <a href=\"\" id=\"selectLabel\" title=\"\u5546\u54c1\u30b8\u30e3\u30f3\u30eb\u3092\u9078\u629e\u3059\u308b\"><\/a>\n            <div id=\"selectMenu\">\n              <ul id=\"selectMenuBody\"><\/ul>\n            <\/div>\n          <\/div>\n        <\/div>\n        <nav id=\"pagingTop\">\n        <\/nav>\n      <\/div>\n      <ul itemprop=\"isPartOf\" itemscope=\"itemscope\" itemtype=\"http:\/\/www.schema.org\/CollectionPage\" id=\"listBook\" class=\"list-book\">\n      <\/ul>\n      <nav id=\"pagingBottom\">\n      <\/nav>\n    <\/div>","isLogin":false,"dialog":"<aside id=\"dialog\" class=\"dialog-login\" style=\"opacity:0\">\n  <div id=\"dialogBody\">\n    <div id=\"gihyoAccount\">\n      <h2>\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\u3067\u30ed\u30b0\u30a4\u30f3<\/h2>\n      <form action=\"?login\" method=\"post\">\n        <input type=\"hidden\" name=\"fid\" value=\"\"\/>\n        <dl>\n          <dt>\u30a2\u30ab\u30a6\u30f3\u30c8<\/dt>\n          <dd><input type=\"email\" name=\"account\" placeholder=\"\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\" required=\"required\" title=\"\u30a2\u30ab\u30a6\u30f3\u30c8\u306e\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\u3092\u5165\u529b\"\/><\/dd>\n          <dt>\u30d1\u30b9\u30ef\u30fc\u30c9<\/dt>\n          <dd><input type=\"password\" name=\"password\" placeholder=\"\u30d1\u30b9\u30ef\u30fc\u30c9\" required=\"required\" title=\"\u30a2\u30ab\u30a6\u30f3\u30c8\u306e\u30d1\u30b9\u30ef\u30fc\u30c9\u3092\u5165\u529b\"\/><\/dd>\n        <\/dl>\n        <p id=\"loginButton\"><input type=\"submit\" value=\"\u30ed\u30b0\u30a4\u30f3\" title=\"\u30ed\u30b0\u30a4\u30f3\u3059\u308b\"\/><\/p>\n        <ul id=\"loginFunction\">\n          <li><a href=\"\/dp\/help\/buy\/forgot\">\u30d1\u30b9\u30ef\u30fc\u30c9\u3092\u304a\u5fd8\u308c\u306e\u65b9<\/a><\/li>\n          <li><a href=\"\/dp\/help\/buy\/account\">\u65b0\u898f\u767b\u9332\u3092\u3054\u5e0c\u671b\u306e\u65b9<\/a><\/li>\n        <\/ul>\n      <\/form>\n    <\/div>\n    <div id=\"externalSite\">\n      <h2>\u5916\u90e8\u30b5\u30fc\u30d3\u30b9\u3067\u30ed\u30b0\u30a4\u30f3<\/h2>\n      <ul>\n      <li class=\"google\"><a href=\"https:\/\/gihyo.jp\/auth\/google\">Google<\/a><\/li>\n      <li class=\"facebook\"><a href=\"https:\/\/gihyo.jp\/auth\/facebook\">Facebook<\/a><\/li>\n      <li class=\"yahoo\"><a href=\"https:\/\/gihyo.jp\/auth\/yahoojp\">Yahoo! JAPAN<\/a><\/li>\n      <\/ul>\n      <p><a href=\"\/dp\/help\/buy\/external\">\u5916\u90e8\u30b5\u30fc\u30d3\u30b9\u3067\u306e\u30ed\u30b0\u30a4\u30f3\u306b\u3064\u3044\u3066<\/a><\/p>\n    <\/div>\n    <p id=\"close\"><a href=\"#close\" title=\"\u9589\u3058\u308b\">\u9589\u3058\u308b<\/a><\/p>\n  <\/div>\n<\/aside>"}</script>
+  <script>var asyncCall=function(){var e=Array.prototype.slice,a=Function.prototype.bind||function(j){var a=this,b=e.call(arguments,1);return function(){var c=e.call(arguments);return a.apply(j,b.concat(c))}},f=a.call(a,Function.prototype.call),b=f(e),c=f(a),d=f(Function.prototype.apply);if("undefined"!==typeof process)a=function(){var a=b(arguments);process.nextTick(d(c,null,a))};else if("function"===typeof setImmediate)a=function(){var a=b(arguments);setImmediate(d(c,null,a))};else if("function"===typeof MessageChannel){var g=new MessageChannel,h=[];g.port1.onmessage=function(){h.shift()()};a=function(){var a=b(arguments);h.push(d(c,null,a));g.port2.postMessage(0)}}else a=function(){var a=b(arguments);setTimeout(d(c,null,a),0)};return a}();window.onerror=function(mes,fname,lnum){var erIgnore=['top.GLOBALS','originalCreateNotification','canvas.contentDocument','fb_xd_fragment','Script error.'];for(i=0;i<erIgnore.length;i++){if(mes.indexOf(erIgnore[i])>-1){return false;}};var mes='message:'+mes+', file:'+fname+', line:'+lnum+', href:'+location.href+', UA:'+window.navigator.userAgent;ga('send','event','Error','JSError',mes);};</script>
+  <script src="//platform.twitter.com/widgets.js" id="twitter-wjs" async defer></script>
+  <script src="//connect.facebook.net/ja_JP/sdk.js#xfbml=1&appId=185201618169441&version=v2.8" id="facebook-jssdk" async defer></script>
+  <script src="//apis.google.com/js/platform.js" async defer></script>
+  <script src="//b.hatena.ne.jp/js/bookmark_button.js" charset="utf-8" async defer></script>
+</body>
+</html>

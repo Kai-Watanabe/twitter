@@ -1,0 +1,293 @@
+<!DOCTYPE HTML>
+<html lang="ja" class="pc">
+<head>
+  <meta charset="UTF-8">
+  <title>60分でわかる！ IT ビジネス最前線 | Gihyo Digital Publishing … 技術評論社の電子書籍</title>
+  <meta http-equiv="Content-Style-Type" content="text/css"/>
+  <meta http-equiv="Content-Script-Type" content="application/javascript"/>
+  <meta name="description" content="話題のIT技術のしくみを解説する「60 分でわかる」シリーズの第2弾です。最新のIT技術がビジネスの現場でどう活かされているのかを，ものづくり，サービス，働き方，経営，お金などの視点から紐解きます。IoTやAIなどの最低限知っておきたい，注目のITキーワードについても紹介しているので，ITに不慣れな人でも安心です。この1冊があれば，最新のIT技術とビジネスとの関わりがすべてわかります。"/>
+  <meta name="keywords" content="電子書籍,電子出版,EPUB,PDF,技術評論社"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="format-detection" content="telephone=no"/>
+  <link rel="related" href="http://gihyo.jp/dp/catalogs.opds" type="application/atom+xml;profile=opds-catalog" title="Gihyo Digital Publishing OPDS Catalog"/>
+  <link rel="shortcut icon" href="/assets/templates/gdp/favicon.ico" type="image/vnd.microsoft.icon"/>
+  <link rel="apple-touch-icon-precomposed" href="/dp/assets/gdp-icon.png"/>
+  <!--[if lt IE 9]>
+    <script>var msie=8;</script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="/dp/assets/js/html5shiv.min.js"></script>
+    <script src="//css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <script src="/dp/assets/js/selectivizr-min.js"></script>
+    <script src="/dp/assets/js/addEventListener.min.js"></script>
+    <script src="/dp/assets/js/textContent.min.js"></script>
+  <![endif]-->
+  <!--[if lte IE 9]>
+    <script src="/dp/assets/js/classList.min.js" defer></script>
+  <![endif]-->
+  <link rel="stylesheet" href="/dp/assets/style/store0921.css" type="text/css" media="all"/>
+  <script src="/dp/assets/js/gdpFunction0512.min.js" defer></script>
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:site" content="@gihyoDP"/>
+  <meta property="og:title" content="60分でわかる！ IT ビジネス最前線 | Gihyo Digital Publishing … 技術評論社の電子書籍"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:description" content="話題のIT技術のしくみを解説する「60 分でわかる」シリーズの第2弾です。最新のIT技術がビジネスの現場でどう活かされているのかを，ものづくり，サービス，働き方，経営，お金などの視点から紐解きます。IoTやAIなどの最低限知っておきたい，注目のITキーワードについても紹介しているので，ITに不慣れな人でも安心です。この1冊があれば，最新のIT技術とビジネスとの関わりがすべてわかります。"/>
+  <meta property="og:url" content="https://gihyo.jp/dp/ebook/2017/978-4-7741-9089-1"/>
+  <meta property="og:image" content="http://image.gihyo.co.jp/assets/images/gdp/2017/978-4-7741-9089-1.jpg"/>
+  <meta property="og:site_name" content="Gihyo Digital Publishing"/>
+  <meta property="fb:app_id" content="185201618169441"/>
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-4149703-1', 'auto');
+  ga('require', 'displayfeatures');
+  ga('send', 'pageview');
+  </script>
+</head>
+<body itemscope="itemscope" itemtype="http://schema.org/WebPage" class="page-home">
+  <header id="header" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
+    <h1 class="home-title">Gihyo Digital Publishing</h1>
+    <h2 class="home-subtitle">技術評論社の電子書籍サイト</h2>
+    <nav id="headerFunction">
+      <div id="login">
+        <a href="#login" title="ログイン・会員登録">ログイン</a>
+      </div>
+      <div id="cart">
+        <a href="/dp/cart" title="カートは空です">カート</a>
+      </div>
+    </nav>
+  </header>
+  <div id="main">
+    <noscript><div id="noscript">
+      <p>本サイトではJavaScriptを使用しております。JavaScriptが無効な状態ではご利用いただけません。</p>
+    </div></noscript>
+
+<div id="overlayWindow" class="book-infor" itemscope itemtype="http://schema.org/Book" typeof="product:Product" xmlns:product="http://search.yahoo.com/searchmonkey/product/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:media="http://search.yahoo.com/searchmonkey/media/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:currency="http://search.yahoo.com/searchmonkey-datatype/currency/" style="display:block;opacity:1">
+  <header id="overlayHeader">
+    <h1>書籍概要</h1>
+    <nav id="overlayFunction">
+      <p id="close"><a href="/dp/genre/%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3" title="閉じる">閉じる</a></p>
+      <ul id="jump">
+        <li id="detailRef"><a href="#title" title="概要を見る">概要</a></li>
+        <li id="contentRef"><a href="#content" title="目次を見る">目次</a></li>
+        <li id="supportRef"><a href="#support" title="サポート情報を見る">サポート</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div id="bookInforMain">
+  <hgroup id="title">
+<h2 id="bookSeries"><a href="/dp/series/60%E5%88%86%E3%81%A7%E3%82%8F%E3%81%8B%E3%82%8B%EF%BC%81IT%E7%9F%A5%E8%AD%98">60<wbr/>分でわかる！<wbr/>IT<wbr/>知識</a></h2>
+    <h1 id="bookTitle" property="rdfs:label" itemprop="name">60<wbr/>分でわかる！ IT ビジネス最前線</h1>
+  </hgroup>
+  <aside id="bookCover" rel="rdfs:seeAlso media:image"><img src="/assets/images/gdp/2017/978-4-7741-9089-1.jpg" alt="60分でわかる！ IT ビジネス最前線"/></aside>
+  <dl id="publicationData" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+    <dt>著者</dt>
+    <dd itemprop="author">ITビジネス研究会　著，<wbr/>株式会社NTTデータ経営研究所　パートナー・情報戦略コンサルティングユニット長　三谷慶一郎　監修</dd>
+    <dt>発売日</dt>
+    <dd><time datetime="2017-06-17">2017年6月17日</time></dd>
+    <dt>更新日</dt>
+    <dd><time datetime="2017-06-17">2017年6月17日</time></dd>
+  </dl>
+  <aside>
+    <ul class="information">
+      <li>本書は，<a href="http://gihyo.jp/book/2017/978-4-7741-8996-3" target="_blank">2017年6月17日に発売された書籍</a>の電子版です。</li>
+      <li class="need-login">ご購入には会員登録・ログインが必要です</li>
+      <li class="corporate"><a href="/dp/help/buy/bulkpurchase">学校・法人等団体でのご利用について</a></li>
+    </ul>
+    <dl id="productPrice">
+<dt><span class="name">EPUB/PDFセット</span><span class="buy">1,020円 <a id="pid401743" href="#cartAdd" title="カートに入れる">カートに入れる<div class="option" title="購入オプション">▼<ul><li title="通常購入">自分用に購入する</li><li class="gift" title="ギフトコードを購入">ギフトとして購入する</li></ul></div></a></span></dt><dd><span class="page"><span itemprop="numberOfPages">160</span>ページ相当</span><span class="pdf">PDF</span> <span class="epub">EPUB：リフロー</span> </dd>
+
+    </dl>
+  </aside>
+  <aside id="social">
+    <ul>
+      <li class="twitter"><a href="https://twitter.com/search?q=https://gihyo.jp/dp/ebook/2017/978-4-7741-9089-1" class="twitter--list">リスト</a><a href="http://twitter.com/share" class="twitter-share-button" data-url="https://gihyo.jp/dp/ebook/2017/978-4-7741-9089-1" data-text="60分でわかる！ IT ビジネス最前線 #gihyoDP" data-count="none" data-lang="ja">ツイート</a></li>
+      <li class="facebook"><div class="fb-like" data-href="https://gihyo.jp/dp/ebook/2017/978-4-7741-9089-1" data-send="false" data-layout="box_count" data-width="450" data-show-faces="false" data-share="true"></div></li>
+      <li class="gplus"><g:plusone size="tall" href="https://gihyo.jp/dp/ebook/2017/978-4-7741-9089-1"></g:plusone></li>
+      <li class="hatena"><a href="http://b.hatena.ne.jp/entry/https://gihyo.jp/dp/ebook/2017/978-4-7741-9089-1" class="hatena-bookmark-button" data-hatena-bookmark-layout="vertical-balloon" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="//b.hatena.ne.jp/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a></li>
+    </ul>
+  </aside>
+  <div id="productDetail">
+    <section id="detail">
+      <h2>概要</h2>
+<p>話題のIT技術のしくみを解説する「60 分でわかる」シリーズの第2弾です。最新のIT技術がビジネスの現場でどう活かされているのかを，<wbr/>ものづくり，<wbr/>サービス，<wbr/>働き方，<wbr/>経営，<wbr/>お金などの視点から紐解きます。IoTやAIなどの最低限知っておきたい，<wbr/>注目のITキーワードについても紹介しているので，<wbr/>ITに不慣れな人でも安心です。この1冊があれば，<wbr/>最新のIT技術とビジネスとの関わりがすべてわかります。</p><h3>こんな方におすすめ</h3>
+<ul><li>最近のIT用語についてひととおり知っておきたい人</li><li>ITをビジネスチャンスに活かしたい人</li></ul>
+
+    </section>
+    <section id="content">
+      <h2>目次</h2>
+<div id="bookSearch">
+<form id="bookSearchForm" action="search" method="post">
+  <input type="search" name="query" id="bookSearchText" title="本書内を検索するキーワードを入力" placeholder="本書内のキーワード" required="required" value="">
+  <input type="hidden" name="code" value="34894">
+  <input type="submit" id="bookSearchSubmit" value="検索" title="検索する">
+</form>
+</div><h3>Chapter1　ぜひとも知っておきたい　今注目の最新ITキーワード</h3>
+<ul class="toc">
+<li>001 一目でわかる最新IT事情</li>
+<li>002 産業革命を起こすIoT</li>
+<li>003 これからのビジネスを変えるビッグデータ</li>
+<li>004 ビジネスの新たな可能性を開くAI</li>
+<li>005 コンピュータに学習能力を与えたディープラーニング</li>
+<li>006 金融業界が激変するFinTech</li>
+<li>007 紙幣も硬貨もいらなくなる仮想通貨</li>
+<li>008 ビジネスから生活まで変えるVR/AR</li>
+<li>009 社内システムとして浸透したクラウド</li>
+<li>Column 何もしないで本人認証ができるようになる？</li>
+
+</ul>
+<h3>Chapter2　最新ITでモノ作りが変わる!</h3>
+<ul class="toc">
+<li>010 あらゆるモノがインターネットにつながるIoT</li>
+<li>011 製造業のビジネスモデルを変える「インダストリアル・インターネット」</li>
+<li>012 IoTで活性化するAIとロボット</li>
+<li>013 これからのインターフェイスはAI音声アシスタント</li>
+<li>014 IoT化された先進的工場「スマートファクトリー」</li>
+<li>015 運ばない物流を目指す3Dプリンタ</li>
+<li>016 ITやドローンで生産効率を上げる「スマート農業」</li>
+<li>017 全自動化を目指す「スマート酪農」</li>
+<li>018 匠の技術をITで伝承</li>
+<li>019 中小企業でも始められるITモノ作り事例</li>
+<li>Column スマートフォンに代わるかもしれない大ヒットデバイス「Amazon Echo」</li>
+
+</ul>
+<h3>Chapter3　最新ITでサービスが変わる!</h3>
+<ul class="toc">
+<li>020 これからの配達はドローンが担う</li>
+<li>021 お店の接客はロボットが行う</li>
+<li>022 ネット通販は発注しなくても届けてくれる時代に</li>
+<li>023 未知の言語も翻訳できる!? 最新翻訳事情</li>
+<li>024 レジ決済が不要の無人コンビニ</li>
+<li>025 顧客満足度を向上させる「オムニチャネル」</li>
+<li>026 特注品がすぐに届く「マスカスタマイゼーション」</li>
+<li>027 ネットで洋服選びができるVR試着システム</li>
+<li>028 ITが起こす医療現場改革</li>
+<li>Column Web接客サービス</li>
+
+</ul>
+<h3>Chapter4　最新ITで働き方が変わる!</h3>
+<ul class="toc">
+<li>029 クラウドが変えたビジネスの根本</li>
+<li>030 企業がクラウドを利用するメリット</li>
+<li>031 クラウドでコスト削減，業務効率改善は本当か?</li>
+<li>032 クラウドサービスの雄「Amazon Web Services」</li>
+<li>033 働き方が大きく変わる「ワークスタイル変革」</li>
+<li>034 ホワイトカラー業務の自動化「RPA」</li>
+<li>035 IoTを活用して社員の健康を管理</li>
+<li>036 生産・販売・在庫の管理もクラウドでトータル管理</li>
+<li>037 クラウド化&AIで消える職業は？</li>
+<li>038 これからのビジネスはロボットとAIが主流に</li>
+<li>039 巨大なデータがビジネスを変える</li>
+<li>040 ビッグデータを構成する3つのV</li>
+<li>Column ビッグデータ分析の活用事例</li>
+
+</ul>
+<h3>Chapter5　最新ITで経営が変わる!</h3>
+<ul class="toc">
+<li>041 経営分析は数十秒でわかる時代に</li>
+<li>042 経営者のすぐれた参謀になるAI</li>
+<li>043 人事はAIが決める</li>
+<li>044 タブレット×クラウドで人手不足を解消</li>
+<li>045 顧客データはAIで管理</li>
+<li>046 ITで営業を支援する「SFA」</li>
+<li>047 社内SNSにもAIを活用する時代に「社内ソーシャルAI」</li>
+<li>048 ビジネスSNSで社外コミュニケーションも効率化</li>
+<li>049 マーケティングにも使える「チャットボット」</li>
+<li>050 Webマーケティングからデジタルマーケティングへ</li>
+<li>Column ビジネス現場におけるチャットボット</li>
+
+</ul>
+<h3>Chapter6　最新ITでお金の流れが変わる!</h3>
+<ul class="toc">
+<li>051 FinTechがもたらす新しい決済サービス</li>
+<li>052 P2P送金で海外送金が楽になる</li>
+<li>053 クラウドで資金調達ができる「クラウドファンディング」</li>
+<li>054 資産運用はAIにお任せ</li>
+<li>055 クラウド会計で迅速な監査が可能に</li>
+<li>056 仮想通貨がお金の概念を変える</li>
+<li>057 ビットコインとブロックチェーン</li>
+<li>058 ビッグデータを活用した新しい融資</li>
+<li>059 AIで金融ビジネスが変わる</li>
+<li>060 FinTechに対する金融庁や銀行の取り組み</li>
+<li>061 海外で進むユニークなFinTechサービス</li>
+<li>Column 手ぶら決済ができる時代へ</li>
+
+</ul>
+<h3>Chapter7　最新ITが変えるビジネスの未来</h3>
+<ul class="toc">
+<li>062 「インダストリー4.0」が指し示す第4次産業革命</li>
+<li>063 自動運転システムで変貌する働き方</li>
+<li>064 2020年にはIT技術者が大きく不足</li>
+<li>065 ITで不老不死の時代はやってくるのか</li>
+<li>066 2020年から導入される小学校のプログラミング教育</li>
+<li>067 ITが変える未来の教育現場</li>
+<li>068 東京オリンピックで見られる最新ITの姿</li>
+<li>069 展示会で最新IT技術を体感</li>
+</ul>
+    </section>
+    <section id="support">
+      <h2>サポート</h2>
+<p>現在サポート情報はありません。</p>
+    </section>
+  </div>
+  </div>
+<script defer="defer">try{twttr.widgets.load();FB.XFBML.parse();gapi.plusone.go();Hatena.Bookmark.BookmarkButton.setup();}catch(e){}</script>
+</div>    <div id="bookList">
+      <h2>商品一覧</h2>
+      <div id="topNavigation">
+        <div id="filter">
+          <form id="search" action="/dp" method="get">
+            <input type="search" name="query" id="searchText" title="検索する商品のキーワードを入力" placeholder="商品のキーワード" required="required" value=""/>
+            <input type="submit" id="searchSubmit" value="検索" title="検索する"/>
+          </form>
+          <div id="select">
+            <a href="" id="selectLabel" title="商品ジャンルを選択する"></a>
+            <div id="selectMenu">
+              <ul id="selectMenuBody"></ul>
+            </div>
+          </div>
+        </div>
+        <nav id="pagingTop">
+        </nav>
+      </div>
+      <ul itemprop="isPartOf" itemscope="itemscope" itemtype="http://www.schema.org/CollectionPage" id="listBook" class="list-book">
+      </ul>
+      <nav id="pagingBottom">
+      </nav>
+    </div>
+  </div>
+  <footer id="footer" itemscope="itemscope" itemtype="http://www.schema.org/WPFooter">
+    <div id="wait" class="hidden"></div>
+    <nav id="navigation" itemscope="itemscope" itemtype="http://www.schema.org/SiteNavigationElement">
+      <ul id="navigationLink">
+        <li id="navLinkHome" class="current"><a itemprop="url" href="/dp" title="ストア" class="home">ストア</a></li>
+        <li id="navLinkMyPage"><a itemprop="url" href="/dp/my-page" title="マイページ" class="mypage">マイページ</a></li>
+        <li id="navLinkInfor"><a itemprop="url" href="/dp/information" title="お知らせ" class="information">お知らせ</a></li>
+        <li id="navLinkHelp"><a itemprop="url" href="/dp/help" title="ヘルプ" class="help">ヘルプ</a></li>
+      </ul>
+    </nav>
+    <nav id="function" itemscope="itemscope" itemtype="http://www.schema.org/WPSideBar">
+      <div id="backgroundWrapper" style="display:block;opacity:0.4"></div>
+      <div id="navInfor"></div>
+    </nav>
+    <div id="storeInformation">
+      <ul id="footerLink">
+        <li>Twitter: <a href="https://twitter.com/gihyoDP">@gihyoDP</a></li>
+        <li><a href="/dp/help/about/site">このサイトについて</a></li>
+        <li><a href="/dp/help/about/terms">利用規約</a></li>
+        <li><a href="/dp/help/about/privacy">プライバシーポリシー</a></li>
+        <li><a href="/dp/help/about/law">特定商取引法に基づく表示</a></li>
+      </ul>
+      <p id="storeCopyright"><small>Copyright © 2017 <span class="reserved">All Rights Reserved by</span> <a href="http://gihyo.jp/book">Gijutsu-Hyohron Co., Ltd.</a></small></p>
+    </div>
+  </footer>
+<script>var params={"url":"https:\/\/gihyo.jp\/dp\/ebook\/2017\/978-4-7741-9089-1","path":"\/dp\/ebook\/2017\/978-4-7741-9089-1","targetId":"978-4-7741-9089-1","parent":"\/dp\/genre\/%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3","overlay":true,"body":"    <div id=\"bookList\">\n      <h2>\u5546\u54c1\u4e00\u89a7<\/h2>\n      <div id=\"topNavigation\">\n        <div id=\"filter\">\n          <form id=\"search\" action=\"\/dp\" method=\"get\">\n            <input type=\"search\" name=\"query\" id=\"searchText\" title=\"\u691c\u7d22\u3059\u308b\u5546\u54c1\u306e\u30ad\u30fc\u30ef\u30fc\u30c9\u3092\u5165\u529b\" placeholder=\"\u5546\u54c1\u306e\u30ad\u30fc\u30ef\u30fc\u30c9\" required=\"required\" value=\"\"\/>\n            <input type=\"submit\" id=\"searchSubmit\" value=\"\u691c\u7d22\" title=\"\u691c\u7d22\u3059\u308b\"\/>\n          <\/form>\n          <div id=\"select\">\n            <a href=\"\" id=\"selectLabel\" title=\"\u5546\u54c1\u30b8\u30e3\u30f3\u30eb\u3092\u9078\u629e\u3059\u308b\"><\/a>\n            <div id=\"selectMenu\">\n              <ul id=\"selectMenuBody\"><\/ul>\n            <\/div>\n          <\/div>\n        <\/div>\n        <nav id=\"pagingTop\">\n        <\/nav>\n      <\/div>\n      <ul itemprop=\"isPartOf\" itemscope=\"itemscope\" itemtype=\"http:\/\/www.schema.org\/CollectionPage\" id=\"listBook\" class=\"list-book\">\n      <\/ul>\n      <nav id=\"pagingBottom\">\n      <\/nav>\n    <\/div>","isLogin":false,"dialog":"<aside id=\"dialog\" class=\"dialog-login\" style=\"opacity:0\">\n  <div id=\"dialogBody\">\n    <div id=\"gihyoAccount\">\n      <h2>\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\u3067\u30ed\u30b0\u30a4\u30f3<\/h2>\n      <form action=\"?login\" method=\"post\">\n        <input type=\"hidden\" name=\"fid\" value=\"\"\/>\n        <dl>\n          <dt>\u30a2\u30ab\u30a6\u30f3\u30c8<\/dt>\n          <dd><input type=\"email\" name=\"account\" placeholder=\"\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\" required=\"required\" title=\"\u30a2\u30ab\u30a6\u30f3\u30c8\u306e\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\u3092\u5165\u529b\"\/><\/dd>\n          <dt>\u30d1\u30b9\u30ef\u30fc\u30c9<\/dt>\n          <dd><input type=\"password\" name=\"password\" placeholder=\"\u30d1\u30b9\u30ef\u30fc\u30c9\" required=\"required\" title=\"\u30a2\u30ab\u30a6\u30f3\u30c8\u306e\u30d1\u30b9\u30ef\u30fc\u30c9\u3092\u5165\u529b\"\/><\/dd>\n        <\/dl>\n        <p id=\"loginButton\"><input type=\"submit\" value=\"\u30ed\u30b0\u30a4\u30f3\" title=\"\u30ed\u30b0\u30a4\u30f3\u3059\u308b\"\/><\/p>\n        <ul id=\"loginFunction\">\n          <li><a href=\"\/dp\/help\/buy\/forgot\">\u30d1\u30b9\u30ef\u30fc\u30c9\u3092\u304a\u5fd8\u308c\u306e\u65b9<\/a><\/li>\n          <li><a href=\"\/dp\/help\/buy\/account\">\u65b0\u898f\u767b\u9332\u3092\u3054\u5e0c\u671b\u306e\u65b9<\/a><\/li>\n        <\/ul>\n      <\/form>\n    <\/div>\n    <div id=\"externalSite\">\n      <h2>\u5916\u90e8\u30b5\u30fc\u30d3\u30b9\u3067\u30ed\u30b0\u30a4\u30f3<\/h2>\n      <ul>\n      <li class=\"google\"><a href=\"https:\/\/gihyo.jp\/auth\/google\">Google<\/a><\/li>\n      <li class=\"facebook\"><a href=\"https:\/\/gihyo.jp\/auth\/facebook\">Facebook<\/a><\/li>\n      <li class=\"yahoo\"><a href=\"https:\/\/gihyo.jp\/auth\/yahoojp\">Yahoo! JAPAN<\/a><\/li>\n      <\/ul>\n      <p><a href=\"\/dp\/help\/buy\/external\">\u5916\u90e8\u30b5\u30fc\u30d3\u30b9\u3067\u306e\u30ed\u30b0\u30a4\u30f3\u306b\u3064\u3044\u3066<\/a><\/p>\n    <\/div>\n    <p id=\"close\"><a href=\"#close\" title=\"\u9589\u3058\u308b\">\u9589\u3058\u308b<\/a><\/p>\n  <\/div>\n<\/aside>"}</script>
+  <script>var asyncCall=function(){var e=Array.prototype.slice,a=Function.prototype.bind||function(j){var a=this,b=e.call(arguments,1);return function(){var c=e.call(arguments);return a.apply(j,b.concat(c))}},f=a.call(a,Function.prototype.call),b=f(e),c=f(a),d=f(Function.prototype.apply);if("undefined"!==typeof process)a=function(){var a=b(arguments);process.nextTick(d(c,null,a))};else if("function"===typeof setImmediate)a=function(){var a=b(arguments);setImmediate(d(c,null,a))};else if("function"===typeof MessageChannel){var g=new MessageChannel,h=[];g.port1.onmessage=function(){h.shift()()};a=function(){var a=b(arguments);h.push(d(c,null,a));g.port2.postMessage(0)}}else a=function(){var a=b(arguments);setTimeout(d(c,null,a),0)};return a}();window.onerror=function(mes,fname,lnum){var erIgnore=['top.GLOBALS','originalCreateNotification','canvas.contentDocument','fb_xd_fragment','Script error.'];for(i=0;i<erIgnore.length;i++){if(mes.indexOf(erIgnore[i])>-1){return false;}};var mes='message:'+mes+', file:'+fname+', line:'+lnum+', href:'+location.href+', UA:'+window.navigator.userAgent;ga('send','event','Error','JSError',mes);};</script>
+  <script src="//platform.twitter.com/widgets.js" id="twitter-wjs" async defer></script>
+  <script src="//connect.facebook.net/ja_JP/sdk.js#xfbml=1&appId=185201618169441&version=v2.8" id="facebook-jssdk" async defer></script>
+  <script src="//apis.google.com/js/platform.js" async defer></script>
+  <script src="//b.hatena.ne.jp/js/bookmark_button.js" charset="utf-8" async defer></script>
+</body>
+</html>
